@@ -1,0 +1,498 @@
+[
+  {
+    "environment": "AirlineManagementSystem",
+    "status": "STATIC_EXCLUDED",
+    "reasons": [
+      "call:eval"
+    ]
+  },
+  {
+    "environment": "AutomotiveServiceRepairSystem",
+    "status": "EXECUTED",
+    "public_methods": 17,
+    "heuristic_methods_executed": 17,
+    "published_workflows": 0,
+    "published_cases_unsupported": 9
+  },
+  {
+    "environment": "CRMSystem",
+    "status": "EXECUTED",
+    "public_methods": 21,
+    "heuristic_methods_executed": 21,
+    "published_workflows": 11,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "CarRentalSystem",
+    "status": "EXECUTED",
+    "public_methods": 17,
+    "heuristic_methods_executed": 17,
+    "published_workflows": 0,
+    "published_cases_unsupported": 21
+  },
+  {
+    "environment": "ChatApplicationBackend",
+    "status": "EXECUTED",
+    "public_methods": 20,
+    "heuristic_methods_executed": 20,
+    "published_workflows": 15,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "CorporateFinancialReportingSystem",
+    "status": "EXECUTED",
+    "public_methods": 25,
+    "heuristic_methods_executed": 24,
+    "published_workflows": 0,
+    "published_cases_unsupported": 7
+  },
+  {
+    "environment": "CourseManagementSystem",
+    "status": "EXECUTED",
+    "public_methods": 18,
+    "heuristic_methods_executed": 18,
+    "published_workflows": 0,
+    "published_cases_unsupported": 12
+  },
+  {
+    "environment": "DataBackupRecoverySystem",
+    "status": "EXECUTED",
+    "public_methods": 17,
+    "heuristic_methods_executed": 17,
+    "published_workflows": 7,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "DatabaseManagementSystem",
+    "status": "EXECUTED",
+    "public_methods": 19,
+    "heuristic_methods_executed": 19,
+    "published_workflows": 5,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "DocumentManagementSystem",
+    "status": "EXECUTED",
+    "public_methods": 18,
+    "heuristic_methods_executed": 18,
+    "published_workflows": 0,
+    "published_cases_unsupported": 1
+  },
+  {
+    "environment": "EcommerceOrderManagementSystem",
+    "status": "EXECUTED",
+    "public_methods": 15,
+    "heuristic_methods_executed": 15,
+    "published_workflows": 5,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "EcommerceProductCatalogSystem",
+    "status": "EXECUTED",
+    "public_methods": 22,
+    "heuristic_methods_executed": 22,
+    "published_workflows": 5,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "EcommerceProductInventorySystem",
+    "status": "EXECUTED",
+    "public_methods": 20,
+    "heuristic_methods_executed": 20,
+    "published_workflows": 45,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "EcommerceProductPromotionSystem",
+    "status": "EXECUTED",
+    "public_methods": 19,
+    "heuristic_methods_executed": 19,
+    "published_workflows": 0,
+    "published_cases_unsupported": 1
+  },
+  {
+    "environment": "EcommerceProductReviewSystem",
+    "status": "NO_RELEASED_INITIAL_STATE"
+  },
+  {
+    "environment": "EmailServerSystem",
+    "status": "EXECUTED",
+    "public_methods": 22,
+    "heuristic_methods_executed": 22,
+    "published_workflows": 0,
+    "published_cases_unsupported": 20
+  },
+  {
+    "environment": "EventSchedulingSystem",
+    "status": "EXECUTED",
+    "public_methods": 22,
+    "heuristic_methods_executed": 22,
+    "published_workflows": 0,
+    "published_cases_unsupported": 5
+  },
+  {
+    "environment": "FileSystemEnvironment",
+    "status": "STATIC_EXCLUDED",
+    "reasons": [
+      "import:subprocess"
+    ]
+  },
+  {
+    "environment": "FitnessClassSchedulingSystem",
+    "status": "EXECUTED",
+    "public_methods": 18,
+    "heuristic_methods_executed": 18,
+    "published_workflows": 0,
+    "published_cases_unsupported": 10
+  },
+  {
+    "environment": "FoodDeliverySystem",
+    "status": "EXECUTED",
+    "public_methods": 18,
+    "heuristic_methods_executed": 18,
+    "published_workflows": 17,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "HRIS",
+    "status": "EXECUTED",
+    "public_methods": 21,
+    "heuristic_methods_executed": 21,
+    "published_workflows": 0,
+    "published_cases_unsupported": 20
+  },
+  {
+    "environment": "HotelBookingSystem",
+    "status": "EXECUTED",
+    "public_methods": 17,
+    "heuristic_methods_executed": 17,
+    "published_workflows": 0,
+    "published_cases_unsupported": 1
+  },
+  {
+    "environment": "InsurancePolicyManagementSystem",
+    "status": "EXECUTED",
+    "public_methods": 17,
+    "heuristic_methods_executed": 17,
+    "published_workflows": 0,
+    "published_cases_unsupported": 9
+  },
+  {
+    "environment": "IoTSensorDataPlatform",
+    "status": "EXECUTED",
+    "public_methods": 24,
+    "heuristic_methods_executed": 24,
+    "published_workflows": 0,
+    "published_cases_unsupported": 5
+  },
+  {
+    "environment": "JupyterNotebookServer",
+    "status": "EXECUTED",
+    "public_methods": 25,
+    "heuristic_methods_executed": 24,
+    "published_workflows": 0,
+    "published_cases_unsupported": 9
+  },
+  {
+    "environment": "LibraryManagementSystem",
+    "status": "EXECUTED",
+    "public_methods": 16,
+    "heuristic_methods_executed": 16,
+    "published_workflows": 0,
+    "published_cases_unsupported": 18
+  },
+  {
+    "environment": "MathAPIService",
+    "status": "STATIC_EXCLUDED",
+    "reasons": [
+      "import:mpmath"
+    ]
+  },
+  {
+    "environment": "MediaCatalogDatabase",
+    "status": "EXECUTED",
+    "public_methods": 21,
+    "heuristic_methods_executed": 21,
+    "published_workflows": 0,
+    "published_cases_unsupported": 5
+  },
+  {
+    "environment": "MembershipManagementSystem",
+    "status": "EXECUTED",
+    "public_methods": 18,
+    "heuristic_methods_executed": 18,
+    "published_workflows": 0,
+    "published_cases_unsupported": 1
+  },
+  {
+    "environment": "MemoryKVSystem",
+    "status": "STATIC_EXCLUDED",
+    "reasons": [
+      "call:open",
+      "import:pathlib",
+      "import:rank_bm25"
+    ]
+  },
+  {
+    "environment": "MemoryRecursiveSummarizationSystem",
+    "status": "STATIC_EXCLUDED",
+    "reasons": [
+      "call:open",
+      "dunder_attribute:__init__"
+    ]
+  },
+  {
+    "environment": "MobileMessagingApplication",
+    "status": "EXECUTED",
+    "public_methods": 34,
+    "heuristic_methods_executed": 24,
+    "published_workflows": 5,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "ModelMonitoringSystem",
+    "status": "EXECUTED",
+    "public_methods": 18,
+    "heuristic_methods_executed": 18,
+    "published_workflows": 0,
+    "published_cases_unsupported": 5
+  },
+  {
+    "environment": "MotorVehicleRegistrationDatabase",
+    "status": "EXECUTED",
+    "public_methods": 28,
+    "heuristic_methods_executed": 24,
+    "published_workflows": 0,
+    "published_cases_unsupported": 5
+  },
+  {
+    "environment": "MusicPlayerSystem",
+    "status": "NO_RELEASED_INITIAL_STATE"
+  },
+  {
+    "environment": "NetworkMonitoringSystem",
+    "status": "NO_RELEASED_INITIAL_STATE"
+  },
+  {
+    "environment": "NodeJsApplicationServer",
+    "status": "EXECUTED",
+    "public_methods": 29,
+    "heuristic_methods_executed": 24,
+    "published_workflows": 5,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "NoteManagementSystem",
+    "status": "NO_RELEASED_INITIAL_STATE"
+  },
+  {
+    "environment": "NutritionTrackingUserProfileSystem",
+    "status": "EXECUTED",
+    "public_methods": 13,
+    "heuristic_methods_executed": 13,
+    "published_workflows": 5,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "PersonalHealthRecordSystem",
+    "status": "NO_RELEASED_INITIAL_STATE"
+  },
+  {
+    "environment": "PersonalNoteManagementSystem",
+    "status": "EXECUTED",
+    "public_methods": 22,
+    "heuristic_methods_executed": 22,
+    "published_workflows": 5,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "PersonalWorkoutManagementSystem",
+    "status": "EXECUTED",
+    "public_methods": 20,
+    "heuristic_methods_executed": 20,
+    "published_workflows": 5,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "ReimbursementClaimsManagementSystem",
+    "status": "EXECUTED",
+    "public_methods": 19,
+    "heuristic_methods_executed": 19,
+    "published_workflows": 7,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "ReminderManagementSystem",
+    "status": "NO_RELEASED_INITIAL_STATE"
+  },
+  {
+    "environment": "RestaurantReservationSystem",
+    "status": "EXECUTED",
+    "public_methods": 17,
+    "heuristic_methods_executed": 17,
+    "published_workflows": 0,
+    "published_cases_unsupported": 5
+  },
+  {
+    "environment": "RetailBankingSystem",
+    "status": "EXECUTED",
+    "public_methods": 17,
+    "heuristic_methods_executed": 17,
+    "published_workflows": 15,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "RetailManagementSystem",
+    "status": "STATIC_EXCLUDED",
+    "reasons": [
+      "call:eval"
+    ]
+  },
+  {
+    "environment": "RideHailingSystem",
+    "status": "NO_RELEASED_INITIAL_STATE"
+  },
+  {
+    "environment": "SMSNotificationService",
+    "status": "EXECUTED",
+    "public_methods": 25,
+    "heuristic_methods_executed": 24,
+    "published_workflows": 0,
+    "published_cases_unsupported": 8
+  },
+  {
+    "environment": "ShoppingManagementSystem",
+    "status": "NO_RELEASED_INITIAL_STATE"
+  },
+  {
+    "environment": "SocialMediaPostingSystem",
+    "status": "NO_RELEASED_INITIAL_STATE"
+  },
+  {
+    "environment": "SoftwareTestManagementSystem",
+    "status": "EXECUTED",
+    "public_methods": 18,
+    "heuristic_methods_executed": 18,
+    "published_workflows": 8,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "StockTradingPlatform",
+    "status": "EXECUTED",
+    "public_methods": 20,
+    "heuristic_methods_executed": 20,
+    "published_workflows": 0,
+    "published_cases_unsupported": 10
+  },
+  {
+    "environment": "StudentInformationSystem",
+    "status": "EXECUTED",
+    "public_methods": 17,
+    "heuristic_methods_executed": 17,
+    "published_workflows": 5,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "SystemLoggingEnvironment",
+    "status": "EXECUTED",
+    "public_methods": 13,
+    "heuristic_methods_executed": 13,
+    "published_workflows": 5,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "TaskSchedulingSystem",
+    "status": "EXECUTED",
+    "public_methods": 18,
+    "heuristic_methods_executed": 18,
+    "published_workflows": 5,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "TaskTrackingSystem",
+    "status": "EXECUTED",
+    "public_methods": 19,
+    "heuristic_methods_executed": 19,
+    "published_workflows": 5,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "TelecomManagementSystem",
+    "status": "NO_RELEASED_INITIAL_STATE"
+  },
+  {
+    "environment": "TicketManagementSystem",
+    "status": "NO_RELEASED_INITIAL_STATE"
+  },
+  {
+    "environment": "TodoManagementSystem",
+    "status": "NO_RELEASED_INITIAL_STATE"
+  },
+  {
+    "environment": "TradingBotSystem",
+    "status": "NO_RELEASED_INITIAL_STATE"
+  },
+  {
+    "environment": "TravelBookingSystem",
+    "status": "STATIC_EXCLUDED",
+    "reasons": [
+      "call:eval"
+    ]
+  },
+  {
+    "environment": "UniversityCourseRegistrationSystem",
+    "status": "EXECUTED",
+    "public_methods": 19,
+    "heuristic_methods_executed": 19,
+    "published_workflows": 0,
+    "published_cases_unsupported": 1
+  },
+  {
+    "environment": "UserAccountRegistrationSystem",
+    "status": "EXECUTED",
+    "public_methods": 10,
+    "heuristic_methods_executed": 10,
+    "published_workflows": 5,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "VehicleControlSystem",
+    "status": "NO_RELEASED_INITIAL_STATE"
+  },
+  {
+    "environment": "VehicleInsuranceClaimManagementSystem",
+    "status": "EXECUTED",
+    "public_methods": 26,
+    "heuristic_methods_executed": 24,
+    "published_workflows": 0,
+    "published_cases_unsupported": 12
+  },
+  {
+    "environment": "WebContentManagementSystem",
+    "status": "EXECUTED",
+    "public_methods": 25,
+    "heuristic_methods_executed": 24,
+    "published_workflows": 0,
+    "published_cases_unsupported": 5
+  },
+  {
+    "environment": "WebSearchService",
+    "status": "NO_RELEASED_INITIAL_STATE"
+  },
+  {
+    "environment": "WorkflowManagementSystem",
+    "status": "EXECUTED",
+    "public_methods": 19,
+    "heuristic_methods_executed": 19,
+    "published_workflows": 5,
+    "published_cases_unsupported": 0
+  },
+  {
+    "environment": "WorkspaceMessagingSystem",
+    "status": "EXECUTED",
+    "public_methods": 13,
+    "heuristic_methods_executed": 13,
+    "published_workflows": 0,
+    "published_cases_unsupported": 12
+  }
+]

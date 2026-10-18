@@ -1,0 +1,40 @@
+{
+  "initial": {
+    "state": {
+      "items": {
+        "old": {
+          "id": "old",
+          "name": "old"
+        }
+      }
+    }
+  },
+  "steps": [
+    {
+      "result": {
+        "id": "cand-1"
+      },
+      "state": {
+        "items": {
+          "old": {
+            "id": "old",
+            "name": "old"
+          },
+          "cand-1": {
+            "id": "cand-1",
+            "name": "hello"
+          }
+        },
+        "selected": "cand-1"
+      }
+    },
+    {
+      "result": {
+        "id": "cand-1"
+      },
+      "state": {
+        "selected": "cand-2"
+      }
+    }
+  ]
+}

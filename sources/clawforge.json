@@ -1,0 +1,367 @@
+{
+  "repository": "https://github.com/zeng-yirong/EnvCraft",
+  "commit": "ea401a9eeba245d35b2413bffcb0c26bd58b3f73",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "path": "ClawForge-Tool_env/AirlineManagementSystem.py",
+      "size": 39024,
+      "sha256": "96b8942e29c779101849d3aa212eebf2224a62dcffd4510d9febe782c33ae011"
+    },
+    {
+      "path": "ClawForge-Tool_env/AutomotiveServiceRepairSystem.py",
+      "size": 44093,
+      "sha256": "a536ae587469651b41f432cf7afeb9d5984e9e0fd23215d5d77fb16689097b8a"
+    },
+    {
+      "path": "ClawForge-Tool_env/CRMSystem.py",
+      "size": 36113,
+      "sha256": "bd5223d227b2a2794fc94c3168a4fbb9aaa989a19cc6cd6626931604a8e897b3"
+    },
+    {
+      "path": "ClawForge-Tool_env/CarRentalSystem.py",
+      "size": 41846,
+      "sha256": "3341eef88c327ea7860d0acc3a4a75ab5b268a4c1acb54c1500c8c308a333281"
+    },
+    {
+      "path": "ClawForge-Tool_env/ChatApplicationBackend.py",
+      "size": 36657,
+      "sha256": "606ef3768f97d3da78f5f2d14c28afcbb66eed6a8a9d6120ca73ce70ed6d8a7b"
+    },
+    {
+      "path": "ClawForge-Tool_env/CorporateFinancialReportingSystem.py",
+      "size": 37408,
+      "sha256": "e0a834bb7df0937e333de51b6556badd578a0f31fd0583441a870cddf7c314f8"
+    },
+    {
+      "path": "ClawForge-Tool_env/CourseManagementSystem.py",
+      "size": 32420,
+      "sha256": "36739bc757223377bab5e325abe85210ae23412cbd74590a93b61b4393e68fbe"
+    },
+    {
+      "path": "ClawForge-Tool_env/DataBackupRecoverySystem.py",
+      "size": 49244,
+      "sha256": "a778ec6575bfabd7e7fce9d9f220185e0fbd60bef4c5c9d37463c543517c8443"
+    },
+    {
+      "path": "ClawForge-Tool_env/DatabaseManagementSystem.py",
+      "size": 47004,
+      "sha256": "34f5e3586666147a17af56c22e4510a4682c1a5b1130f9625cf922bf777d94c8"
+    },
+    {
+      "path": "ClawForge-Tool_env/DocumentManagementSystem.py",
+      "size": 36883,
+      "sha256": "ae35a967ed0a2b4f76f6067953ce4235d3dc68d1898132a291b2002327f3f47f"
+    },
+    {
+      "path": "ClawForge-Tool_env/EcommerceOrderManagementSystem.py",
+      "size": 25097,
+      "sha256": "7e88a7f1e05a09ee561ae4ccafe16787c6f9617fb8e84e3ab4d62918fa7ef82f"
+    },
+    {
+      "path": "ClawForge-Tool_env/EcommerceProductCatalogSystem.py",
+      "size": 38329,
+      "sha256": "764d93ee823fbcb069461abf5066a3c309f84d92f7ec51820d654f0a0773b059"
+    },
+    {
+      "path": "ClawForge-Tool_env/EcommerceProductInventorySystem.py",
+      "size": 49768,
+      "sha256": "ac4746f7f40db9b14639f4fe83a2d9fb58e7a2e8e345599598913cb92a07e596"
+    },
+    {
+      "path": "ClawForge-Tool_env/EcommerceProductPromotionSystem.py",
+      "size": 43150,
+      "sha256": "88cd47e7e7ab6df603612d6466657f5108bf63e79d105ccf7efc791f1edd059f"
+    },
+    {
+      "path": "ClawForge-Tool_env/EcommerceProductReviewSystem.py",
+      "size": 46045,
+      "sha256": "43bb1a72a5f14fdf8e9bfac2b3bcf645fc0726b48aa42a6b6d4fc31ec76a09b1"
+    },
+    {
+      "path": "ClawForge-Tool_env/EmailServerSystem.py",
+      "size": 38367,
+      "sha256": "90ed5150762360e656851f5a77bb2dbf6cbf3c9c5516ba5783636e18cff60616"
+    },
+    {
+      "path": "ClawForge-Tool_env/EventSchedulingSystem.py",
+      "size": 42587,
+      "sha256": "b01aaa045b256b985c6cc0aa7cca490a2344873dcb1d9e6792758e15fd4cc47f"
+    },
+    {
+      "path": "ClawForge-Tool_env/FileSystemEnvironment.py",
+      "size": 44622,
+      "sha256": "3bac7ac4bc86cf0c49ebf9410513588c1a11b03032e17999af1e3b1289ff8af1"
+    },
+    {
+      "path": "ClawForge-Tool_env/FitnessClassSchedulingSystem.py",
+      "size": 36761,
+      "sha256": "0ef1da37aff7d65dd1c24314aeadf5bf9c3134e0d484ace0b831cb411b482b85"
+    },
+    {
+      "path": "ClawForge-Tool_env/FoodDeliverySystem.py",
+      "size": 28207,
+      "sha256": "5c20729a0736c156212e831f24700627337023fe3cd1e60b5a09205462a5f25a"
+    },
+    {
+      "path": "ClawForge-Tool_env/HRIS.py",
+      "size": 42431,
+      "sha256": "23303cca5896d25cdb9eee9cee64b494b6be913804f2f8158cf3030b98a85310"
+    },
+    {
+      "path": "ClawForge-Tool_env/HotelBookingSystem.py",
+      "size": 42039,
+      "sha256": "9b8c521fa63d5aeb3d584d517e98568a0198e826087e269566538cd96145b58f"
+    },
+    {
+      "path": "ClawForge-Tool_env/InsurancePolicyManagementSystem.py",
+      "size": 36350,
+      "sha256": "63079637f0be895482e933c252d79c9a975a58e7e9a798690b4c9ecb711f298b"
+    },
+    {
+      "path": "ClawForge-Tool_env/IoTSensorDataPlatform.py",
+      "size": 42019,
+      "sha256": "f3be36021890fd163d728c116a2aa9d2caea576812862ada50215deb34ae32d6"
+    },
+    {
+      "path": "ClawForge-Tool_env/JupyterNotebookServer.py",
+      "size": 41437,
+      "sha256": "ee7debb9bd23668a99112c6b3405986aedfc44de7ec6e119a8e1846415fd9804"
+    },
+    {
+      "path": "ClawForge-Tool_env/LibraryManagementSystem.py",
+      "size": 28192,
+      "sha256": "f034aace63405cf06cd9be22377eb551e5408fdcaed30caa03dd5436a9fcb90a"
+    },
+    {
+      "path": "ClawForge-Tool_env/MathAPIService.py",
+      "size": 18900,
+      "sha256": "fbe0fe24ae66bf70de34949dbfeacddaa061e8758358285c87c8b5e566f5006d"
+    },
+    {
+      "path": "ClawForge-Tool_env/MediaCatalogDatabase.py",
+      "size": 38851,
+      "sha256": "b0007d2d89d57dbcd37b1aebf4147f741951691b2d1a646f1a910f0cca55b491"
+    },
+    {
+      "path": "ClawForge-Tool_env/MembershipManagementSystem.py",
+      "size": 35588,
+      "sha256": "08f117f943fc1db2b821270283b75568fedda558baa1c6b86c27fc6a63934a84"
+    },
+    {
+      "path": "ClawForge-Tool_env/MemoryKVSystem.py",
+      "size": 28143,
+      "sha256": "e7c27f5eadfb6fba7f22cea14d82c9a88b004146b3e681f8f54f47e44d9b2583"
+    },
+    {
+      "path": "ClawForge-Tool_env/MemoryRecursiveSummarizationSystem.py",
+      "size": 24659,
+      "sha256": "eee8a3b446e9c5125f3618a74aa8362c5bc89117abf59b2f4d1514481ab7934a"
+    },
+    {
+      "path": "ClawForge-Tool_env/MobileMessagingApplication.py",
+      "size": 42907,
+      "sha256": "6e68bfc09bd00758810c79b51715bd793b905d76af528b5be63f4bda2ab85fd7"
+    },
+    {
+      "path": "ClawForge-Tool_env/ModelMonitoringSystem.py",
+      "size": 37933,
+      "sha256": "73d0867f79aa854d1afa5852f97e3a1cc7aee750b6fb4bb33e5e0114c667425e"
+    },
+    {
+      "path": "ClawForge-Tool_env/MotorVehicleRegistrationDatabase.py",
+      "size": 50083,
+      "sha256": "e4fa80bca972c78a63417376ca22b1f77a32f5afea6dde3563f227556115bb63"
+    },
+    {
+      "path": "ClawForge-Tool_env/MusicPlayerSystem.py",
+      "size": 16978,
+      "sha256": "3e045348031d99ec9e89a676ec804ff68f37672d10c22727191a9abee89f4907"
+    },
+    {
+      "path": "ClawForge-Tool_env/NetworkMonitoringSystem.py",
+      "size": 33399,
+      "sha256": "2423e445c7548ebf29d920b500499528e6fc0bbbb4ce00d4d7af39aa2e56daaa"
+    },
+    {
+      "path": "ClawForge-Tool_env/NodeJsApplicationServer.py",
+      "size": 46274,
+      "sha256": "8b9b71c67848566bdda0e529d01f1e412c11435432dfd909b5cfc387299cdd41"
+    },
+    {
+      "path": "ClawForge-Tool_env/NoteManagementSystem.py",
+      "size": 29601,
+      "sha256": "c200ae6ca1cea9d34e8d6ead2f136c8bd971c39d966e32883bcbcdb4e6d38aab"
+    },
+    {
+      "path": "ClawForge-Tool_env/NutritionTrackingUserProfileSystem.py",
+      "size": 25860,
+      "sha256": "241d9cfd5a9eecab89f5997ebc8ecaff24bf275015cde354e27afb0f404f4496"
+    },
+    {
+      "path": "ClawForge-Tool_env/PersonalHealthRecordSystem.py",
+      "size": 30014,
+      "sha256": "c58d41d3fcca2a34f3c3b52610dc692701f5cc60a3a431dadbe27fc48b075a3a"
+    },
+    {
+      "path": "ClawForge-Tool_env/PersonalNoteManagementSystem.py",
+      "size": 28258,
+      "sha256": "8ed96c8b557d3bbfac769f727acf57b6c0a0e92aa729c60ac1b84eb0930c26dc"
+    },
+    {
+      "path": "ClawForge-Tool_env/PersonalWorkoutManagementSystem.py",
+      "size": 27294,
+      "sha256": "eaf4f064766a1f40dd27eb0c6980741b253f3dc6c7d827553b2a740af26a5439"
+    },
+    {
+      "path": "ClawForge-Tool_env/ReimbursementClaimsManagementSystem.py",
+      "size": 33755,
+      "sha256": "734fc7b3a1db31244934636fdcd0aeac72d6d440739613fd23a12c1a465c43a0"
+    },
+    {
+      "path": "ClawForge-Tool_env/ReminderManagementSystem.py",
+      "size": 22712,
+      "sha256": "f9604fd9fd15057ebb6828e115277d14ad1bf4dc9bccf8be3af5d9a9b696f081"
+    },
+    {
+      "path": "ClawForge-Tool_env/RestaurantReservationSystem.py",
+      "size": 48559,
+      "sha256": "55858306fb0abe0012eaa706048578c12e7fe161241aed587a93cd288a1c58cc"
+    },
+    {
+      "path": "ClawForge-Tool_env/RetailBankingSystem.py",
+      "size": 39519,
+      "sha256": "1103029c340d095a9226529110d31a8d4f853da7e3bb6a85cd98f1fbe232fc50"
+    },
+    {
+      "path": "ClawForge-Tool_env/RetailManagementSystem.py",
+      "size": 39548,
+      "sha256": "cb7cae9c8232b158fb998e607b1b925fddb5e4234bcb7a640d73393ebd0b6ea9"
+    },
+    {
+      "path": "ClawForge-Tool_env/RideHailingSystem.py",
+      "size": 35229,
+      "sha256": "0765758d56544150a74d9f7f5d8c4dcf289cd00fb57360baffbb21983b545d53"
+    },
+    {
+      "path": "ClawForge-Tool_env/SMSNotificationService.py",
+      "size": 36338,
+      "sha256": "2020d642030861796eeb4659f897a45f2891ad957f1ec028db8a5186b784770a"
+    },
+    {
+      "path": "ClawForge-Tool_env/ShoppingManagementSystem.py",
+      "size": 22869,
+      "sha256": "fae32e2b5b40cb16a162c2560befe0d2609942889a39b85f21e76d5081b36ab8"
+    },
+    {
+      "path": "ClawForge-Tool_env/SocialMediaPostingSystem.py",
+      "size": 19809,
+      "sha256": "c9f676baedefab507b24e3c4890a9ac6959115d6c38fb570bce8becd5cf04fc9"
+    },
+    {
+      "path": "ClawForge-Tool_env/SoftwareTestManagementSystem.py",
+      "size": 33210,
+      "sha256": "e3c00d76d93c3e1a787420749aed4d5d55a8894282876df24cf198030de8d79c"
+    },
+    {
+      "path": "ClawForge-Tool_env/StockTradingPlatform.py",
+      "size": 36029,
+      "sha256": "e615568b002f5f6ded2dbb3eb722a73208b55ac8097b12f8eaff89b1449ff0bc"
+    },
+    {
+      "path": "ClawForge-Tool_env/StudentInformationSystem.py",
+      "size": 31195,
+      "sha256": "19b0337804f9d74ab5114e8c3ff391ed33f698ddc8564623b5c1957f1124949f"
+    },
+    {
+      "path": "ClawForge-Tool_env/SystemLoggingEnvironment.py",
+      "size": 25567,
+      "sha256": "c5bef8e5fe7565ec39f8beb328b24b15c5eca932ef7e402b38201474c0d49bcb"
+    },
+    {
+      "path": "ClawForge-Tool_env/TaskSchedulingSystem.py",
+      "size": 24173,
+      "sha256": "929d9c9ba2e7573f740aec4865915e76f2a28709c5300216e476794efd3c3374"
+    },
+    {
+      "path": "ClawForge-Tool_env/TaskTrackingSystem.py",
+      "size": 28423,
+      "sha256": "6a84850b7292927f0abeb48e2751246da2e03eb2b6a1b39b9b91427876e17302"
+    },
+    {
+      "path": "ClawForge-Tool_env/TelecomManagementSystem.py",
+      "size": 32390,
+      "sha256": "50b259e2fb8bb9aded458a7559eb09e5be553d64df071310d9ad02c7124f1433"
+    },
+    {
+      "path": "ClawForge-Tool_env/TicketManagementSystem.py",
+      "size": 24625,
+      "sha256": "4e69787433837c9ef85a2c4a6d94e1a0c3330947383e9c4eb13071effa09f063"
+    },
+    {
+      "path": "ClawForge-Tool_env/TodoManagementSystem.py",
+      "size": 24853,
+      "sha256": "3a132b30d85e3bec3b41b318feeee0d5423135b74b962133cc79389d0fea42b0"
+    },
+    {
+      "path": "ClawForge-Tool_env/TradingBotSystem.py",
+      "size": 47815,
+      "sha256": "1513d342cada114e583faa09f81be187774617aa5df5b5831ad33ecc9ac37aca"
+    },
+    {
+      "path": "ClawForge-Tool_env/TravelBookingSystem.py",
+      "size": 41225,
+      "sha256": "f85ca0694ba83d5fc45fef4bec8d5787d0be66e137661881c546fbdbba7f1ecc"
+    },
+    {
+      "path": "ClawForge-Tool_env/UniversityCourseRegistrationSystem.py",
+      "size": 37232,
+      "sha256": "b80a2a9bcb7178e7ad9e97098af2eb911ffecdc3411a30c0027d21efeec6ec91"
+    },
+    {
+      "path": "ClawForge-Tool_env/UserAccountRegistrationSystem.py",
+      "size": 21345,
+      "sha256": "cad5513f5392e93fe3a97b39ab6d14046d77ab11f062bf8f9b8270a2fa6616da"
+    },
+    {
+      "path": "ClawForge-Tool_env/VehicleControlSystem.py",
+      "size": 69341,
+      "sha256": "194ca6dc7806cc2fa2e2db8eb52b1b23e18f564c96ea8270283c668cf57cfca2"
+    },
+    {
+      "path": "ClawForge-Tool_env/VehicleInsuranceClaimManagementSystem.py",
+      "size": 40589,
+      "sha256": "ea5bf2355031a1fbf0b36d70f3d8e3576e9c9103308821be1c162d0df62b8612"
+    },
+    {
+      "path": "ClawForge-Tool_env/WebContentManagementSystem.py",
+      "size": 35757,
+      "sha256": "54c168975329d262180aa068215b795e8a61f2dfa02ce6a8e98a93d19c9b8855"
+    },
+    {
+      "path": "ClawForge-Tool_env/WebSearchService.py",
+      "size": 20395,
+      "sha256": "5ef08d7296c80bd8589d8bb5af20cf25fc6350536f6aff71cb6a1ec3255e7167"
+    },
+    {
+      "path": "ClawForge-Tool_env/WorkflowManagementSystem.py",
+      "size": 31139,
+      "sha256": "809a904713ff2c617b00b460ff0d0102c8946cd10aae1317aac14c73c047cd48"
+    },
+    {
+      "path": "ClawForge-Tool_env/WorkspaceMessagingSystem.py",
+      "size": 22638,
+      "sha256": "d1f5ff7e9bf9ae699acd9d385c39ee545809d4333ffc4f4b7ef92ac9642d57d6"
+    },
+    {
+      "path": "ClawForge-Tool_data.jsonl",
+      "size": 38844439,
+      "sha256": "8314814d9b8f909b618121507a0888d689e7de84b9e5efda3aa95a854c35b139"
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ]
+}

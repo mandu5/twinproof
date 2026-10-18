@@ -1,0 +1,23 @@
+{
+  "namespaces": {
+    "item": {
+      "values": [
+        "/result/id",
+        "/state/items/*/id",
+        "/state/selected"
+      ],
+      "keys": [
+        "/state/items"
+      ]
+    }
+  },
+  "bindings": [
+    {
+      "step": 0,
+      "namespace": "item",
+      "expected": "ref-1",
+      "observed": "cand-1",
+      "path": "/result/id"
+    }
+  ]
+}

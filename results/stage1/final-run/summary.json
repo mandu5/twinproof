@@ -1,0 +1,46 @@
+{
+  "experiment": "clawforge-same-implementation-runtime-pilot-v1",
+  "source_commit": "ea401a9eeba245d35b2413bffcb0c26bd58b3f73",
+  "manifest_sha256": "d084634f88af205d6e2c56e911d04fddd12762b7031fb3bfb0d1428a0b2a9e00",
+  "runner_sha256": "941bc24a7b64d922e4adc9e75cefaaa0806dbb44a7d9932f8ea05be00819057d",
+  "environments_total": 70,
+  "environment_status": {
+    "STATIC_EXCLUDED": 7,
+    "EXECUTED": 48,
+    "NO_RELEASED_INITIAL_STATE": 15
+  },
+  "observations": 1546,
+  "categories": {
+    "returned_error": 422,
+    "exception": 8,
+    "changed": 308,
+    "unchanged": 687,
+    "dispatch_error": 121
+  },
+  "free_status": {
+    "PASS": 1183,
+    "FAIL": 223,
+    "UNKNOWN": 140
+  },
+  "coupled_status": {
+    "PASS": 1406,
+    "UNKNOWN": 140
+  },
+  "canonical_free_status": {
+    "PASS": 1183,
+    "FAIL": 223,
+    "UNKNOWN": 140
+  },
+  "attempted_calls": 4638,
+  "method_executions": 4275,
+  "wall_seconds": 16.459,
+  "inference_calls": 0,
+  "sota": false,
+  "claims": [
+    "Same source code is replayed three times; no independently generated twins.",
+    "Changing runtime can legitimately change business outcomes; differences are not false rejects.",
+    "Exceptions, returned errors, unsupported cases and exclusions are reported.",
+    "No real-defect false acceptance metric or SOTA comparison was measured.",
+    "RESTler, Keploy and independent workflow-generator baselines were not run."
+  ]
+}

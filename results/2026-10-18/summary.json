@@ -1,0 +1,1887 @@
+{
+  "schema_version": 1,
+  "experiment": "ground_truth_assisted_oracle_audit",
+  "created_at": "2026-10-18T03:14:57.773747+00:00",
+  "source": {
+    "repository": "https://github.com/cookieApril/EnvSimBench",
+    "commit": "efdb7ac4421b42a6b0ca1db69441138426adfbf5",
+    "checked_at": "2026-10-18",
+    "license_status": "Redistribution not verified; fetch upstream files separately, do not vendor them.",
+    "files": {
+      "Benchmark/9.choice_final_combined-167env.json": {
+        "sha256": "e2d3bb6261f5a73c203c7a6e6f7e414bc7c0034dea8454d960b036217d267b5a",
+        "bytes": 20826285
+      },
+      "Evaluation/10.eval_model.py": {
+        "sha256": "a9a286d708f57eb0ee10caef0498e5e7483428a8ecfbc5e0a441894d498de317",
+        "bytes": 33181
+      },
+      "Evaluation/10.SFT-evaluation.py": {
+        "sha256": "d8b6733bdbee0460eb7cfe1451c26e850d62cf7a385b165fc23656550fb4e47c",
+        "bytes": 37277
+      }
+    }
+  },
+  "python": "3.11.9",
+  "samples": 400,
+  "environments": 167,
+  "constructed_cases": 957,
+  "state_counts": {
+    "unchanged": 100,
+    "changed": 300
+  },
+  "elapsed_seconds": 1.4147287500090897,
+  "model_api_calls": 0,
+  "gpu_jobs": 0,
+  "grader_configuration": {
+    "thinking": false,
+    "max_retries": 0,
+    "optional_json_repair": false,
+    "measurement": "config_change_correct only; feedback is not scored"
+  },
+  "results": [
+    {
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "family": "boolean_as_number",
+      "n": 102,
+      "pass": 89,
+      "false_accept": 89,
+      "false_reject": 0,
+      "fail": 13
+    },
+    {
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "family": "extra_field",
+      "n": 400,
+      "pass": 343,
+      "false_accept": 343,
+      "false_reject": 0,
+      "fail": 57
+    },
+    {
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "family": "gold_identity",
+      "n": 400,
+      "pass": 343,
+      "false_accept": 0,
+      "false_reject": 57,
+      "fail": 57
+    },
+    {
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "family": "null_for_deleted",
+      "n": 55,
+      "pass": 55,
+      "false_accept": 55,
+      "false_reject": 0
+    },
+    {
+      "grader": "Evaluation/10.eval_model.py",
+      "family": "boolean_as_number",
+      "n": 102,
+      "pass": 89,
+      "false_accept": 89,
+      "false_reject": 0,
+      "fail": 13
+    },
+    {
+      "grader": "Evaluation/10.eval_model.py",
+      "family": "extra_field",
+      "n": 400,
+      "pass": 343,
+      "false_accept": 343,
+      "false_reject": 0,
+      "fail": 57
+    },
+    {
+      "grader": "Evaluation/10.eval_model.py",
+      "family": "gold_identity",
+      "n": 400,
+      "pass": 343,
+      "false_accept": 0,
+      "false_reject": 57,
+      "fail": 57
+    },
+    {
+      "grader": "Evaluation/10.eval_model.py",
+      "family": "null_for_deleted",
+      "n": 55,
+      "pass": 55,
+      "false_accept": 55,
+      "false_reject": 0
+    },
+    {
+      "grader": "canonical_json_serialization",
+      "family": "boolean_as_number",
+      "n": 102,
+      "fail": 102,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    {
+      "grader": "canonical_json_serialization",
+      "family": "extra_field",
+      "n": 400,
+      "fail": 400,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    {
+      "grader": "canonical_json_serialization",
+      "family": "gold_identity",
+      "n": 400,
+      "pass": 400,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    {
+      "grader": "canonical_json_serialization",
+      "family": "null_for_deleted",
+      "n": 55,
+      "fail": 55,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    {
+      "grader": "python_equality",
+      "family": "boolean_as_number",
+      "n": 102,
+      "pass": 102,
+      "false_accept": 102,
+      "false_reject": 0
+    },
+    {
+      "grader": "python_equality",
+      "family": "extra_field",
+      "n": 400,
+      "fail": 400,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    {
+      "grader": "python_equality",
+      "family": "gold_identity",
+      "n": 400,
+      "pass": 400,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    {
+      "grader": "python_equality",
+      "family": "null_for_deleted",
+      "n": 55,
+      "fail": 55,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    {
+      "grader": "twinproof_full_state",
+      "family": "boolean_as_number",
+      "n": 102,
+      "fail": 102,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    {
+      "grader": "twinproof_full_state",
+      "family": "extra_field",
+      "n": 400,
+      "fail": 400,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    {
+      "grader": "twinproof_full_state",
+      "family": "gold_identity",
+      "n": 400,
+      "pass": 400,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    {
+      "grader": "twinproof_full_state",
+      "family": "null_for_deleted",
+      "n": 55,
+      "fail": 55,
+      "false_accept": 0,
+      "false_reject": 0
+    }
+  ],
+  "gold_rejections": [
+    {
+      "row": 106,
+      "env_id": "env_129_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "statistics.STAT-30301-2020-MI"
+      ]
+    },
+    {
+      "row": 106,
+      "env_id": "env_129_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "statistics.STAT-30301-2020-MI"
+      ]
+    },
+    {
+      "row": 122,
+      "env_id": "env_118_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": false,
+      "paths": [
+        "translations.terms.of.service"
+      ]
+    },
+    {
+      "row": 122,
+      "env_id": "env_118_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": false,
+      "paths": [
+        "translations.terms.of.service"
+      ]
+    },
+    {
+      "row": 126,
+      "env_id": "env_47_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "mailboxes.mbx_7.message_count",
+        "messages.msg_011"
+      ]
+    },
+    {
+      "row": 126,
+      "env_id": "env_47_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "mailboxes.mbx_7.message_count",
+        "messages.msg_011"
+      ]
+    },
+    {
+      "row": 130,
+      "env_id": "env_13_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "waitlist.C101_S002",
+        "waitlist.C101_S005"
+      ]
+    },
+    {
+      "row": 130,
+      "env_id": "env_13_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "waitlist.C101_S002",
+        "waitlist.C101_S005"
+      ]
+    },
+    {
+      "row": 136,
+      "env_id": "env_155_rl",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "notifications.beabfa38-4af4-49fa-baa5-84f5fb5c8c19",
+        "reminders.7c098c38-d9dc-4e0b-bc2a-817a137a72ec"
+      ]
+    },
+    {
+      "row": 136,
+      "env_id": "env_155_rl",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "notifications.beabfa38-4af4-49fa-baa5-84f5fb5c8c19",
+        "reminders.7c098c38-d9dc-4e0b-bc2a-817a137a72ec"
+      ]
+    },
+    {
+      "row": 137,
+      "env_id": "env_70_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "archived_communication_logs.L005",
+        "communication_logs.L005"
+      ]
+    },
+    {
+      "row": 137,
+      "env_id": "env_70_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "archived_communication_logs.L005",
+        "communication_logs.L005"
+      ]
+    },
+    {
+      "row": 145,
+      "env_id": "env_18_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "restaurants.R004.operating_hours.close",
+        "restaurants.R004.operating_hours.open"
+      ]
+    },
+    {
+      "row": 145,
+      "env_id": "env_18_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "restaurants.R004.operating_hours.close",
+        "restaurants.R004.operating_hours.open"
+      ]
+    },
+    {
+      "row": 173,
+      "env_id": "env_111_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": false,
+      "paths": [
+        "technical_indicators.7203.T",
+        "trend_analysis_results.7203.T.confidence_score",
+        "trend_analysis_results.7203.T.last_updated"
+      ]
+    },
+    {
+      "row": 173,
+      "env_id": "env_111_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": false,
+      "paths": [
+        "technical_indicators.7203.T",
+        "trend_analysis_results.7203.T.confidence_score",
+        "trend_analysis_results.7203.T.last_updated"
+      ]
+    },
+    {
+      "row": 175,
+      "env_id": "env_67_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "charging_points.CP007",
+        "charging_points.CP008",
+        "stations.STA004"
+      ]
+    },
+    {
+      "row": 175,
+      "env_id": "env_67_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "charging_points.CP007",
+        "charging_points.CP008",
+        "stations.STA004"
+      ]
+    },
+    {
+      "row": 178,
+      "env_id": "env_32_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "providers.P001.average_rating",
+        "reviews.R003",
+        "users.U004.review_count"
+      ]
+    },
+    {
+      "row": 178,
+      "env_id": "env_32_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "providers.P001.average_rating",
+        "reviews.R003",
+        "users.U004.review_count"
+      ]
+    },
+    {
+      "row": 223,
+      "env_id": "env_109_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "feeds.feed_USR001.content_list",
+        "feeds.feed_USR001.filter_criteria.limit",
+        "feeds.feed_USR001.filter_criteria.sort",
+        "feeds.feed_USR001.refresh_timestamp"
+      ]
+    },
+    {
+      "row": 223,
+      "env_id": "env_109_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "feeds.feed_USR001.content_list",
+        "feeds.feed_USR001.filter_criteria.limit",
+        "feeds.feed_USR001.filter_criteria.sort",
+        "feeds.feed_USR001.refresh_timestamp"
+      ]
+    },
+    {
+      "row": 252,
+      "env_id": "env_124_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "log_entries.EVT001",
+        "log_entries.EVT002",
+        "log_entries.EVT003",
+        "log_entries.EVT004",
+        "log_entries.EVT005"
+      ]
+    },
+    {
+      "row": 252,
+      "env_id": "env_124_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "log_entries.EVT001",
+        "log_entries.EVT002",
+        "log_entries.EVT003",
+        "log_entries.EVT004",
+        "log_entries.EVT005"
+      ]
+    },
+    {
+      "row": 270,
+      "env_id": "env_96_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "documents.DOC002",
+        "indexes.author.indexed_document_ids",
+        "indexes.category.indexed_document_ids",
+        "indexes.document_id.indexed_document_ids",
+        "indexes.tags.indexed_document_ids"
+      ]
+    },
+    {
+      "row": 270,
+      "env_id": "env_96_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "documents.DOC002",
+        "indexes.author.indexed_document_ids",
+        "indexes.category.indexed_document_ids",
+        "indexes.document_id.indexed_document_ids",
+        "indexes.tags.indexed_document_ids"
+      ]
+    },
+    {
+      "row": 280,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.COL10",
+        "columns.COL11",
+        "columns.COL12",
+        "system_catalog.access_log",
+        "tables.TBL4"
+      ]
+    },
+    {
+      "row": 280,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.COL10",
+        "columns.COL11",
+        "columns.COL12",
+        "system_catalog.access_log",
+        "tables.TBL4"
+      ]
+    },
+    {
+      "row": 291,
+      "env_id": "env_88_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "product_cache.P1001",
+        "product_cache.P1002",
+        "product_cache.P1003",
+        "product_cache.P1004",
+        "product_cache.P1005"
+      ]
+    },
+    {
+      "row": 291,
+      "env_id": "env_88_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "product_cache.P1001",
+        "product_cache.P1002",
+        "product_cache.P1003",
+        "product_cache.P1004",
+        "product_cache.P1005"
+      ]
+    },
+    {
+      "row": 293,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.col004",
+        "columns.col005",
+        "columns.col006",
+        "system_catalog.access_log",
+        "tables.tbl002"
+      ]
+    },
+    {
+      "row": 293,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.col004",
+        "columns.col005",
+        "columns.col006",
+        "system_catalog.access_log",
+        "tables.tbl002"
+      ]
+    },
+    {
+      "row": 294,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.COL014",
+        "columns.COL015",
+        "columns.COL016",
+        "system_catalog.access_log",
+        "tables.TBL004"
+      ]
+    },
+    {
+      "row": 294,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.COL014",
+        "columns.COL015",
+        "columns.COL016",
+        "system_catalog.access_log",
+        "tables.TBL004"
+      ]
+    },
+    {
+      "row": 295,
+      "env_id": "env_13_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "enrollments.ENR001.status",
+        "enrollments.WL_CSC401_S002",
+        "waitlist.WL_CSC401_S002",
+        "waitlist.WL_CSC401_S003.position",
+        "waitlist.WL_CSC401_S005.position"
+      ]
+    },
+    {
+      "row": 295,
+      "env_id": "env_13_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "enrollments.ENR001.status",
+        "enrollments.WL_CSC401_S002",
+        "waitlist.WL_CSC401_S002",
+        "waitlist.WL_CSC401_S003.position",
+        "waitlist.WL_CSC401_S005.position"
+      ]
+    },
+    {
+      "row": 302,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.COL1",
+        "columns.COL2",
+        "columns.COL3",
+        "columns.COL4",
+        "system_catalog.access_log",
+        "tables.TBL1"
+      ]
+    },
+    {
+      "row": 302,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.COL1",
+        "columns.COL2",
+        "columns.COL3",
+        "columns.COL4",
+        "system_catalog.access_log",
+        "tables.TBL1"
+      ]
+    },
+    {
+      "row": 310,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.col_l1",
+        "columns.col_l2",
+        "columns.col_l3",
+        "columns.col_l4",
+        "system_catalog.access_log",
+        "tables.tbl_logs"
+      ]
+    },
+    {
+      "row": 310,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.col_l1",
+        "columns.col_l2",
+        "columns.col_l3",
+        "columns.col_l4",
+        "system_catalog.access_log",
+        "tables.tbl_logs"
+      ]
+    },
+    {
+      "row": 314,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.COL17",
+        "columns.COL18",
+        "columns.COL19",
+        "columns.COL20",
+        "system_catalog.access_log",
+        "tables.TBL5"
+      ]
+    },
+    {
+      "row": 314,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.COL17",
+        "columns.COL18",
+        "columns.COL19",
+        "columns.COL20",
+        "system_catalog.access_log",
+        "tables.TBL5"
+      ]
+    },
+    {
+      "row": 315,
+      "env_id": "env_54_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "option_contracts.OPT_CON1",
+        "option_contracts.OPT_CON2",
+        "option_contracts.OPT_CON3",
+        "option_contracts.OPT_CON4",
+        "option_contracts.OPT_DELTA_CALL",
+        "option_contracts.OPT_DELTA_PUT"
+      ]
+    },
+    {
+      "row": 315,
+      "env_id": "env_54_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "option_contracts.OPT_CON1",
+        "option_contracts.OPT_CON2",
+        "option_contracts.OPT_CON3",
+        "option_contracts.OPT_CON4",
+        "option_contracts.OPT_DELTA_CALL",
+        "option_contracts.OPT_DELTA_PUT"
+      ]
+    },
+    {
+      "row": 319,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR001",
+        "metar_reports.METAR002",
+        "metar_reports.METAR003",
+        "taf_reports.TAF001",
+        "taf_reports.TAF002",
+        "taf_reports.TAF003"
+      ]
+    },
+    {
+      "row": 319,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR001",
+        "metar_reports.METAR002",
+        "metar_reports.METAR003",
+        "taf_reports.TAF001",
+        "taf_reports.TAF002",
+        "taf_reports.TAF003"
+      ]
+    },
+    {
+      "row": 320,
+      "env_id": "env_54_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "option_contracts.OPT1",
+        "option_contracts.OPT2",
+        "option_contracts.OPT3",
+        "option_contracts.OPT4",
+        "option_contracts.OPT5",
+        "option_contracts.OPT6"
+      ]
+    },
+    {
+      "row": 320,
+      "env_id": "env_54_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "option_contracts.OPT1",
+        "option_contracts.OPT2",
+        "option_contracts.OPT3",
+        "option_contracts.OPT4",
+        "option_contracts.OPT5",
+        "option_contracts.OPT6"
+      ]
+    },
+    {
+      "row": 321,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_KSFO_001",
+        "taf_reports.TAF_CYYZ_001",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_RJTT_001",
+        "taf_reports.TAF_YSSY_001"
+      ]
+    },
+    {
+      "row": 321,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_KSFO_001",
+        "taf_reports.TAF_CYYZ_001",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_RJTT_001",
+        "taf_reports.TAF_YSSY_001"
+      ]
+    },
+    {
+      "row": 323,
+      "env_id": "env_124_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "log_entries.EVT-001",
+        "log_entries.EVT-002",
+        "log_entries.EVT-002-DUP",
+        "log_entries.EVT-003",
+        "log_entries.EVT-004",
+        "log_entries.EVT-005"
+      ]
+    },
+    {
+      "row": 323,
+      "env_id": "env_124_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "log_entries.EVT-001",
+        "log_entries.EVT-002",
+        "log_entries.EVT-002-DUP",
+        "log_entries.EVT-003",
+        "log_entries.EVT-004",
+        "log_entries.EVT-005"
+      ]
+    },
+    {
+      "row": 325,
+      "env_id": "env_54_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "option_contracts.CONTRACT1",
+        "option_contracts.CONTRACT2",
+        "option_contracts.CONTRACT3",
+        "option_contracts.CONTRACT4",
+        "option_contracts.CONTRACT5",
+        "option_contracts.CONTRACT6"
+      ]
+    },
+    {
+      "row": 325,
+      "env_id": "env_54_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "option_contracts.CONTRACT1",
+        "option_contracts.CONTRACT2",
+        "option_contracts.CONTRACT3",
+        "option_contracts.CONTRACT4",
+        "option_contracts.CONTRACT5",
+        "option_contracts.CONTRACT6"
+      ]
+    },
+    {
+      "row": 327,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_RJTT_001",
+        "taf_reports.TAF_YSSY_001"
+      ]
+    },
+    {
+      "row": 327,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_RJTT_001",
+        "taf_reports.TAF_YSSY_001"
+      ]
+    },
+    {
+      "row": 329,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.COL_CREATED_AT",
+        "columns.COL_EMAIL",
+        "columns.COL_USER_ID",
+        "columns.COL_USER_NAME",
+        "system_catalog.access_log",
+        "tables.TBL_USERS"
+      ]
+    },
+    {
+      "row": 329,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.COL_CREATED_AT",
+        "columns.COL_EMAIL",
+        "columns.COL_USER_ID",
+        "columns.COL_USER_NAME",
+        "system_catalog.access_log",
+        "tables.TBL_USERS"
+      ]
+    },
+    {
+      "row": 333,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.COL1",
+        "columns.COL2",
+        "columns.COL3",
+        "columns.COL4",
+        "system_catalog.access_log",
+        "tables.TBL1"
+      ]
+    },
+    {
+      "row": 333,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.COL1",
+        "columns.COL2",
+        "columns.COL3",
+        "columns.COL4",
+        "system_catalog.access_log",
+        "tables.TBL1"
+      ]
+    },
+    {
+      "row": 335,
+      "env_id": "env_54_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "option_contracts.CON1",
+        "option_contracts.CON2",
+        "option_contracts.CON3",
+        "option_contracts.CON4",
+        "option_contracts.CON5",
+        "option_contracts.CON6"
+      ]
+    },
+    {
+      "row": 335,
+      "env_id": "env_54_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "option_contracts.CON1",
+        "option_contracts.CON2",
+        "option_contracts.CON3",
+        "option_contracts.CON4",
+        "option_contracts.CON5",
+        "option_contracts.CON6"
+      ]
+    },
+    {
+      "row": 341,
+      "env_id": "env_129_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "regions.60614.average_income",
+        "regions.60614.education_level_distribution.bachelor",
+        "regions.60614.education_level_distribution.doctorate",
+        "regions.60614.education_level_distribution.high_school",
+        "regions.60614.education_level_distribution.master",
+        "regions.60614.median_age"
+      ]
+    },
+    {
+      "row": 341,
+      "env_id": "env_129_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "regions.60614.average_income",
+        "regions.60614.education_level_distribution.bachelor",
+        "regions.60614.education_level_distribution.doctorate",
+        "regions.60614.education_level_distribution.high_school",
+        "regions.60614.education_level_distribution.master",
+        "regions.60614.median_age"
+      ]
+    },
+    {
+      "row": 345,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_SBGR_001",
+        "taf_reports.TAF_YUL_001"
+      ]
+    },
+    {
+      "row": 345,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_SBGR_001",
+        "taf_reports.TAF_YUL_001"
+      ]
+    },
+    {
+      "row": 351,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_EGLL_001",
+        "metar_reports.METAR_KJFK_001",
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_EGLL_002",
+        "taf_reports.TAF_KJFK_001",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_RJTT_001",
+        "taf_reports.TAF_YUL_001"
+      ]
+    },
+    {
+      "row": 351,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_EGLL_001",
+        "metar_reports.METAR_KJFK_001",
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_EGLL_002",
+        "taf_reports.TAF_KJFK_001",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_RJTT_001",
+        "taf_reports.TAF_YUL_001"
+      ]
+    },
+    {
+      "row": 353,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR004",
+        "taf_reports.TAF001",
+        "taf_reports.TAF002",
+        "taf_reports.TAF003",
+        "taf_reports.TAF004",
+        "taf_reports.TAF005",
+        "taf_reports.TAF006"
+      ]
+    },
+    {
+      "row": 353,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR004",
+        "taf_reports.TAF001",
+        "taf_reports.TAF002",
+        "taf_reports.TAF003",
+        "taf_reports.TAF004",
+        "taf_reports.TAF005",
+        "taf_reports.TAF006"
+      ]
+    },
+    {
+      "row": 355,
+      "env_id": "env_133_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metals.gold_10k",
+        "metals.gold_14k",
+        "metals.gold_18k",
+        "metals.gold_22k",
+        "metals.gold_24k",
+        "metals.platinum_999",
+        "metals.silver_999"
+      ]
+    },
+    {
+      "row": 355,
+      "env_id": "env_133_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metals.gold_10k",
+        "metals.gold_14k",
+        "metals.gold_18k",
+        "metals.gold_22k",
+        "metals.gold_24k",
+        "metals.platinum_999",
+        "metals.silver_999"
+      ]
+    },
+    {
+      "row": 357,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_EGLL_001",
+        "metar_reports.METAR_KJFK_001",
+        "metar_reports.METAR_KJFK_002",
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_ZBAA_001",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_KJFK_001",
+        "taf_reports.TAF_KJFK_002",
+        "taf_reports.TAF_KJFK_003",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_YSSY_001",
+        "taf_reports.TAF_ZBAA_001"
+      ]
+    },
+    {
+      "row": 357,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_EGLL_001",
+        "metar_reports.METAR_KJFK_001",
+        "metar_reports.METAR_KJFK_002",
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_ZBAA_001",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_KJFK_001",
+        "taf_reports.TAF_KJFK_002",
+        "taf_reports.TAF_KJFK_003",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_YSSY_001",
+        "taf_reports.TAF_ZBAA_001"
+      ]
+    },
+    {
+      "row": 360,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.COLU005",
+        "columns.COLU006",
+        "columns.COLU007",
+        "columns.COLU008",
+        "columns.COLU009",
+        "system_catalog.access_log",
+        "tables.TBL002"
+      ]
+    },
+    {
+      "row": 360,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.COLU005",
+        "columns.COLU006",
+        "columns.COLU007",
+        "columns.COLU008",
+        "columns.COLU009",
+        "system_catalog.access_log",
+        "tables.TBL002"
+      ]
+    },
+    {
+      "row": 365,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_EGLL_001",
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "metar_reports.METAR_YUL_001",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_FLL_001",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_KSFO_002_EXPIRED",
+        "taf_reports.TAF_RJTT_001",
+        "taf_reports.TAF_YUL_001"
+      ]
+    },
+    {
+      "row": 365,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_EGLL_001",
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "metar_reports.METAR_YUL_001",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_FLL_001",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_KSFO_002_EXPIRED",
+        "taf_reports.TAF_RJTT_001",
+        "taf_reports.TAF_YUL_001"
+      ]
+    },
+    {
+      "row": 367,
+      "env_id": "env_124_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "log_entries.EVT1001",
+        "log_entries.EVT1002",
+        "log_entries.EVT1003",
+        "log_entries.EVT1004",
+        "log_entries.EVT1005",
+        "log_entries.SUM-host-delta-1763500000",
+        "log_entries.SUM-host-gamma-1763500000"
+      ]
+    },
+    {
+      "row": 367,
+      "env_id": "env_124_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "log_entries.EVT1001",
+        "log_entries.EVT1002",
+        "log_entries.EVT1003",
+        "log_entries.EVT1004",
+        "log_entries.EVT1005",
+        "log_entries.SUM-host-delta-1763500000",
+        "log_entries.SUM-host-gamma-1763500000"
+      ]
+    },
+    {
+      "row": 369,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR1",
+        "metar_reports.METAR2",
+        "metar_reports.METAR3",
+        "metar_reports.METAR5",
+        "taf_reports.TAF1",
+        "taf_reports.TAF2",
+        "taf_reports.TAF3",
+        "taf_reports.TAF_new_KSFO_1693640000"
+      ]
+    },
+    {
+      "row": 369,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR1",
+        "metar_reports.METAR2",
+        "metar_reports.METAR3",
+        "metar_reports.METAR5",
+        "taf_reports.TAF1",
+        "taf_reports.TAF2",
+        "taf_reports.TAF3",
+        "taf_reports.TAF_new_KSFO_1693640000"
+      ]
+    },
+    {
+      "row": 370,
+      "env_id": "env_54_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "option_contracts.CONT1",
+        "option_contracts.CONT2",
+        "option_contracts.CONT3",
+        "option_contracts.CONT4",
+        "option_contracts.CONT5",
+        "option_contracts.CONT6",
+        "option_contracts.opt-GOOG-2700P-20230715",
+        "option_contracts.opt-GOOG-2800P-20250920",
+        "option_contracts.opt-GOOG-2900C-20250920"
+      ]
+    },
+    {
+      "row": 370,
+      "env_id": "env_54_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "option_contracts.CONT1",
+        "option_contracts.CONT2",
+        "option_contracts.CONT3",
+        "option_contracts.CONT4",
+        "option_contracts.CONT5",
+        "option_contracts.CONT6",
+        "option_contracts.opt-GOOG-2700P-20230715",
+        "option_contracts.opt-GOOG-2800P-20250920",
+        "option_contracts.opt-GOOG-2900C-20250920"
+      ]
+    },
+    {
+      "row": 371,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR1",
+        "metar_reports.METAR2",
+        "metar_reports.METAR3",
+        "metar_reports.METAR5",
+        "metar_reports.METAR7",
+        "metar_reports.METAR9",
+        "taf_reports.TAF1",
+        "taf_reports.TAF2",
+        "taf_reports.TAF3",
+        "taf_reports.TAF4",
+        "taf_reports.TAF5"
+      ]
+    },
+    {
+      "row": 371,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR1",
+        "metar_reports.METAR2",
+        "metar_reports.METAR3",
+        "metar_reports.METAR5",
+        "metar_reports.METAR7",
+        "metar_reports.METAR9",
+        "taf_reports.TAF1",
+        "taf_reports.TAF2",
+        "taf_reports.TAF3",
+        "taf_reports.TAF4",
+        "taf_reports.TAF5"
+      ]
+    },
+    {
+      "row": 378,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_EGLL_001",
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "metar_reports.METAR_KSFO_003",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_KSFO_002",
+        "taf_reports.TAF_KSFO_003",
+        "taf_reports.TAF_OMDB_001",
+        "taf_reports.TAF_RJTT_001",
+        "taf_reports.TAF_YSSY_001"
+      ]
+    },
+    {
+      "row": 378,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_EGLL_001",
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "metar_reports.METAR_KSFO_003",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_KSFO_002",
+        "taf_reports.TAF_KSFO_003",
+        "taf_reports.TAF_OMDB_001",
+        "taf_reports.TAF_RJTT_001",
+        "taf_reports.TAF_YSSY_001"
+      ]
+    },
+    {
+      "row": 380,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_JFK_20230901_1200",
+        "metar_reports.METAR_SFO_20230901_1300",
+        "metar_reports.METAR_SFO_20230901_1500",
+        "taf_reports.TAF_EGLL_20230820",
+        "taf_reports.TAF_EGLL_20230909",
+        "taf_reports.TAF_JFK_20230909",
+        "taf_reports.TAF_LAX_20230909",
+        "taf_reports.TAF_SFO_20230901",
+        "taf_reports.TAF_SFO_20230901_1800",
+        "taf_reports.TAF_SFO_20230908",
+        "taf_reports.TAF_SFO_20230909",
+        "taf_reports.TAF_SYD_20230909"
+      ]
+    },
+    {
+      "row": 380,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_JFK_20230901_1200",
+        "metar_reports.METAR_SFO_20230901_1300",
+        "metar_reports.METAR_SFO_20230901_1500",
+        "taf_reports.TAF_EGLL_20230820",
+        "taf_reports.TAF_EGLL_20230909",
+        "taf_reports.TAF_JFK_20230909",
+        "taf_reports.TAF_LAX_20230909",
+        "taf_reports.TAF_SFO_20230901",
+        "taf_reports.TAF_SFO_20230901_1800",
+        "taf_reports.TAF_SFO_20230908",
+        "taf_reports.TAF_SFO_20230909",
+        "taf_reports.TAF_SYD_20230909"
+      ]
+    },
+    {
+      "row": 381,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_FLL_001",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_KSFO_002",
+        "taf_reports.TAF_KSFO_003",
+        "taf_reports.TAF_RKSI_001",
+        "taf_reports.TAF_YUL_001"
+      ]
+    },
+    {
+      "row": 381,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_FLL_001",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_KSFO_002",
+        "taf_reports.TAF_KSFO_003",
+        "taf_reports.TAF_RKSI_001",
+        "taf_reports.TAF_YUL_001"
+      ]
+    },
+    {
+      "row": 382,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.COL21",
+        "columns.COL22",
+        "columns.COL23",
+        "columns.COL24",
+        "columns.COL25",
+        "system_catalog.access_log",
+        "tables.TBL5"
+      ]
+    },
+    {
+      "row": 382,
+      "env_id": "env_10_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "columns.COL21",
+        "columns.COL22",
+        "columns.COL23",
+        "columns.COL24",
+        "columns.COL25",
+        "system_catalog.access_log",
+        "tables.TBL5"
+      ]
+    },
+    {
+      "row": 385,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_KLAX_001",
+        "taf_reports.TAF_KLAX_002",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_RJTT_001",
+        "taf_reports.TAF_YUL_001"
+      ]
+    },
+    {
+      "row": 385,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_KLAX_001",
+        "taf_reports.TAF_KLAX_002",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_RJTT_001",
+        "taf_reports.TAF_YUL_001"
+      ]
+    },
+    {
+      "row": 386,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR1",
+        "metar_reports.METAR3",
+        "metar_reports.METAR6",
+        "metar_reports.METAR7",
+        "taf_reports.TAF1",
+        "taf_reports.TAF2",
+        "taf_reports.TAF3",
+        "taf_reports.TAF4",
+        "taf_reports.TAF5",
+        "taf_reports.TAF6"
+      ]
+    },
+    {
+      "row": 386,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR1",
+        "metar_reports.METAR3",
+        "metar_reports.METAR6",
+        "metar_reports.METAR7",
+        "taf_reports.TAF1",
+        "taf_reports.TAF2",
+        "taf_reports.TAF3",
+        "taf_reports.TAF4",
+        "taf_reports.TAF5",
+        "taf_reports.TAF6"
+      ]
+    },
+    {
+      "row": 388,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_CYYZ_001",
+        "metar_reports.METAR_EGLL_001",
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "taf_reports.TAF_CYYZ_001",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_KLAX_001",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_RJTT_001"
+      ]
+    },
+    {
+      "row": 388,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_CYYZ_001",
+        "metar_reports.METAR_EGLL_001",
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "taf_reports.TAF_CYYZ_001",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_KLAX_001",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_RJTT_001"
+      ]
+    },
+    {
+      "row": 389,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR2",
+        "metar_reports.METAR4",
+        "metar_reports.METAR6",
+        "metar_reports.METAR8",
+        "taf_reports.TAF1",
+        "taf_reports.TAF2",
+        "taf_reports.TAF3",
+        "taf_reports.TAF4",
+        "taf_reports.TAF5",
+        "taf_reports.TAF6",
+        "taf_reports.TAF7"
+      ]
+    },
+    {
+      "row": 389,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR2",
+        "metar_reports.METAR4",
+        "metar_reports.METAR6",
+        "metar_reports.METAR8",
+        "taf_reports.TAF1",
+        "taf_reports.TAF2",
+        "taf_reports.TAF3",
+        "taf_reports.TAF4",
+        "taf_reports.TAF5",
+        "taf_reports.TAF6",
+        "taf_reports.TAF7"
+      ]
+    },
+    {
+      "row": 392,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR1",
+        "metar_reports.METAR2",
+        "metar_reports.METAR4",
+        "taf_reports.TAF1",
+        "taf_reports.TAF2",
+        "taf_reports.TAF3",
+        "taf_reports.TAF4",
+        "taf_reports.TAF5",
+        "taf_reports.TAF6"
+      ]
+    },
+    {
+      "row": 392,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR1",
+        "metar_reports.METAR2",
+        "metar_reports.METAR4",
+        "taf_reports.TAF1",
+        "taf_reports.TAF2",
+        "taf_reports.TAF3",
+        "taf_reports.TAF4",
+        "taf_reports.TAF5",
+        "taf_reports.TAF6"
+      ]
+    },
+    {
+      "row": 393,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR001",
+        "metar_reports.METAR003",
+        "metar_reports.METAR005",
+        "metar_reports.METAR006",
+        "metar_reports.METAR007",
+        "taf_reports.TAF001",
+        "taf_reports.TAF002",
+        "taf_reports.TAF003",
+        "taf_reports.TAF004",
+        "taf_reports.TAF005",
+        "taf_reports.TAF006"
+      ]
+    },
+    {
+      "row": 393,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR001",
+        "metar_reports.METAR003",
+        "metar_reports.METAR005",
+        "metar_reports.METAR006",
+        "metar_reports.METAR007",
+        "taf_reports.TAF001",
+        "taf_reports.TAF002",
+        "taf_reports.TAF003",
+        "taf_reports.TAF004",
+        "taf_reports.TAF005",
+        "taf_reports.TAF006"
+      ]
+    },
+    {
+      "row": 394,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_KJFK_001",
+        "taf_reports.TAF_KLAX_001",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_YSSY_001"
+      ]
+    },
+    {
+      "row": 394,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_KJFK_001",
+        "taf_reports.TAF_KLAX_001",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_YSSY_001"
+      ]
+    },
+    {
+      "row": 395,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_EGLL_001",
+        "metar_reports.METAR_EGLL_002",
+        "metar_reports.METAR_FAOR_001",
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "metar_reports.METAR_KSFO_003",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_FAOR_001",
+        "taf_reports.TAF_FAOR_002",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_RJTT_001",
+        "taf_reports.TAF_YUL_001"
+      ]
+    },
+    {
+      "row": 395,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_EGLL_001",
+        "metar_reports.METAR_EGLL_002",
+        "metar_reports.METAR_FAOR_001",
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "metar_reports.METAR_KSFO_003",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_FAOR_001",
+        "taf_reports.TAF_FAOR_002",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_RJTT_001",
+        "taf_reports.TAF_YUL_001"
+      ]
+    },
+    {
+      "row": 396,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR001",
+        "metar_reports.METAR002",
+        "metar_reports.METAR003",
+        "metar_reports.METAR004",
+        "metar_reports.METAR005",
+        "metar_reports.METAR007",
+        "taf_reports.TAF001",
+        "taf_reports.TAF002",
+        "taf_reports.TAF003",
+        "taf_reports.TAF004",
+        "taf_reports.TAF005"
+      ]
+    },
+    {
+      "row": 396,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR001",
+        "metar_reports.METAR002",
+        "metar_reports.METAR003",
+        "metar_reports.METAR004",
+        "metar_reports.METAR005",
+        "metar_reports.METAR007",
+        "taf_reports.TAF001",
+        "taf_reports.TAF002",
+        "taf_reports.TAF003",
+        "taf_reports.TAF004",
+        "taf_reports.TAF005"
+      ]
+    },
+    {
+      "row": 399,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.eval_model.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_EGLL_002",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_RJTT_001",
+        "taf_reports.TAF_SBGR_001",
+        "taf_reports.TAF_YUL_001"
+      ]
+    },
+    {
+      "row": 399,
+      "env_id": "env_57_sft",
+      "grader": "Evaluation/10.SFT-evaluation.py",
+      "has_deletion": true,
+      "paths": [
+        "metar_reports.METAR_KSFO_001",
+        "metar_reports.METAR_KSFO_002",
+        "taf_reports.TAF_EGLL_001",
+        "taf_reports.TAF_EGLL_002",
+        "taf_reports.TAF_KSFO_001",
+        "taf_reports.TAF_RJTT_001",
+        "taf_reports.TAF_SBGR_001",
+        "taf_reports.TAF_YUL_001"
+      ]
+    }
+  ],
+  "errors": [],
+  "claims": {
+    "SOTA": false,
+    "simulator_accuracy_measured": false,
+    "model_rankings_recomputed": false,
+    "independent_novelty_established": false,
+    "external_user_validation": false
+  },
+  "limits": [
+    "All predictions are deterministic constructions using ground truth, not model outputs.",
+    "Repeated mutations and multiple samples per environment are not independent observations.",
+    "Canonical JSON is a strong simple baseline and may tie TwinProof on these constructions.",
+    "Canonical serialization is not a general semantic comparator: 1 and 1.0 serialize differently.",
+    "No historical model rankings can be corrected without their raw predictions.",
+    "This audit inspects the pinned public scripts, not unpublished evaluation runs.",
+    "These known-reference tests do not validate the proposed nondeterminism-aware method."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/cookieApril/EnvSimBench",
+  "commit": "efdb7ac4421b42a6b0ca1db69441138426adfbf5",
+  "checked_at": "2026-10-18",
+  "license_status": "Redistribution not verified; fetch upstream files separately, do not vendor them.",
+  "files": {
+    "Benchmark/9.choice_final_combined-167env.json": {
+      "sha256": "e2d3bb6261f5a73c203c7a6e6f7e414bc7c0034dea8454d960b036217d267b5a",
+      "bytes": 20826285
+    },
+    "Evaluation/10.eval_model.py": {
+      "sha256": "a9a286d708f57eb0ee10caef0498e5e7483428a8ecfbc5e0a441894d498de317",
+      "bytes": 33181
+    },
+    "Evaluation/10.SFT-evaluation.py": {
+      "sha256": "d8b6733bdbee0460eb7cfe1451c26e850d62cf7a385b165fc23656550fb4e47c",
+      "bytes": 37277
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "initial": {
+    "state": {
+      "items": {
+        "old": {
+          "id": "old",
+          "name": "old"
+        }
+      }
+    }
+  },
+  "steps": [
+    {
+      "result": {
+        "id": "ref-1"
+      },
+      "state": {
+        "items": {
+          "old": {
+            "id": "old",
+            "name": "old"
+          },
+          "ref-1": {
+            "id": "ref-1",
+            "name": "hello"
+          }
+        },
+        "selected": "ref-1"
+      }
+    },
+    {
+      "result": {
+        "id": "ref-1"
+      },
+      "state": {
+        "selected": "ref-1"
+      }
+    }
+  ]
+}
