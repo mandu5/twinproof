@@ -38,7 +38,9 @@ equivalence proof.
 The public record includes three executions, 360 case transcripts and 57,836
 top-level harness invocations. These are repeated trials of four programs, not
 360 independent implementations or defects. Research is **active, SOTA unmet**.
-Eleven additional families passed a static feasibility audit; none has been run.
+Eleven initial additional families passed a static feasibility audit. A subsequent
+[data-feasibility extension](docs/data-feasibility-extension.md) adds eight more,
+for 19 static candidates. None has been run.
 
 [Results and reproduction](docs/stage2-results.md) ·
 [Frozen protocol](docs/stage2-protocol.md) ·

@@ -20,8 +20,11 @@ Directly inspected witnesses include a successful exit with a failed task-state
 update. Candidate state-cover search is more expensive than ordinary controls;
 the stronger twins have no divergence found within budget. These are scoped
 observations, not whole-program equivalence or a SOTA score. The [held-out data
-audit](stage2-heldout-audit.md) identified 11 additional static candidates; none
-has runtime validation. The negative Stage 1 and Stage 2 findings remain in the record.
+audit](stage2-heldout-audit.md) identified 11 additional static candidates. A
+[supplemental audit](data-feasibility-extension.md) adds eight, for 19 in total;
+none has runtime validation. The negative Stage 1 and Stage 2 findings remain
+in the record. The candidate-state-cover mechanism is retired as a proposed
+contribution; no defensible replacement hypothesis or next experiment is underway.
 
 ## Closest prior work
 
