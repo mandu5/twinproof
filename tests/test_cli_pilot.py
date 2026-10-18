@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 import sys
+import time
 
 import pytest
 
@@ -145,3 +146,68 @@ def test_other_search_methods_run_real_subprocesses_under_budget(tmp_path, simpl
     assert 0 < result["application_calls"] <= 16
     assert result["total_process_calls"] == len(raw["reference"]) + len(raw["candidate"])
     assert result["attempted_words"] > 0
+
+
+def test_discovery_instability_cannot_be_confirmed_by_two_later_equal_runs(tmp_path, simple_zoxide):
+    program = tmp_path / "changing.py"
+    counter = tmp_path / "volatile-counter"
+    program.write_text(f'''import pathlib,sys
+p=pathlib.Path({str(counter)!r})
+if sys.argv[1]=='query':
+ n=int(p.read_text()) if p.exists() else 0
+ p.write_text(str(n+1));print('first' if n==0 else 'later')
+''')
+    result, _ = experiment("zoxide", simple_zoxide, [sys.executable, str(program)],
+                           tmp_path / "capsule", "breadth_first", 0)
+    assert result["verdict"] == "UNKNOWN"
+
+
+def test_unknown_discovery_cannot_be_erased_by_successful_confirmation():
+    assert confirm([[1], [1]], [[1], [1]],
+                   discovery={"reference": [None], "candidate": [2]}) == "UNKNOWN"
+
+
+def test_task_observer_membership_is_part_of_state(tmp_path):
+    task = dict(id=1, summary="alpha", status="pending", notes="", project="", priority="P2",
+                due="0001-01-01T00:00:00Z", tags=[])
+    values = []
+    for index, observed_in in enumerate(("show-open", "show-templates")):
+        program = tmp_path / f"observer-{index}.py"
+        program.write_text(f"import sys\nprint({json.dumps([task])!r} if sys.argv[1]=={observed_in!r} else '[]')\n")
+        runner = CliRunner("dstask", [sys.executable, str(program)], tmp_path / f"root-{index}", Budget(8))
+        runner.reset()
+        values.append(runner.step("add_alpha"))
+    assert all(value is not None for value in values)
+    assert values[0]["state"] != values[1]["state"]
+
+
+def test_deep_json_is_unknown_and_does_not_break_subsequent_valid_steps(tmp_path):
+    program = tmp_path / "nested.py"
+    flag = tmp_path / "first-read"
+    program.write_text(f'''import pathlib,sys
+p=pathlib.Path({str(flag)!r})
+if sys.argv[1]=='show-open' and not p.exists():
+ p.touch();print('['*1100+'0'+']'*1100)
+else: print('[]')
+''')
+    runner = CliRunner("dstask", [sys.executable, str(program)], tmp_path / "root", Budget(12))
+    runner.reset()
+    assert runner.step("add_alpha") is None
+    assert runner.step("add_alpha") is not None
+
+
+def test_successful_parent_cannot_leave_a_background_child(tmp_path):
+    marker = tmp_path / "child-survived"
+    child = f"import time,pathlib;time.sleep(.25);pathlib.Path({str(marker)!r}).touch()"
+    parent = f"import subprocess,sys;subprocess.Popen([sys.executable,'-c',{child!r}])"
+    result = run_command([sys.executable, "-c", parent], tmp_path, {}, Budget(1), timeout=0.1)
+    time.sleep(0.35)
+    assert not marker.exists()
+    assert result["status"] == "DESCENDANT_PROCESS"
+
+
+def test_invalid_utf8_is_unknown_and_original_bytes_are_retained(tmp_path):
+    results = [run_command([sys.executable, "-c", f"import os;os.write(1,bytes([{byte}]))"],
+                           tmp_path, {}, Budget(1)) for byte in (254, 255)]
+    assert all(r["status"] == "INVALID_UTF8" for r in results)
+    assert results[0]["stdout_bytes_base64"] != results[1]["stdout_bytes_base64"]

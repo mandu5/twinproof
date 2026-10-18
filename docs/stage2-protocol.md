@@ -86,3 +86,26 @@ held-out generalization, a population false-positive rate, SOTA or customer dema
 Full RALib/RESTler/Schemathesis learning and differential pipelines have not been
 run. A win over these four controls would still need those applicable comparisons.
 If the exploratory method loses, retain that result and reject the advantage claim.
+
+## Revision 2: review corrections before the final run
+
+The original experiment and its rerun remain labeled calibration, schema 1.
+Before the final schema-2 execution, an independent AI code/evidence review found
+four Important harness defects and one invalid-UTF-8 issue regraded Important:
+
+- Require discovery and both fresh confirmation traces to agree on each side.
+  Previously the initial trace was not part of the stability test.
+- Preserve dstask state separately under each observer command. Previously lists
+  were flattened, potentially hiding a task appearing under the wrong query.
+- Deeply nested invalid JSON returns UNKNOWN with a parsing-error receipt.
+- Terminate surviving ordinary process-group descendants and mark the command
+  DESCENDANT_PROCESS, which propagates as UNKNOWN.
+- Invalid UTF-8 returns UNKNOWN with Base64 original bounded bytes. Valid UTF-8
+  remains losslessly represented as text; output beyond 65,536 bytes is explicitly
+  marked truncated and cannot produce a confirmed difference.
+
+These are correctness fixes, not outcome-tuned changes to action selection or
+budgets. Six regression tests were observed failing before the fixes. The reviewer
+verified all calibration hashes/costs and found no affected previously confirmed
+case when reconstructing initial discovery stability. The final run still uses
+the same four programs, four methods, seeds, budgets and original source pins.

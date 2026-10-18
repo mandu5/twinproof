@@ -6,6 +6,7 @@ Downloaded programs must be run by the network-isolated container entrypoint.
 
 from collections import deque
 from dataclasses import dataclass
+import base64
 import itertools
 import json
 import os
@@ -47,17 +48,41 @@ def run_command(argv, cwd, env, budget, timeout=3):
             try:
                 result["returncode"] = process.wait(timeout=timeout)
             except subprocess.TimeoutExpired:
-                os.killpg(process.pid, signal.SIGKILL)
+                try:
+                    os.killpg(process.pid, signal.SIGKILL)
+                except ProcessLookupError:
+                    pass
                 process.wait()
                 result.update(status="TIMEOUT", returncode=None)
+            finally:
+                # A successful parent can leave descendants holding state/output handles.
+                try:
+                    os.killpg(process.pid, 0)
+                except ProcessLookupError:
+                    pass
+                else:
+                    try:
+                        os.killpg(process.pid, signal.SIGKILL)
+                    except ProcessLookupError:
+                        pass
+                    if result["status"] == "OK":
+                        result["status"] = "DESCENDANT_PROCESS"
         except OSError as exc:
             result.update(status="EXEC_ERROR", returncode=None, error=type(exc).__name__)
         for label, stream in (("stdout", stdout), ("stderr", stderr)):
             stream.seek(0)
             data = stream.read(65537)
+            result[label + "_truncated"] = len(data) > 65536
             if len(data) > 65536:
                 result["status"] = "OUTPUT_LIMIT"
-            result[label] = data[:65536].decode("utf-8", errors="replace")
+            bounded = data[:65536]
+            try:
+                result[label] = bounded.decode("utf-8")
+            except UnicodeDecodeError:
+                result[label + "_bytes_base64"] = base64.b64encode(bounded).decode("ascii")
+                result[label] = bounded.decode("utf-8", errors="replace")
+                if result["status"] == "OK":
+                    result["status"] = "INVALID_UTF8"
     result["seconds"] = round(time.monotonic() - started, 6)
     return result
 
@@ -102,7 +127,7 @@ def observe_query(name, stdout):
     return sorted(out, key=lambda row: json.dumps(row, sort_keys=True))
 
 
-def confirm(reference_runs, candidate_runs):
+def confirm(reference_runs, candidate_runs, discovery=None):
     def unknown(value):
         if value is None:
             return True
@@ -115,6 +140,9 @@ def confirm(reference_runs, candidate_runs):
         return "UNKNOWN"
     if unknown(reference_runs) or unknown(candidate_runs):
         return "UNKNOWN"
+    if discovery is not None:
+        if unknown(discovery) or discovery["reference"] != reference_runs[0] or discovery["candidate"] != candidate_runs[0]:
+            return "UNKNOWN"
     if reference_runs[0] != reference_runs[1] or candidate_runs[0] != candidate_runs[1]:
         return "UNKNOWN"
     return ("NO_DIFFERENCE_OBSERVED" if reference_runs[0] == candidate_runs[0]
@@ -195,7 +223,7 @@ class CliRunner:
             return None
         commands = ([["query", "--list"]] if self.family == "zoxide"
                     else [["show-open"], ["show-resolved"], ["show-templates"]])
-        state = []
+        state = [] if self.family == "zoxide" else {}
         try:
             for cmd in commands:
                 observation = self.command(cmd, "observer")
@@ -208,18 +236,20 @@ class CliRunner:
                 else:
                     if observation["returncode"] != 0:
                         return None
-                    state.extend(observe_tasks(observation["stdout"]))
-        except (ValueError, KeyError, TypeError):
+                    state[cmd[0]] = observe_tasks(observation["stdout"])
+        except (ValueError, KeyError, TypeError, RecursionError) as exc:
+            self.receipts[-1]["parse_error"] = type(exc).__name__
             return None
         # Query responses are part of the observable, not just the resulting state.
         response = action["stdout"].splitlines() if self.family == "zoxide" else None
         if self.family == "dstask" and name.startswith("query_"):
             try:
                 response = observe_query(name, action["stdout"])
-            except (ValueError, TypeError):
+            except (ValueError, TypeError, RecursionError) as exc:
+                action["parse_error"] = type(exc).__name__
+                # command() stores a distinct receipt mapping.
+                self.receipts[-len(commands) - 1]["parse_error"] = type(exc).__name__
                 return None
-        if self.family == "dstask":
-            state = sorted(state, key=lambda row: json.dumps(row, sort_keys=True))
         # Mutation command prose/UUID acknowledgments are outside this declared projection.
         return {"exit": action["returncode"], "response": response if response is not None else [], "state": state}
 
@@ -241,6 +271,7 @@ def search(reference, candidate, alphabet, mode, seed, limit=192, max_depth=4):
     attempted_words = 0
     unknown_steps = 0
     witness = None
+    discovery = {"reference": [], "candidate": []}
     random.seed(seed)
     try:
         if mode == "aalpy_random_word":
@@ -251,6 +282,7 @@ def search(reference, candidate, alphabet, mode, seed, limit=192, max_depth=4):
                 def pre(self):
                     nonlocal attempted_words
                     attempted_words += 1
+                    discovery["reference"] = []
                     reference.reset()
 
                 def post(self):
@@ -259,16 +291,19 @@ def search(reference, candidate, alphabet, mode, seed, limit=192, max_depth=4):
                 def step(self, action):
                     nonlocal unknown_steps
                     value = reference.step(action)
+                    discovery["reference"].append(value)
                     unknown_steps += value is None
                     return ("UNKNOWN_REFERENCE",) if value is None else value
 
             class Hypothesis:
                 def reset_to_initial(self):
+                    discovery["candidate"] = []
                     candidate.reset()
 
                 def step(self, action):
                     nonlocal unknown_steps
                     value = candidate.step(action)
+                    discovery["candidate"].append(value)
                     unknown_steps += value is None
                     return ("UNKNOWN_CANDIDATE",) if value is None else value
 
@@ -311,10 +346,13 @@ def search(reference, candidate, alphabet, mode, seed, limit=192, max_depth=4):
                 attempted_words += 1
                 reference.reset()
                 candidate.reset()
+                discovery = {"reference": [], "candidate": []}
                 prefix = []
                 for action in word:
                     prefix.append(action)
                     left, right = reference.step(action), candidate.step(action)
+                    discovery["reference"].append(left)
+                    discovery["candidate"].append(right)
                     unknown_steps += left is None or right is None
                     if left is None or right is None or left != right:
                         witness = prefix
@@ -328,7 +366,7 @@ def search(reference, candidate, alphabet, mode, seed, limit=192, max_depth=4):
     return {"status": "CANDIDATE_WITNESS" if witness else "NO_DIFFERENCE_FOUND_WITHIN_BUDGET",
             "witness": list(witness) if witness else None, "search_calls": budget.calls - start,
             "candidate_screen_calls": candidate_screen_calls, "attempted_words": attempted_words,
-            "unknown_steps": unknown_steps}
+            "unknown_steps": unknown_steps, "discovery": discovery if witness else None}
 
 
 def experiment(family, reference_program, candidate_program, root, mode, seed,
@@ -354,11 +392,11 @@ def experiment(family, reference_program, candidate_program, root, mode, seed,
             for _ in range(2):
                 confirmation["reference"].append(replay(reference, result["witness"]))
                 confirmation["candidate"].append(replay(candidate, result["witness"]))
-            verdict = confirm(confirmation["reference"], confirmation["candidate"])
+            verdict = confirm(confirmation["reference"], confirmation["candidate"], result["discovery"])
         except BudgetExhausted:
             verdict = "UNKNOWN"
     setup = reference.setup_calls + candidate.setup_calls
-    result.update(schema=1, family=family, mode=mode, seed=seed, verdict=verdict,
+    result.update(schema=2, family=family, mode=mode, seed=seed, verdict=verdict,
                   alphabet=alphabet, total_budget=total_budget, search_budget=search_budget,
                   application_calls=budget.calls, reference_calls=reference.application_calls,
                   candidate_calls=candidate.application_calls, setup_calls=setup,
