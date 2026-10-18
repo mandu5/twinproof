@@ -2,6 +2,15 @@ name: released CLI twin pilot
 on:
   push:
     branches: ['research/stage2-cli-pilot']
+    paths:
+      - 'src/**'
+      - 'scripts/run_cli_pilot.py'
+      - 'scripts/cli_capsule.py'
+      - 'sources/programbench-pilot.json'
+      - 'sources/cli-requirements.txt'
+      - 'tests/test_cli_pilot.py'
+      - 'tests/test_artifacts.py'
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:

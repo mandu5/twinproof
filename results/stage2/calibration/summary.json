@@ -1,0 +1,336 @@
+{
+  "schema": 1,
+  "cases": 120,
+  "log_sha256": "2945341ed91ba888e96f58324728e1b9a731fb498bcef5a4b09a5f2427bb9b02",
+  "verdicts": {
+    "NO_DIFFERENCE_FOUND_WITHIN_BUDGET": 80,
+    "CONFIRMED_DIFFERENCE": 39,
+    "UNKNOWN": 1
+  },
+  "application_calls": 17586,
+  "setup_calls": 1690,
+  "groups": [
+    {
+      "group": "dstask/20260429_mini-v2.2.6_gpt-5-4/aalpy_random_word",
+      "cases": 5,
+      "verdicts": {
+        "CONFIRMED_DIFFERENCE": 5
+      },
+      "median_application_calls": 24,
+      "median_reference_calls": 12,
+      "median_total_process_calls": 30,
+      "witnesses": [
+        "[\"add_alpha\", \"query_resolved\", \"modify_first\"]",
+        "[\"query_tags\"]",
+        "[\"resolve_first\"]",
+        "[\"stop_first\"]"
+      ]
+    },
+    {
+      "group": "dstask/20260429_mini-v2.2.6_gpt-5-4/breadth_first",
+      "cases": 5,
+      "verdicts": {
+        "CONFIRMED_DIFFERENCE": 5
+      },
+      "median_application_calls": 56,
+      "median_reference_calls": 28,
+      "median_total_process_calls": 70,
+      "witnesses": [
+        "[\"modify_first\"]"
+      ]
+    },
+    {
+      "group": "dstask/20260429_mini-v2.2.6_gpt-5-4/candidate_state_cover",
+      "cases": 5,
+      "verdicts": {
+        "CONFIRMED_DIFFERENCE": 5
+      },
+      "median_application_calls": 152,
+      "median_reference_calls": 44,
+      "median_total_process_calls": 184,
+      "witnesses": [
+        "[\"modify_first\"]"
+      ]
+    },
+    {
+      "group": "dstask/20260429_mini-v2.2.6_gpt-5-4/random_prefix",
+      "cases": 5,
+      "verdicts": {
+        "CONFIRMED_DIFFERENCE": 5
+      },
+      "median_application_calls": 32,
+      "median_reference_calls": 16,
+      "median_total_process_calls": 40,
+      "witnesses": [
+        "[\"query_tags\"]",
+        "[\"resolve_first\"]",
+        "[\"stop_first\"]"
+      ]
+    },
+    {
+      "group": "dstask/20260601_gongent_gpt-5.5-high/aalpy_random_word",
+      "cases": 5,
+      "verdicts": {
+        "NO_DIFFERENCE_FOUND_WITHIN_BUDGET": 5
+      },
+      "median_application_calls": 192,
+      "median_reference_calls": 96,
+      "median_total_process_calls": 214,
+      "witnesses": [
+        "null"
+      ]
+    },
+    {
+      "group": "dstask/20260601_gongent_gpt-5.5-high/breadth_first",
+      "cases": 5,
+      "verdicts": {
+        "NO_DIFFERENCE_FOUND_WITHIN_BUDGET": 5
+      },
+      "median_application_calls": 192,
+      "median_reference_calls": 96,
+      "median_total_process_calls": 230,
+      "witnesses": [
+        "null"
+      ]
+    },
+    {
+      "group": "dstask/20260601_gongent_gpt-5.5-high/candidate_state_cover",
+      "cases": 5,
+      "verdicts": {
+        "NO_DIFFERENCE_FOUND_WITHIN_BUDGET": 5
+      },
+      "median_application_calls": 192,
+      "median_reference_calls": 64,
+      "median_total_process_calls": 234,
+      "witnesses": [
+        "null"
+      ]
+    },
+    {
+      "group": "dstask/20260601_gongent_gpt-5.5-high/random_prefix",
+      "cases": 5,
+      "verdicts": {
+        "NO_DIFFERENCE_FOUND_WITHIN_BUDGET": 5
+      },
+      "median_application_calls": 192,
+      "median_reference_calls": 96,
+      "median_total_process_calls": 230,
+      "witnesses": [
+        "null"
+      ]
+    },
+    {
+      "group": "dstask/reference_control/aalpy_random_word",
+      "cases": 5,
+      "verdicts": {
+        "NO_DIFFERENCE_FOUND_WITHIN_BUDGET": 5
+      },
+      "median_application_calls": 192,
+      "median_reference_calls": 96,
+      "median_total_process_calls": 214,
+      "witnesses": [
+        "null"
+      ]
+    },
+    {
+      "group": "dstask/reference_control/breadth_first",
+      "cases": 5,
+      "verdicts": {
+        "NO_DIFFERENCE_FOUND_WITHIN_BUDGET": 5
+      },
+      "median_application_calls": 192,
+      "median_reference_calls": 96,
+      "median_total_process_calls": 230,
+      "witnesses": [
+        "null"
+      ]
+    },
+    {
+      "group": "dstask/reference_control/candidate_state_cover",
+      "cases": 5,
+      "verdicts": {
+        "NO_DIFFERENCE_FOUND_WITHIN_BUDGET": 5
+      },
+      "median_application_calls": 192,
+      "median_reference_calls": 64,
+      "median_total_process_calls": 234,
+      "witnesses": [
+        "null"
+      ]
+    },
+    {
+      "group": "dstask/reference_control/random_prefix",
+      "cases": 5,
+      "verdicts": {
+        "NO_DIFFERENCE_FOUND_WITHIN_BUDGET": 5
+      },
+      "median_application_calls": 192,
+      "median_reference_calls": 96,
+      "median_total_process_calls": 230,
+      "witnesses": [
+        "null"
+      ]
+    },
+    {
+      "group": "zoxide/20260429_mini-v2.2.6_gpt-5-4/aalpy_random_word",
+      "cases": 5,
+      "verdicts": {
+        "CONFIRMED_DIFFERENCE": 4,
+        "UNKNOWN": 1
+      },
+      "median_application_calls": 24,
+      "median_reference_calls": 12,
+      "median_total_process_calls": 24,
+      "witnesses": [
+        "[\"add_alpha\", \"add_nested\"]",
+        "[\"query_child\", \"remove_alpha\"]",
+        "[\"remove_alpha\"]",
+        "[\"remove_beta\"]"
+      ]
+    },
+    {
+      "group": "zoxide/20260429_mini-v2.2.6_gpt-5-4/breadth_first",
+      "cases": 5,
+      "verdicts": {
+        "CONFIRMED_DIFFERENCE": 5
+      },
+      "median_application_calls": 24,
+      "median_reference_calls": 12,
+      "median_total_process_calls": 24,
+      "witnesses": [
+        "[\"remove_alpha\"]"
+      ]
+    },
+    {
+      "group": "zoxide/20260429_mini-v2.2.6_gpt-5-4/candidate_state_cover",
+      "cases": 5,
+      "verdicts": {
+        "CONFIRMED_DIFFERENCE": 5
+      },
+      "median_application_calls": 94,
+      "median_reference_calls": 16,
+      "median_total_process_calls": 94,
+      "witnesses": [
+        "[\"add_alpha\", \"add_beta\"]"
+      ]
+    },
+    {
+      "group": "zoxide/20260429_mini-v2.2.6_gpt-5-4/random_prefix",
+      "cases": 5,
+      "verdicts": {
+        "CONFIRMED_DIFFERENCE": 5
+      },
+      "median_application_calls": 32,
+      "median_reference_calls": 16,
+      "median_total_process_calls": 32,
+      "witnesses": [
+        "[\"remove_alpha\"]",
+        "[\"remove_beta\"]"
+      ]
+    },
+    {
+      "group": "zoxide/20260601_gongent_gpt-5.5-high/aalpy_random_word",
+      "cases": 5,
+      "verdicts": {
+        "NO_DIFFERENCE_FOUND_WITHIN_BUDGET": 5
+      },
+      "median_application_calls": 192,
+      "median_reference_calls": 96,
+      "median_total_process_calls": 192,
+      "witnesses": [
+        "null"
+      ]
+    },
+    {
+      "group": "zoxide/20260601_gongent_gpt-5.5-high/breadth_first",
+      "cases": 5,
+      "verdicts": {
+        "NO_DIFFERENCE_FOUND_WITHIN_BUDGET": 5
+      },
+      "median_application_calls": 192,
+      "median_reference_calls": 96,
+      "median_total_process_calls": 192,
+      "witnesses": [
+        "null"
+      ]
+    },
+    {
+      "group": "zoxide/20260601_gongent_gpt-5.5-high/candidate_state_cover",
+      "cases": 5,
+      "verdicts": {
+        "NO_DIFFERENCE_FOUND_WITHIN_BUDGET": 5
+      },
+      "median_application_calls": 186,
+      "median_reference_calls": 62,
+      "median_total_process_calls": 186,
+      "witnesses": [
+        "null"
+      ]
+    },
+    {
+      "group": "zoxide/20260601_gongent_gpt-5.5-high/random_prefix",
+      "cases": 5,
+      "verdicts": {
+        "NO_DIFFERENCE_FOUND_WITHIN_BUDGET": 5
+      },
+      "median_application_calls": 192,
+      "median_reference_calls": 96,
+      "median_total_process_calls": 192,
+      "witnesses": [
+        "null"
+      ]
+    },
+    {
+      "group": "zoxide/reference_control/aalpy_random_word",
+      "cases": 5,
+      "verdicts": {
+        "NO_DIFFERENCE_FOUND_WITHIN_BUDGET": 5
+      },
+      "median_application_calls": 192,
+      "median_reference_calls": 96,
+      "median_total_process_calls": 192,
+      "witnesses": [
+        "null"
+      ]
+    },
+    {
+      "group": "zoxide/reference_control/breadth_first",
+      "cases": 5,
+      "verdicts": {
+        "NO_DIFFERENCE_FOUND_WITHIN_BUDGET": 5
+      },
+      "median_application_calls": 192,
+      "median_reference_calls": 96,
+      "median_total_process_calls": 192,
+      "witnesses": [
+        "null"
+      ]
+    },
+    {
+      "group": "zoxide/reference_control/candidate_state_cover",
+      "cases": 5,
+      "verdicts": {
+        "NO_DIFFERENCE_FOUND_WITHIN_BUDGET": 5
+      },
+      "median_application_calls": 186,
+      "median_reference_calls": 62,
+      "median_total_process_calls": 186,
+      "witnesses": [
+        "null"
+      ]
+    },
+    {
+      "group": "zoxide/reference_control/random_prefix",
+      "cases": 5,
+      "verdicts": {
+        "NO_DIFFERENCE_FOUND_WITHIN_BUDGET": 5
+      },
+      "median_application_calls": 192,
+      "median_reference_calls": 96,
+      "median_total_process_calls": 192,
+      "witnesses": [
+        "null"
+      ]
+    }
+  ]
+}

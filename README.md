@@ -18,7 +18,31 @@ twinproof trace examples/trace/reference.json examples/trace/corrupt.json exampl
 ```
 
 [Trace contract and limits](docs/trace-contract.md) ·
-[Runtime pilot](docs/runtime-pilot.md) · [Research status](docs/research-status.md)
+[Released-twin results](docs/stage2-results.md) ·
+[Runtime control pilot](docs/runtime-pilot.md) · [Research status](docs/research-status.md)
+
+## Released-twin experiment — 2026-10-18
+
+The Stage 2 pilot tests four released AI-generated implementations of **zoxide
+and dstask**, with reference/reference controls. The corrected Linux run completed
+120 trials; Python 3.11 and 3.13 each passed 118 tests without skips.
+
+One inspected dstask witness returns exit 0 while failing to change a task's
+priority and tags. Comparing the observed task state catches this failure.
+However, the candidate state-cover search used **94 vs 24** application calls on
+zoxide and **152 vs 24** on dstask against simple search controls (medians on the
+two GPT-5.4 twins). It demonstrated no search advantage. The stronger released
+twins had no divergence found within the tested budget, which is not an
+equivalence proof.
+
+The public record includes three executions, 360 case transcripts and 57,836
+top-level harness invocations. These are repeated trials of four programs, not
+360 independent implementations or defects. Research is **active, SOTA unmet**.
+Eleven additional families passed a static feasibility audit; none has been run.
+
+[Results and reproduction](docs/stage2-results.md) ·
+[Frozen protocol](docs/stage2-protocol.md) ·
+[Prior art](docs/stage2-prior-art.md) · [Review and fixes](docs/stage2-review.md)
 
 ## Verified first result — 2026-10-18
 
@@ -58,9 +82,10 @@ differences with different clock/RNG inputs. With shared runtime inputs, all
 statically excluded and 15 lacked a supported initial-state name mapping.
 
 These are same-implementation positive controls, not AI-generated twin comparisons
-or real-defect detection scores. The experiment shows no advantage over ordinary
-controlled replay. The current research promotion gate is **NO-GO**; the software
-remains an auditable utility. [Method, exclusions and receipts](docs/runtime-pilot.md).
+or real-defect detection scores. The Stage 1 experiment showed no advantage over
+ordinary controlled replay and did not pass its research promotion gate. Stage 2
+above addresses the missing generated-twin experiment; it still does not establish
+superiority. [Method, exclusions and receipts](docs/runtime-pilot.md).
 
 ## Run locally
 
@@ -96,9 +121,12 @@ binary floats. Its mismatch diagnostics also retain that numeric precision.
 Invalid JSON, duplicate keys, nonfinite values and nesting beyond 128 produce
 UNKNOWN. A reference state is required; this is not an oracle for intent.
 
-Development verification (pytest must be installed):
+Development verification (the experimental CLI tests use pinned AALpy):
 
 ```sh
+python3 -m pip install . pytest
+python3 -m pip install --require-hashes -r sources/cli-requirements.txt
+python3 scripts/fetch_sources.py
 PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 python3 -m pytest -q
 ```
 
@@ -111,7 +139,8 @@ check, not a successful reproduction.
 Original benchmark: [paper](https://arxiv.org/abs/2605.07247),
 [repository](https://github.com/cookieApril/EnvSimBench).
 Source pins: [sources.json](src/twinproof/sources.json).
-No upstream source code, dataset records or model weights are distributed here.
+No upstream source code, original benchmark dataset records or model weights are
+distributed here. The CLI experiment publishes transcripts from our declared inputs.
 Redistribution rights for those materials have not been established. Local
 reproduction and publication of our code are separate from external adoption.
 

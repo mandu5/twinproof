@@ -1,0 +1,1119 @@
+{
+  "schema_version": 2,
+  "updated_at_utc": "2026-10-18T08:51:37.771032+00:00",
+  "status": "BOUNDED_STATIC_AUDIT_COMPLETE_NO_RUNTIME_OR_OUTCOME_CLAIM",
+  "sources": [
+    {
+      "id": "gpt54_mini",
+      "repo": "programbench/20260429_mini-v2.2.6_gpt-5-4",
+      "revision": "23f521694f9f5f6310d736ff9a7af16cd4cb49ce",
+      "github_repo": "ProgramBench/20260429_mini-v2.2.6_gpt-5-4",
+      "github_commit": "f43ff067bfcf052c8d3fa37cf7a580d65fde4d17",
+      "method": "single-agent mini-SWE-agent 2.2.6 / GPT-5.4",
+      "status": "registered"
+    },
+    {
+      "id": "gongent_gpt55",
+      "repo": "Qucheng/20260601_gongent_gpt-5.5-high",
+      "revision": "93d6bc292319c4f4ec3576b34ec172b2cd4d31a5",
+      "github_repo": "qucheng-gong/20260601_gongent_gpt-5.5-high",
+      "github_commit": "899099297bdb63699e282d78b490fc85ffe43855",
+      "method": "Gongent builder/adversary / GPT-5.5 high",
+      "status": "pending ProgramBench PR 13"
+    }
+  ],
+  "reference_source": {
+    "repo": "eth-sri/tsb-reference_impl",
+    "revision": "d663754bebabc5f49b27804435582e9de73412ff"
+  },
+  "corpus_counts": {
+    "gpt54_source_archives": 200,
+    "gongent_source_archives": 200,
+    "both_source_archives": 200,
+    "reference_binaries": 197,
+    "both_plus_reference": 197,
+    "reference_missing": [
+      "jqlang__jq.b33a763",
+      "paradigmxyz__solar.5190d0e",
+      "samtools__samtools.aa823b5"
+    ]
+  },
+  "conclusion": {
+    "heldout_statically_suitable_durable_families": 11,
+    "heldout_runtime_verified_families": 0,
+    "heldout_transition_cases_authored_or_run": 0,
+    "heldout_source_only_candidates": [
+      "cheat__cheat.b8098dc",
+      "chmln__handlr.90e78ba",
+      "direnv__direnv.02040c7",
+      "guumaster__hostctl.d6d9699",
+      "lfos__calcurse.49180d5",
+      "nikolassv__bartib.6b9b5ce",
+      "ninja-build__ninja.cc60300",
+      "pier-cli__pier.5e1bde9",
+      "shashwatah__jot.a92aad8",
+      "stacked-git__stgit.430027d",
+      "zk-org__zk.10d93d5"
+    ],
+    "top5": [
+      {
+        "rank": 1,
+        "task_id": "chmln__handlr.90e78ba",
+        "state": "Application default handlers persist in XDG mimeapps.list and handlr config.",
+        "reference_bytes": 2403328,
+        "pair_archive_bytes": 31682,
+        "upstream": "https://github.com/chmln/handlr/tree/90e78ba92d0355cb523abf268858f3123fd81238"
+      },
+      {
+        "rank": 2,
+        "task_id": "guumaster__hostctl.d6d9699",
+        "state": "Named host profiles and enabled/disabled entries persist across add/remove/toggle/list calls.",
+        "reference_bytes": 8978432,
+        "pair_archive_bytes": 500259,
+        "upstream": "https://github.com/guumaster/hostctl/tree/d6d96999f81952fa8d2ea3121ae5e3cce08afed6"
+      },
+      {
+        "rank": 3,
+        "task_id": "shashwatah__jot.a92aad8",
+        "state": "Vault registry, selected vault/folder, notes and folder history persist across commands.",
+        "reference_bytes": 1651496,
+        "pair_archive_bytes": 22961,
+        "upstream": "https://github.com/shashwatah/jot/tree/a92aad895b0e41971a97159be174334aab2826a9"
+      },
+      {
+        "rank": 4,
+        "task_id": "nikolassv__bartib.6b9b5ce",
+        "state": "An activity log stores running/completed time-tracking records and determines later lists/reports.",
+        "reference_bytes": 1723360,
+        "pair_archive_bytes": 209336,
+        "upstream": "https://github.com/nikolassv/bartib/tree/6b9b5ce90d927992164e2faef55bce717b7c3427"
+      },
+      {
+        "rank": 5,
+        "task_id": "lfos__calcurse.49180d5",
+        "state": "Imported appointments, recurring events, todos and note attachments persist in the calendar data directory.",
+        "reference_bytes": 1226320,
+        "pair_archive_bytes": 221091,
+        "upstream": "https://github.com/lfos/calcurse/tree/49180d5537edb53ccd0d784a782e32816750323a"
+      }
+    ],
+    "top5_total_pair_archives_bytes": 985329,
+    "top5_total_reference_bytes": 15982936,
+    "top5_total_retrieval_bytes": 16968265,
+    "additional_conditional_durable_families": 3,
+    "durable_candidates_uninspected_due_archive_cap": 5,
+    "durable_candidates_excluded_current_scope": 2,
+    "stdlib_core_without_external_command_requirement": 6,
+    "requires_standard_local_helper_for_selected_transitions": 5,
+    "availability_only_remaining_programs": 148,
+    "strict_gate_30_families_200_transitions": "NOT_ESTABLISHED",
+    "honest_limit": "This bounded audit establishes 11 additional distinct upstream program candidates, not 30 executable validated families. Including the two existing pilot projects gives 13 statically supported project families. The targeted durable-state screen contained 21 held-out candidates (23 with pilot) before dependency and independence exclusions. That is not an exhaustive upper bound on stateful programs among all 200 tasks: 148 were availability-only and 7 shortlisted archive pairs were not inspected. Do not claim 30 is impossible corpus-wide, or convert file transforms, CLI flags, seeds or related interpreter variants into independent families.",
+    "next_gate": "Freeze program selection and observable state/transition contract before execution; Linux/amd64 reference smoke tests and isolated reset/sequence checks remain required. Neither this audit nor artifact availability establishes semantic superiority or SOTA."
+  },
+  "discovery_sha256": "e25598702600cc345a25d52b1643c88ae8b220533b174f5b78f48725762b4dc7",
+  "provenance": {
+    "outcomes_read": false,
+    "third_party_code_executed": false,
+    "scope": "Static availability and dependency audit only; full discovery retained privately; no third-party code bodies redistributed."
+  },
+  "programs": [
+    {
+      "task_id": "cheat__cheat.b8098dc",
+      "classification": "durable_state_static_candidate",
+      "stateful_reason": "Config, ordered sheet paths, writable sheet copies and sheet catalog persist across creation/edit/search/list operations.",
+      "build_runtime_dependencies": "Python 3 stdlib plus deterministic local editor helper for write transitions.",
+      "feasibility": "STATICALLY_SUITABLE_NOT_EXECUTED",
+      "required_scope": "Temporary HOME/config/sheet directories; local editor fixture and fixed pager. Disable community downloads and Git update operations.",
+      "feasibility_tier": "local_helper",
+      "reference": {
+        "url": "https://huggingface.co/datasets/eth-sri/tsb-reference_impl/resolve/d663754bebabc5f49b27804435582e9de73412ff/executable/cheat__cheat.b8098dc/executable",
+        "bytes": 13369506,
+        "sha256": "f6a179a7f92e150b0c0c968e1656c46da2e6a76926949da6e4b25b8b27fab671",
+        "downloaded": false,
+        "runtime": "linux/amd64"
+      },
+      "artifacts": {
+        "gpt54_mini": {
+          "url": "https://huggingface.co/datasets/programbench/20260429_mini-v2.2.6_gpt-5-4/resolve/23f521694f9f5f6310d736ff9a7af16cd4cb49ce/cheat__cheat.b8098dc/submission.tar.gz",
+          "bytes": 10997,
+          "sha256": "8482ddfdfa66caa51cf495904db95aecd2775d71f8946e09d912b7f685c0d106",
+          "source_files": [
+            {
+              "path": "cheat.py",
+              "bytes": 19657,
+              "sha256": "ff543a6b85fa1d8bf8fdbf7bfc34a476ddb2e24b5b307004a0d8c4adcdbafef4"
+            },
+            {
+              "path": "compile.sh",
+              "bytes": 81,
+              "sha256": "4821eed36ee5e8799c46fc2f06443c3d0e75fd4f446abc47f5a5737c692a8019"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "cheat.py": [
+              "argparse",
+              "dataclasses",
+              "os",
+              "pathlib",
+              "re",
+              "shutil",
+              "subprocess",
+              "sys",
+              "typing"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        },
+        "gongent_gpt55": {
+          "url": "https://huggingface.co/datasets/Qucheng/20260601_gongent_gpt-5.5-high/resolve/93d6bc292319c4f4ec3576b34ec172b2cd4d31a5/cheat__cheat.b8098dc/submission.tar.gz",
+          "bytes": 33303,
+          "sha256": "1403df1ba81bb3096f268a136c571f595eea84e050170a6479dfcf89f7341c62",
+          "source_files": [
+            {
+              "path": "compile.sh",
+              "bytes": 1189,
+              "sha256": "e53614a8af98fbd8b6cc1d22604d9cc4e3bd7780fac8e0726e91d653c45fe1fe"
+            },
+            {
+              "path": "cheat_reimpl.py",
+              "bytes": 33462,
+              "sha256": "98a83dede75c1da55a371a9a375f37d7f8b0f35b95b3e3740b94f6f285eb9334"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "cheat_reimpl.py": [
+              "dataclasses",
+              "os",
+              "re",
+              "shlex",
+              "shutil",
+              "subprocess",
+              "sys"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        }
+      }
+    },
+    {
+      "task_id": "chmln__handlr.90e78ba",
+      "classification": "durable_state_static_candidate",
+      "stateful_reason": "Application default handlers persist in XDG mimeapps.list and handlr config.",
+      "build_runtime_dependencies": "Python 3 stdlib; Linux XDG directories.",
+      "feasibility": "STATICALLY_SUITABLE_NOT_EXECUTED",
+      "required_scope": "Temporary HOME/XDG_CONFIG_HOME/XDG_DATA_HOME and fixture desktop files; exercise set/get/list/remove without launching GUI handlers.",
+      "feasibility_tier": "stdlib_core",
+      "reference": {
+        "url": "https://huggingface.co/datasets/eth-sri/tsb-reference_impl/resolve/d663754bebabc5f49b27804435582e9de73412ff/executable/chmln__handlr.90e78ba/executable",
+        "bytes": 2403328,
+        "sha256": "c52e29b0882cba17fa491268cb7ade8c6345c67fba34c46b494fb2d42956990c",
+        "downloaded": false,
+        "runtime": "linux/amd64"
+      },
+      "upstream": {
+        "repo": "chmln/handlr",
+        "commit": "90e78ba92d0355cb523abf268858f3123fd81238",
+        "url": "https://github.com/chmln/handlr/tree/90e78ba92d0355cb523abf268858f3123fd81238",
+        "license_github_current_metadata": "MIT",
+        "license_metadata_is_not_a_pinned_license_review": true
+      },
+      "artifacts": {
+        "gpt54_mini": {
+          "url": "https://huggingface.co/datasets/programbench/20260429_mini-v2.2.6_gpt-5-4/resolve/23f521694f9f5f6310d736ff9a7af16cd4cb49ce/chmln__handlr.90e78ba/submission.tar.gz",
+          "bytes": 7046,
+          "sha256": "14ec76a9a3824b1c72bc2059049aa6eea8852a368ade57fbab3b6767b366200b",
+          "source_files": [
+            {
+              "path": "compile.sh",
+              "bytes": 105,
+              "sha256": "170b17ba2ccce800a829d80cff5d9c7826b5e27ccb9209728cb8ef18f02476fc"
+            },
+            {
+              "path": "main.py",
+              "bytes": 11712,
+              "sha256": "edac5f2e983b3d0cc9b01bcb9bc358f1b32dbfd595f32ab17ded89bf3222836f"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "main.py": [
+              "collections",
+              "configparser",
+              "json",
+              "mimetypes",
+              "os",
+              "pathlib",
+              "re",
+              "subprocess",
+              "sys"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        },
+        "gongent_gpt55": {
+          "url": "https://huggingface.co/datasets/Qucheng/20260601_gongent_gpt-5.5-high/resolve/93d6bc292319c4f4ec3576b34ec172b2cd4d31a5/chmln__handlr.90e78ba/submission.tar.gz",
+          "bytes": 24636,
+          "sha256": "0cdc3036aa270ab14bfe82c1a0066ecaebd271be3474eb192ce4b681bb1f4956",
+          "source_files": [
+            {
+              "path": "handlr.py",
+              "bytes": 33330,
+              "sha256": "ff779e4501bc08f26144537165c2e41d07423b70a2721b3ce3e9eb6e6932654e"
+            },
+            {
+              "path": "compile.sh",
+              "bytes": 80,
+              "sha256": "1eccdf790ee3161d4ae5803bbdc3fd0fd25f12272b22c0016c4aac95c8e2c6de"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "handlr.py": [
+              "collections",
+              "json",
+              "mimetypes",
+              "os",
+              "re",
+              "shlex",
+              "subprocess",
+              "sys",
+              "urllib.parse"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        }
+      }
+    },
+    {
+      "task_id": "direnv__direnv.02040c7",
+      "classification": "durable_state_static_candidate",
+      "stateful_reason": "Allow/deny records and directory-specific environment authorization persist across exports and revocation.",
+      "build_runtime_dependencies": "Python 3.11+ stdlib plus Bash for .envrc evaluation.",
+      "feasibility": "STATICALLY_SUITABLE_NOT_EXECUTED",
+      "required_scope": "Temporary HOME/XDG directories, isolated working dirs, fixed environment and harmless local .envrc files; disable network operations.",
+      "feasibility_tier": "local_helper",
+      "reference": {
+        "url": "https://huggingface.co/datasets/eth-sri/tsb-reference_impl/resolve/d663754bebabc5f49b27804435582e9de73412ff/executable/direnv__direnv.02040c7/executable",
+        "bytes": 7032832,
+        "sha256": "34fd9598b9270e1900b0ef212acb98e4e656f3a040da97354c7730b6bf455af5",
+        "downloaded": false,
+        "runtime": "linux/amd64"
+      },
+      "artifacts": {
+        "gpt54_mini": {
+          "url": "https://huggingface.co/datasets/programbench/20260429_mini-v2.2.6_gpt-5-4/resolve/23f521694f9f5f6310d736ff9a7af16cd4cb49ce/direnv__direnv.02040c7/submission.tar.gz",
+          "bytes": 24460,
+          "sha256": "14cab8b188c69220f9a53e14079e24dd6be4baf6fb122b332dc98b85fb0d9caa",
+          "source_files": [
+            {
+              "path": "compile.sh",
+              "bytes": 149,
+              "sha256": "693c41327be6657efac00ee6f4a4662e3ac49d2c7d7f02251577a04a52876791"
+            },
+            {
+              "path": "direnv_reimpl.py",
+              "bytes": 12107,
+              "sha256": "e540356bf9516845e216613505f68bca3b0b9644aa990c7b5687491db83923f1"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "direnv_reimpl.py": [
+              "hashlib",
+              "json",
+              "os",
+              "pathlib",
+              "shlex",
+              "subprocess",
+              "sys",
+              "tempfile",
+              "time"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        },
+        "gongent_gpt55": {
+          "url": "https://huggingface.co/datasets/Qucheng/20260601_gongent_gpt-5.5-high/resolve/93d6bc292319c4f4ec3576b34ec172b2cd4d31a5/direnv__direnv.02040c7/submission.tar.gz",
+          "bytes": 42906,
+          "sha256": "3554fc535ff873c033816ad7ca95542318782129289d7c71f37f6224f5c32a68",
+          "source_files": [
+            {
+              "path": "direnv_reimpl.py",
+              "bytes": 50087,
+              "sha256": "fe9b5ba9fd5ca0a6cf8226f8ee5609573d3d99aad238acc76fb2be789e4cc73d"
+            },
+            {
+              "path": "compile.sh",
+              "bytes": 111,
+              "sha256": "9e0e12281f94e7a324fc86a7b7527e64893a70bc51f5f3744c38dde97d4b2227"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "direnv_reimpl.py": [
+              "__future__",
+              "base64",
+              "hashlib",
+              "json",
+              "os",
+              "pathlib",
+              "re",
+              "shutil",
+              "signal",
+              "stat",
+              "subprocess",
+              "sys",
+              "tempfile",
+              "textwrap",
+              "time",
+              "tomllib",
+              "typing",
+              "urllib.request",
+              "zlib"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        }
+      }
+    },
+    {
+      "task_id": "guumaster__hostctl.d6d9699",
+      "classification": "durable_state_static_candidate",
+      "stateful_reason": "Named host profiles and enabled/disabled entries persist across add/remove/toggle/list calls.",
+      "build_runtime_dependencies": "Python 3 stdlib.",
+      "feasibility": "STATICALLY_SUITABLE_NOT_EXECUTED",
+      "required_scope": "Use an isolated hosts-file fixture through the documented file override; avoid system /etc/hosts and Docker sync.",
+      "feasibility_tier": "stdlib_core",
+      "reference": {
+        "url": "https://huggingface.co/datasets/eth-sri/tsb-reference_impl/resolve/d663754bebabc5f49b27804435582e9de73412ff/executable/guumaster__hostctl.d6d9699/executable",
+        "bytes": 8978432,
+        "sha256": "179999f8711ece061a925029cb94de6a0521d6cb33eb055714f291a95ba1f544",
+        "downloaded": false,
+        "runtime": "linux/amd64"
+      },
+      "upstream": {
+        "repo": "guumaster/hostctl",
+        "commit": "d6d96999f81952fa8d2ea3121ae5e3cce08afed6",
+        "url": "https://github.com/guumaster/hostctl/tree/d6d96999f81952fa8d2ea3121ae5e3cce08afed6",
+        "license_github_current_metadata": "MIT",
+        "license_metadata_is_not_a_pinned_license_review": true
+      },
+      "artifacts": {
+        "gpt54_mini": {
+          "url": "https://huggingface.co/datasets/programbench/20260429_mini-v2.2.6_gpt-5-4/resolve/23f521694f9f5f6310d736ff9a7af16cd4cb49ce/guumaster__hostctl.d6d9699/submission.tar.gz",
+          "bytes": 245604,
+          "sha256": "ed8f44453982655943639184cefb6efb55aa0b1dba125a990412b205b628cdf0",
+          "source_files": [
+            {
+              "path": "compile.sh",
+              "bytes": 121,
+              "sha256": "e825b6fad45e99a3f341257f345d0071af3c4fbc808138885334f404d5b063d5"
+            },
+            {
+              "path": "hostctl.py",
+              "bytes": 18294,
+              "sha256": "eaebcb4e25d8ce23a3aa7ff51ffdd4e4ebb0f4d88199588e36163e7acf86cdd5"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "hostctl.py": [
+              "datetime",
+              "json",
+              "os",
+              "shutil",
+              "sys"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        },
+        "gongent_gpt55": {
+          "url": "https://huggingface.co/datasets/Qucheng/20260601_gongent_gpt-5.5-high/resolve/93d6bc292319c4f4ec3576b34ec172b2cd4d31a5/guumaster__hostctl.d6d9699/submission.tar.gz",
+          "bytes": 254655,
+          "sha256": "31d6d8b9dd16f72242ec228f46b84a0bc6128877152349fac85139672e1cda4d",
+          "source_files": [
+            {
+              "path": "hostctl.py",
+              "bytes": 48033,
+              "sha256": "428db2215912e7dacd4421927355d4c03dec1459f16745ced7fa01f19570cc13"
+            },
+            {
+              "path": "compile.sh",
+              "bytes": 87,
+              "sha256": "7080fe5d410041fbc2de6b6156eba544b96f88622050ab67389477afda6f7f3a"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "hostctl.py": [
+              "datetime",
+              "json",
+              "os",
+              "re",
+              "shutil",
+              "signal",
+              "subprocess",
+              "sys",
+              "time"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        }
+      }
+    },
+    {
+      "task_id": "lfos__calcurse.49180d5",
+      "classification": "durable_state_static_candidate",
+      "stateful_reason": "Imported appointments, recurring events, todos and note attachments persist in the calendar data directory.",
+      "build_runtime_dependencies": "Python 3 stdlib; Gongent compile.sh also runs py_compile and source-marker checks.",
+      "feasibility": "STATICALLY_SUITABLE_NOT_EXECUTED",
+      "required_scope": "Isolated data directory, fixed timezone and dated iCalendar inputs; noninteractive import/query/export scope avoids curses and daemon.",
+      "feasibility_tier": "stdlib_core",
+      "reference": {
+        "url": "https://huggingface.co/datasets/eth-sri/tsb-reference_impl/resolve/d663754bebabc5f49b27804435582e9de73412ff/executable/lfos__calcurse.49180d5/executable",
+        "bytes": 1226320,
+        "sha256": "16f30e1c511375e899a60b719d31ad2b4a7ad335fe996fd3245d328685c82669",
+        "downloaded": false,
+        "runtime": "linux/amd64"
+      },
+      "upstream": {
+        "repo": "lfos/calcurse",
+        "commit": "49180d5537edb53ccd0d784a782e32816750323a",
+        "url": "https://github.com/lfos/calcurse/tree/49180d5537edb53ccd0d784a782e32816750323a",
+        "license_github_current_metadata": "BSD-2-Clause",
+        "license_metadata_is_not_a_pinned_license_review": true
+      },
+      "artifacts": {
+        "gpt54_mini": {
+          "url": "https://huggingface.co/datasets/programbench/20260429_mini-v2.2.6_gpt-5-4/resolve/23f521694f9f5f6310d736ff9a7af16cd4cb49ce/lfos__calcurse.49180d5/submission.tar.gz",
+          "bytes": 88689,
+          "sha256": "2117f62ae30558261fbdea540894ddb366a6a70578efa162a76ca37475530af2",
+          "source_files": [
+            {
+              "path": "calcurse.py",
+              "bytes": 19563,
+              "sha256": "9b6f646836b95744bfe03a089a252f652a8c937e770bea1f04e020ad8b709120"
+            },
+            {
+              "path": "compile.sh",
+              "bytes": 101,
+              "sha256": "d2ffef67dc1dff8e258b199dd14e45a32ec16656bd2892dee9d111df362ddd76"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "calcurse.py": [
+              "argparse",
+              "dataclasses",
+              "datetime",
+              "hashlib",
+              "os",
+              "re",
+              "sys",
+              "typing"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        },
+        "gongent_gpt55": {
+          "url": "https://huggingface.co/datasets/Qucheng/20260601_gongent_gpt-5.5-high/resolve/93d6bc292319c4f4ec3576b34ec172b2cd4d31a5/lfos__calcurse.49180d5/submission.tar.gz",
+          "bytes": 132402,
+          "sha256": "2b093a92d37ff0ce9a796b6fab3b4e5f97a5b3497775831f50e2419063b3a612",
+          "source_files": [
+            {
+              "path": "calcurse_reimpl.py",
+              "bytes": 53514,
+              "sha256": "3aec1a5e787c4ff93cca077b2c3b4dce30af3e2345fce9bdad1629c6bbc61475"
+            },
+            {
+              "path": "compile.sh",
+              "bytes": 715,
+              "sha256": "f0719739ffa3a14e9e620add7546929072f41455a21691b3378be987b432f890"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "calcurse_reimpl.py": [
+              "calendar",
+              "dataclasses",
+              "datetime",
+              "hashlib",
+              "os",
+              "re",
+              "sys",
+              "tempfile"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        }
+      }
+    },
+    {
+      "task_id": "nikolassv__bartib.6b9b5ce",
+      "classification": "durable_state_static_candidate",
+      "stateful_reason": "An activity log stores running/completed time-tracking records and determines later lists/reports.",
+      "build_runtime_dependencies": "Python 3 stdlib.",
+      "feasibility": "STATICALLY_SUITABLE_NOT_EXECUTED",
+      "required_scope": "BARTIB_FILE or explicit log path; fixed timezone and explicit dated records. Clock-sensitive start/stop needs a frozen clock contract.",
+      "feasibility_tier": "stdlib_core",
+      "reference": {
+        "url": "https://huggingface.co/datasets/eth-sri/tsb-reference_impl/resolve/d663754bebabc5f49b27804435582e9de73412ff/executable/nikolassv__bartib.6b9b5ce/executable",
+        "bytes": 1723360,
+        "sha256": "c35d589a711830f5fff97e6b885b3eb88dbed375c5f27bc9ec76c0509a6d6890",
+        "downloaded": false,
+        "runtime": "linux/amd64"
+      },
+      "upstream": {
+        "repo": "nikolassv/bartib",
+        "commit": "6b9b5ce90d927992164e2faef55bce717b7c3427",
+        "url": "https://github.com/nikolassv/bartib/tree/6b9b5ce90d927992164e2faef55bce717b7c3427",
+        "license_github_current_metadata": "GPL-3.0",
+        "license_metadata_is_not_a_pinned_license_review": true
+      },
+      "artifacts": {
+        "gpt54_mini": {
+          "url": "https://huggingface.co/datasets/programbench/20260429_mini-v2.2.6_gpt-5-4/resolve/23f521694f9f5f6310d736ff9a7af16cd4cb49ce/nikolassv__bartib.6b9b5ce/submission.tar.gz",
+          "bytes": 87279,
+          "sha256": "3e409ef2eabb0baca7e52ecd468604b136452447daa7da8c84955e7b8fcbfea9",
+          "source_files": [
+            {
+              "path": "bartib.py",
+              "bytes": 18468,
+              "sha256": "420e2d14cb24697adde9e5a39f267e10c97b7b49d306a0ac2f235101cf1ea04f"
+            },
+            {
+              "path": "compile.sh",
+              "bytes": 95,
+              "sha256": "819d386f7885bb66b283db86a3f8235645ed46016e88b5f54f622d253c2646d6"
+            },
+            {
+              "path": "misc/bartibCompletion.sh",
+              "bytes": 368,
+              "sha256": "d499f5209a90c7748774c225d3e0d1e74cb00686f4891721a822bee79d90da53"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "bartib.py": [
+              "argparse",
+              "collections",
+              "dataclasses",
+              "datetime",
+              "os",
+              "re",
+              "sys"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        },
+        "gongent_gpt55": {
+          "url": "https://huggingface.co/datasets/Qucheng/20260601_gongent_gpt-5.5-high/resolve/93d6bc292319c4f4ec3576b34ec172b2cd4d31a5/nikolassv__bartib.6b9b5ce/submission.tar.gz",
+          "bytes": 122057,
+          "sha256": "72dbc22245a42826aa0adabb0c87da61314a2428197f69c94bf23db0a6569668",
+          "source_files": [
+            {
+              "path": "bartib_reimpl.py",
+              "bytes": 43065,
+              "sha256": "945821d81104dba9d9cfcf8d77e0477d1ccfb90922cd6c4d4913790bb1975625"
+            },
+            {
+              "path": "compile.sh",
+              "bytes": 68,
+              "sha256": "4e4464002c8114e3bd44ff5771d12e0f7519f0b9c9d8626de5f062a690e999b2"
+            },
+            {
+              "path": "misc/bartibCompletion.sh",
+              "bytes": 368,
+              "sha256": "d499f5209a90c7748774c225d3e0d1e74cb00686f4891721a822bee79d90da53"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "bartib_reimpl.py": [
+              "collections",
+              "dataclasses",
+              "datetime",
+              "os",
+              "re",
+              "shlex",
+              "subprocess",
+              "sys"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        }
+      }
+    },
+    {
+      "task_id": "ninja-build__ninja.cc60300",
+      "classification": "durable_state_static_candidate",
+      "stateful_reason": "Incremental build logs/dependency state persist and control whether later invocations rerun commands.",
+      "build_runtime_dependencies": "Python 3 stdlib plus POSIX shell and selected local fixture commands.",
+      "feasibility": "STATICALLY_SUITABLE_NOT_EXECUTED",
+      "required_scope": "Tiny dependency graph, deterministic shell commands and controlled mtimes; compare execution/build effects rather than timing.",
+      "feasibility_tier": "local_helper",
+      "reference": {
+        "url": "https://huggingface.co/datasets/eth-sri/tsb-reference_impl/resolve/d663754bebabc5f49b27804435582e9de73412ff/executable/ninja-build__ninja.cc60300/executable",
+        "bytes": 1384512,
+        "sha256": "23270f4e25b0a81b820d2b64cd4e1e9d05bc58bdbdd3bdd842988723cfbf4a88",
+        "downloaded": false,
+        "runtime": "linux/amd64"
+      },
+      "artifacts": {
+        "gpt54_mini": {
+          "url": "https://huggingface.co/datasets/programbench/20260429_mini-v2.2.6_gpt-5-4/resolve/23f521694f9f5f6310d736ff9a7af16cd4cb49ce/ninja-build__ninja.cc60300/submission.tar.gz",
+          "bytes": 27238,
+          "sha256": "61efe8174a45fb3c23cf4cb71d78b9e11039aea95001002f0003746df3696c43",
+          "source_files": [
+            {
+              "path": "compile.sh",
+              "bytes": 197,
+              "sha256": "5ea55aec47b3e65439058fd6df57690a1eea9148ec35a0edf4f6e8f74c178654"
+            },
+            {
+              "path": "src/ninja_py.py",
+              "bytes": 14094,
+              "sha256": "222a8e9a2c3230e2282133fd0434ba66bc05f32d57a08630e81af378e90c1bd4"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "src/ninja_py.py": [
+              "argparse",
+              "collections",
+              "json",
+              "os",
+              "shlex",
+              "subprocess",
+              "sys"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        },
+        "gongent_gpt55": {
+          "url": "https://huggingface.co/datasets/Qucheng/20260601_gongent_gpt-5.5-high/resolve/93d6bc292319c4f4ec3576b34ec172b2cd4d31a5/ninja-build__ninja.cc60300/submission.tar.gz",
+          "bytes": 46075,
+          "sha256": "c3186a4a4e45a038e5d1cc106a1d405c016dffbef0e08ca1da9c572e525d7f42",
+          "source_files": [
+            {
+              "path": "myninja.py",
+              "bytes": 53488,
+              "sha256": "228ab92886bd86fbef5c09907613d637e4fe89d79127fe6a49ea573cc0c829b5"
+            },
+            {
+              "path": "compile.sh",
+              "bytes": 101,
+              "sha256": "eae253a73a318903e6e9ac76eca16a01aefcf4d198e8d22c3b177bd7d02cdc97"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "myninja.py": [
+              "dataclasses",
+              "hashlib",
+              "json",
+              "os",
+              "re",
+              "shlex",
+              "signal",
+              "subprocess",
+              "sys",
+              "time",
+              "typing"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        }
+      }
+    },
+    {
+      "task_id": "pier-cli__pier.5e1bde9",
+      "classification": "durable_state_static_candidate",
+      "stateful_reason": "Script aliases, commands and metadata persist in a TOML catalog across add/remove/list/run calls.",
+      "build_runtime_dependencies": "Python 3 stdlib plus /bin/sh for run; Gongent tomli import is optional with included parser fallback.",
+      "feasibility": "STATICALLY_SUITABLE_NOT_EXECUTED",
+      "required_scope": "Isolated catalog/HOME and harmless script commands. GPT compile.sh hard-codes cd /workspace, so build in an isolated /workspace or use the equivalent documented copy step.",
+      "feasibility_tier": "local_helper",
+      "reference": {
+        "url": "https://huggingface.co/datasets/eth-sri/tsb-reference_impl/resolve/d663754bebabc5f49b27804435582e9de73412ff/executable/pier-cli__pier.5e1bde9/executable",
+        "bytes": 1413992,
+        "sha256": "90876a1a86e8166ebb68ddc117c15570bbf6e610d1c982937f72122ee3e687c3",
+        "downloaded": false,
+        "runtime": "linux/amd64"
+      },
+      "artifacts": {
+        "gpt54_mini": {
+          "url": "https://huggingface.co/datasets/programbench/20260429_mini-v2.2.6_gpt-5-4/resolve/23f521694f9f5f6310d736ff9a7af16cd4cb49ce/pier-cli__pier.5e1bde9/submission.tar.gz",
+          "bytes": 6124,
+          "sha256": "3518aa2e5556152ad6dc1a2d9b74976b8a2d28ed3743a8eff4a33f8bfaeff826",
+          "source_files": [
+            {
+              "path": "compile.sh",
+              "bytes": 111,
+              "sha256": "347080d6092bb0f9b29d4f590202dc360860b590daa59b2342e885afea4ae5d8"
+            },
+            {
+              "path": "pier.py",
+              "bytes": 14634,
+              "sha256": "b5f63c7fee2ec3c1aeae175685ff577280b3f0ef6a304773e3a1ba2fba931d2a"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "pier.py": [
+              "os",
+              "pathlib",
+              "subprocess",
+              "sys",
+              "tempfile"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        },
+        "gongent_gpt55": {
+          "url": "https://huggingface.co/datasets/Qucheng/20260601_gongent_gpt-5.5-high/resolve/93d6bc292319c4f4ec3576b34ec172b2cd4d31a5/pier-cli__pier.5e1bde9/submission.tar.gz",
+          "bytes": 19557,
+          "sha256": "6fceabee369c1e9090b3cabaa50f99d0c675305a4636c2e78a60e635cccc9741",
+          "source_files": [
+            {
+              "path": "pier.py",
+              "bytes": 45653,
+              "sha256": "5de34aed1b8ab77fefc9efbb7dcf50f075d9394678fe46ea959f62cc3eb321c9"
+            },
+            {
+              "path": "compile.sh",
+              "bytes": 98,
+              "sha256": "2b1f535d7220e28d68d71509e378f4f20d85ec314e2aae72a37d9c3b87a0d874"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "pier.py": [
+              "collections",
+              "os",
+              "re",
+              "shlex",
+              "subprocess",
+              "sys",
+              "tempfile",
+              "tomli"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        }
+      }
+    },
+    {
+      "task_id": "shashwatah__jot.a92aad8",
+      "classification": "durable_state_static_candidate",
+      "stateful_reason": "Vault registry, selected vault/folder, notes and folder history persist across commands.",
+      "build_runtime_dependencies": "Python 3 stdlib.",
+      "feasibility": "STATICALLY_SUITABLE_NOT_EXECUTED",
+      "required_scope": "Temporary HOME and vault directory; exercise vault/note/folder CRUD and listing without editor/xdg-open integration.",
+      "feasibility_tier": "stdlib_core",
+      "reference": {
+        "url": "https://huggingface.co/datasets/eth-sri/tsb-reference_impl/resolve/d663754bebabc5f49b27804435582e9de73412ff/executable/shashwatah__jot.a92aad8/executable",
+        "bytes": 1651496,
+        "sha256": "f421acceb8074491e72c35c2b7ff93d60830c328f5dd979971450238a3661618",
+        "downloaded": false,
+        "runtime": "linux/amd64"
+      },
+      "upstream": {
+        "repo": "shashwatah/jot",
+        "commit": "a92aad895b0e41971a97159be174334aab2826a9",
+        "url": "https://github.com/shashwatah/jot/tree/a92aad895b0e41971a97159be174334aab2826a9",
+        "license_github_current_metadata": "MIT",
+        "license_metadata_is_not_a_pinned_license_review": true
+      },
+      "artifacts": {
+        "gpt54_mini": {
+          "url": "https://huggingface.co/datasets/programbench/20260429_mini-v2.2.6_gpt-5-4/resolve/23f521694f9f5f6310d736ff9a7af16cd4cb49ce/shashwatah__jot.a92aad8/submission.tar.gz",
+          "bytes": 6129,
+          "sha256": "924ae19205073462a31afbe182e571b79bf5f94348a60ab44b5898cbaa2917d8",
+          "source_files": [
+            {
+              "path": "compile.sh",
+              "bytes": 97,
+              "sha256": "ee1c2f19e8a79f6b9d493883aaa3cbc5fd408cd89157244dd87e4fa9a546f97f"
+            },
+            {
+              "path": "jot.py",
+              "bytes": 19389,
+              "sha256": "cee3b59e060c40d82cdc05e57c6f476e161f26c401ce43e420bcb714fdc48ebe"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "jot.py": [
+              "os",
+              "pathlib",
+              "shutil",
+              "subprocess",
+              "sys"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        },
+        "gongent_gpt55": {
+          "url": "https://huggingface.co/datasets/Qucheng/20260601_gongent_gpt-5.5-high/resolve/93d6bc292319c4f4ec3576b34ec172b2cd4d31a5/shashwatah__jot.a92aad8/submission.tar.gz",
+          "bytes": 16832,
+          "sha256": "68bce4617a2d12285377a40bdb9956e21fbd4fdf07f2c2a3d504658601a71259",
+          "source_files": [
+            {
+              "path": "jt.py",
+              "bytes": 35795,
+              "sha256": "aa0e4e6112e2c84bfcf453a5124c18ce0c177cc0ac6c109476c06d27cb9af78e"
+            },
+            {
+              "path": "compile.sh",
+              "bytes": 59,
+              "sha256": "43138622caf5d6c3fbb4796a08e121d1ce45089beb725d7d97d52ac152797448"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "jt.py": [
+              "collections",
+              "os",
+              "shutil",
+              "subprocess",
+              "sys"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        }
+      }
+    },
+    {
+      "task_id": "stacked-git__stgit.430027d",
+      "classification": "durable_state_static_candidate",
+      "stateful_reason": "Patch stack metadata and Git commit/ref state persist across new/push/pop/refresh/delete operations.",
+      "build_runtime_dependencies": "Python 3 stdlib plus local Git.",
+      "feasibility": "STATICALLY_SUITABLE_NOT_EXECUTED",
+      "required_scope": "Fresh temporary repository, fixed identity/date/locale, no remotes; compare patch-stack behavior and working tree semantics.",
+      "feasibility_tier": "local_helper",
+      "reference": {
+        "url": "https://huggingface.co/datasets/eth-sri/tsb-reference_impl/resolve/d663754bebabc5f49b27804435582e9de73412ff/executable/stacked-git__stgit.430027d/executable",
+        "bytes": 10045632,
+        "sha256": "cc0abb39735a962083905f1bf4fffa04348135ae48eac0ed357b97c3c84348f2",
+        "downloaded": false,
+        "runtime": "linux/amd64"
+      },
+      "artifacts": {
+        "gpt54_mini": {
+          "url": "https://huggingface.co/datasets/programbench/20260429_mini-v2.2.6_gpt-5-4/resolve/23f521694f9f5f6310d736ff9a7af16cd4cb49ce/stacked-git__stgit.430027d/submission.tar.gz",
+          "bytes": 11678,
+          "sha256": "92a314b8686aa7367ef71d737380c677ffadc45069872069c0af191661169d57",
+          "source_files": [
+            {
+              "path": "compile.sh",
+              "bytes": 104,
+              "sha256": "d09b60b3fc488c15e54498760550b78470b6217a5917664e41dc154587e5c5f7"
+            },
+            {
+              "path": "stg.py",
+              "bytes": 14030,
+              "sha256": "d07426616f1603d39ba1c69640b831a7579f9ea0f25ffdd562475fb6faf0eacf"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "stg.py": [
+              "json",
+              "os",
+              "subprocess",
+              "sys",
+              "textwrap"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        },
+        "gongent_gpt55": {
+          "url": "https://huggingface.co/datasets/Qucheng/20260601_gongent_gpt-5.5-high/resolve/93d6bc292319c4f4ec3576b34ec172b2cd4d31a5/stacked-git__stgit.430027d/submission.tar.gz",
+          "bytes": 42033,
+          "sha256": "857c9bf60d30840b33759924d58092ba481f1e526bee3fd731b8c42e770c1fc3",
+          "source_files": [
+            {
+              "path": "stg_reimpl.py",
+              "bytes": 99690,
+              "sha256": "509b770bbcf6e8a50419d963b3cc8940b0840f75049ed1a9a15937fa498a5b4b"
+            },
+            {
+              "path": "compile.sh",
+              "bytes": 66,
+              "sha256": "ef338f5ef84482173589c978e771cd72a0d703fd9d51d606569dc28b2188eab9"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "stg_reimpl.py": [
+              "json",
+              "os",
+              "pathlib",
+              "re",
+              "shlex",
+              "shutil",
+              "subprocess",
+              "sys",
+              "tempfile",
+              "textwrap"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        }
+      }
+    },
+    {
+      "task_id": "zk-org__zk.10d93d5",
+      "classification": "durable_state_static_candidate",
+      "stateful_reason": "Notebook initialization/config, templates and created notes persist and affect later notebook commands.",
+      "build_runtime_dependencies": "Python 3 stdlib.",
+      "feasibility": "STATICALLY_SUITABLE_NOT_EXECUTED",
+      "required_scope": "Isolated notebook/HOME; fix time/random naming where possible and compare external notebook behavior. GPT implementation breadth is not runtime-verified.",
+      "feasibility_tier": "stdlib_core",
+      "reference": {
+        "url": "https://huggingface.co/datasets/eth-sri/tsb-reference_impl/resolve/d663754bebabc5f49b27804435582e9de73412ff/executable/zk-org__zk.10d93d5/executable",
+        "bytes": 19568080,
+        "sha256": "cae0e89038cf98bce500770434ef491d9f65b9b4dd780f6562939362a65232ae",
+        "downloaded": false,
+        "runtime": "linux/amd64"
+      },
+      "artifacts": {
+        "gpt54_mini": {
+          "url": "https://huggingface.co/datasets/programbench/20260429_mini-v2.2.6_gpt-5-4/resolve/23f521694f9f5f6310d736ff9a7af16cd4cb49ce/zk-org__zk.10d93d5/submission.tar.gz",
+          "bytes": 18427,
+          "sha256": "418d6d1c22617ef81cfec16c7c013868dc316c71f1672e8f3c77def7064336e3",
+          "source_files": [
+            {
+              "path": "compile.sh",
+              "bytes": 95,
+              "sha256": "2d73cfb34aefedd6e59e3f9a623d766582448c6e4c4bd67d06c250bdd8d02fa3"
+            },
+            {
+              "path": "zk.py",
+              "bytes": 25218,
+              "sha256": "65045299da012b67a162267677f36bd6ab11b330b994308d476c912f3cfe3d93"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "zk.py": [
+              "os",
+              "pathlib",
+              "shutil",
+              "sys"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        },
+        "gongent_gpt55": {
+          "url": "https://huggingface.co/datasets/Qucheng/20260601_gongent_gpt-5.5-high/resolve/93d6bc292319c4f4ec3576b34ec172b2cd4d31a5/zk-org__zk.10d93d5/submission.tar.gz",
+          "bytes": 78217,
+          "sha256": "e70837f3c83534d0b4f1caf502a810adaee00c1a00ac679d37077e3400c6efe1",
+          "source_files": [
+            {
+              "path": "./zk.py",
+              "bytes": 89985,
+              "sha256": "008beed00b651dbf060d066bb33119e0bdf9d10648e67b37d8eec007d84a8862"
+            },
+            {
+              "path": "./compile.sh",
+              "bytes": 75,
+              "sha256": "ef17e4d757a29e306892fb68c366eb0f30111dfad8ffa519036675f687510f2c"
+            }
+          ],
+          "languages": [
+            ".py",
+            ".sh"
+          ],
+          "python_imports": {
+            "./zk.py": [
+              "__future__",
+              "dataclasses",
+              "datetime",
+              "fnmatch",
+              "json",
+              "os",
+              "pathlib",
+              "random",
+              "re",
+              "shlex",
+              "shutil",
+              "signal",
+              "subprocess",
+              "sys",
+              "time",
+              "typing"
+            ]
+          },
+          "inspection_status": "STATIC_ONLY"
+        }
+      }
+    }
+  ]
+}
