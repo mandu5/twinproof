@@ -1,0 +1,62 @@
+[
+  {
+    "family": "dstask",
+    "git": "git version 2.39.5",
+    "image": "python@sha256:8a00ecb83ed9d0864dfd102a1bdb2067fda907ceb30bb86d09da9ee558b19590",
+    "implementations": [
+      {
+        "archive_sha256": "57c0ae1ca6b4ef6f0101cbd6ff36a5389446d29b2774171771f0a8154c889a7f",
+        "file": "candidate-0.py",
+        "run": "20260429_mini-v2.2.6_gpt-5-4",
+        "source_sha256": "d6ecd52a9465d051b057aced774940bcfde5543226ad6daeb628c913479ee228"
+      },
+      {
+        "archive_sha256": "4ac95a7ea687a7cdb351edde56627e3361ccf33c74c5e62a5ae47b1ed1afe0da",
+        "file": "candidate-1.py",
+        "run": "20260601_gongent_gpt-5.5-high",
+        "source_sha256": "f4dc19554b44ce1b54829a442c4fe28edfbdc761eab1c76cd7ce658caf8f5e3d"
+      }
+    ],
+    "packages": {
+      "aalpy": "1.6.2",
+      "pydot": "4.0.1",
+      "pyparsing": "3.2.3"
+    },
+    "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.36",
+    "python": "3.11.17",
+    "reference_sha256": "1547ddb56241462098c7014327f19709f560b8a73430d84b76ed63aa0c4155a1",
+    "source_manifest_sha256": "106e08b55261be1a9d689530e623c2b9409bdd100a47aa4b4687fc1d24376ac3",
+    "source_scope": "The reference executables are TestSuiteBench releases for the same ProgramBench task IDs. Canonical ProgramBench binary identity and full official evaluation have not been verified.",
+    "task_id": "naggie__dstask.ff57396"
+  },
+  {
+    "family": "zoxide",
+    "git": "git version 2.39.5",
+    "image": "python@sha256:8a00ecb83ed9d0864dfd102a1bdb2067fda907ceb30bb86d09da9ee558b19590",
+    "implementations": [
+      {
+        "archive_sha256": "99d0ce11d12b18c6b7d285f4ac7d28d7e6053195543195178f0bdb2698556f91",
+        "file": "candidate-0.py",
+        "run": "20260429_mini-v2.2.6_gpt-5-4",
+        "source_sha256": "d260c0bc242dbc5b4821c254ead157dd9e95c63459c2a99cae6fddd1546659c3"
+      },
+      {
+        "archive_sha256": "9f47c2ca6a0235e0a7107b41875ec42a26499283ae66afaa23ab8f3cae6e38f9",
+        "file": "candidate-1.py",
+        "run": "20260601_gongent_gpt-5.5-high",
+        "source_sha256": "2b841743ad8978942f682a005e22aa09ad991e47abb7f66d6ff0103606631110"
+      }
+    ],
+    "packages": {
+      "aalpy": "1.6.2",
+      "pydot": "4.0.1",
+      "pyparsing": "3.2.3"
+    },
+    "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.36",
+    "python": "3.11.17",
+    "reference_sha256": "56eb200fbda271bc47af0c39e9b70754dc9e6b26119b517add9d3deadad57271",
+    "source_manifest_sha256": "106e08b55261be1a9d689530e623c2b9409bdd100a47aa4b4687fc1d24376ac3",
+    "source_scope": "The reference executables are TestSuiteBench releases for the same ProgramBench task IDs. Canonical ProgramBench binary identity and full official evaluation have not been verified.",
+    "task_id": "ajeetdsouza__zoxide.67ca1bc"
+  }
+]

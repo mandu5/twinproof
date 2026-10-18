@@ -1,8 +1,10 @@
 # Research status: no SOTA claim
 
-2026-10-18. **NO-GO for promoting the current mechanism as an independent SOTA
-result.** The software and reproducible audits are usable OSS. Neither study
-establishes a novel method's superiority, customer demand or external adoption.
+2026-10-18. **Research active; SOTA objective unmet.** The software and reproducible
+audits are usable OSS. The user resumed research after Stage 1's NO-GO result.
+Stage 2 now measures real released twins, but the proposed search costs more than
+simple controls on the development pairs. No study establishes a novel method's
+superiority, customer demand or external adoption.
 
 The Stage 0 audit found reproducible oracle defects in two released EnvSimBench
 graders. Canonical JSON equality ties TwinProof on those constructed cases.
@@ -10,6 +12,16 @@ The Stage 1 same-implementation replay control found no differences among
 comparable observations after sharing runtime inputs. That validates a baseline
 and our experiment plumbing; it does not evaluate independently generated twins
 or falsify all partially observable conformance methods.
+
+The [Stage 2 released-twin pilot](stage2-results.md) evaluates two families and
+four generated programs from two released generation configurations. Its final
+run records 120 trials, with complete transcripts and reference/reference controls.
+Directly inspected witnesses include a successful exit with a failed task-state
+update. Candidate state-cover search is more expensive than ordinary controls;
+the stronger twins have no divergence found within budget. These are scoped
+observations, not whole-program equivalence or a SOTA score. The [held-out data
+audit](stage2-heldout-audit.md) identified 11 additional static candidates; none
+has runtime validation. The negative Stage 1 and Stage 2 findings remain in the record.
 
 ## Closest prior work
 
@@ -27,7 +39,9 @@ comparison. It must not be described as outperforming those systems.
 
 ## Gates still unmet
 
-- Independently generated twins from at least two generation methods.
+- Independently generated twins from at least two generation methods across the
+  required held-out families. Stage 2 has two configurations, but only two
+  development families.
 - At least 30 independently validated service families with real semantic
   defects, separated by whole family. Module count is not independent-family count.
 - A fair equal-budget comparison against the strongest applicable replay and

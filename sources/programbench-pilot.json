@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "task": "released-stateful-cli-twin-pilot",
+  "image": "python@sha256:8a00ecb83ed9d0864dfd102a1bdb2067fda907ceb30bb86d09da9ee558b19590",
+  "families": [
+    {
+      "id": "ajeetdsouza__zoxide.67ca1bc",
+      "upstream_repo": "ajeetdsouza/zoxide",
+      "upstream_commit": "67ca1bc9592854dd4957b8b02f16292638475659",
+      "reference_binary": {
+        "dataset": "eth-sri/tsb-reference_impl",
+        "revision": "d663754bebabc5f49b27804435582e9de73412ff",
+        "path": "executable/ajeetdsouza__zoxide.67ca1bc/executable",
+        "url": "https://huggingface.co/datasets/eth-sri/tsb-reference_impl/resolve/d663754bebabc5f49b27804435582e9de73412ff/executable/ajeetdsouza__zoxide.67ca1bc/executable",
+        "bytes": 1113896,
+        "sha256": "56eb200fbda271bc47af0c39e9b70754dc9e6b26119b517add9d3deadad57271",
+        "sha384": null,
+        "verification": "Size and SHA-256 from public HF Git-LFS metadata only; binary not downloaded or run."
+      }
+    },
+    {
+      "id": "naggie__dstask.ff57396",
+      "upstream_repo": "naggie/dstask",
+      "upstream_commit": "ff573962eb5f7feab5e32df1399954d7deb4c17b",
+      "reference_binary": {
+        "dataset": "eth-sri/tsb-reference_impl",
+        "revision": "d663754bebabc5f49b27804435582e9de73412ff",
+        "path": "executable/naggie__dstask.ff57396/executable",
+        "url": "https://huggingface.co/datasets/eth-sri/tsb-reference_impl/resolve/d663754bebabc5f49b27804435582e9de73412ff/executable/naggie__dstask.ff57396/executable",
+        "bytes": 3830020,
+        "sha256": "1547ddb56241462098c7014327f19709f560b8a73430d84b76ed63aa0c4155a1",
+        "sha384": null,
+        "verification": "Size and SHA-256 from public HF Git-LFS metadata only; binary not downloaded or run."
+      }
+    }
+  ],
+  "runs": [
+    {
+      "id": "20260429_mini-v2.2.6_gpt-5-4",
+      "model": "GPT-5.4",
+      "harness": "mini-SWE-agent",
+      "generation_method": "single-agent bash tool loop",
+      "registry_status": "registered",
+      "repo": "ProgramBench/20260429_mini-v2.2.6_gpt-5-4",
+      "repo_commit": "f43ff067bfcf052c8d3fa37cf7a580d65fde4d17",
+      "dataset": "programbench/20260429_mini-v2.2.6_gpt-5-4",
+      "dataset_revision": "23f521694f9f5f6310d736ff9a7af16cd4cb49ce",
+      "implementations": [
+        {
+          "task_id": "ajeetdsouza__zoxide.67ca1bc",
+          "archive_url": "https://huggingface.co/datasets/programbench/20260429_mini-v2.2.6_gpt-5-4/resolve/23f521694f9f5f6310d736ff9a7af16cd4cb49ce/ajeetdsouza__zoxide.67ca1bc/submission.tar.gz",
+          "archive_bytes": 9017,
+          "archive_sha256": "99d0ce11d12b18c6b7d285f4ac7d28d7e6053195543195178f0bdb2698556f91",
+          "source_entries": [
+            {
+              "path": "zoxide_reimpl.py",
+              "archive_member": "zoxide_reimpl.py",
+              "bytes": 20197,
+              "sha256": "d260c0bc242dbc5b4821c254ead157dd9e95c63459c2a99cae6fddd1546659c3",
+              "sha384": "ac046dbee1d9bcf65a250dd97c03c0be1c30302025a253395bbe257a9bf0d3f1b9be135f80ac8714de9302fcff2b1bd8"
+            }
+          ]
+        },
+        {
+          "task_id": "naggie__dstask.ff57396",
+          "archive_url": "https://huggingface.co/datasets/programbench/20260429_mini-v2.2.6_gpt-5-4/resolve/23f521694f9f5f6310d736ff9a7af16cd4cb49ce/naggie__dstask.ff57396/submission.tar.gz",
+          "archive_bytes": 14027,
+          "archive_sha256": "57c0ae1ca6b4ef6f0101cbd6ff36a5389446d29b2774171771f0a8154c889a7f",
+          "source_entries": [
+            {
+              "path": "dstask.py",
+              "archive_member": "dstask.py",
+              "bytes": 28480,
+              "sha256": "d6ecd52a9465d051b057aced774940bcfde5543226ad6daeb628c913479ee228",
+              "sha384": "fe5926a37278775d2148107150f6587fb6c9abd3e0bbb9717c75925185c8ed7db3357534f9b653b72b5dfd6138359492"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20260601_gongent_gpt-5.5-high",
+      "model": "GPT-5.5 (high)",
+      "harness": "Gongent (built on mini-SWE-agent)",
+      "generation_method": "builder/adversary combo-split loop, axis pass then cases pass, single task attempt",
+      "registry_status": "pending PR 13; not an accepted registered baseline",
+      "repo": "qucheng-gong/20260601_gongent_gpt-5.5-high",
+      "repo_commit": "899099297bdb63699e282d78b490fc85ffe43855",
+      "dataset": "Qucheng/20260601_gongent_gpt-5.5-high",
+      "dataset_revision": "93d6bc292319c4f4ec3576b34ec172b2cd4d31a5",
+      "implementations": [
+        {
+          "task_id": "ajeetdsouza__zoxide.67ca1bc",
+          "archive_url": "https://huggingface.co/datasets/Qucheng/20260601_gongent_gpt-5.5-high/resolve/93d6bc292319c4f4ec3576b34ec172b2cd4d31a5/ajeetdsouza__zoxide.67ca1bc/submission.tar.gz",
+          "archive_bytes": 31802,
+          "archive_sha256": "9f47c2ca6a0235e0a7107b41875ec42a26499283ae66afaa23ab8f3cae6e38f9",
+          "source_entries": [
+            {
+              "path": "zoxide.py",
+              "archive_member": "./zoxide.py",
+              "bytes": 49947,
+              "sha256": "2b841743ad8978942f682a005e22aa09ad991e47abb7f66d6ff0103606631110",
+              "sha384": "2f341152c4bb632caf662e75891fc63043f1ba5c046c464c859b118e2e2dbeba5240cea2e24ed20e2bdcd4a0ca5055b9"
+            }
+          ]
+        },
+        {
+          "task_id": "naggie__dstask.ff57396",
+          "archive_url": "https://huggingface.co/datasets/Qucheng/20260601_gongent_gpt-5.5-high/resolve/93d6bc292319c4f4ec3576b34ec172b2cd4d31a5/naggie__dstask.ff57396/submission.tar.gz",
+          "archive_bytes": 49194,
+          "archive_sha256": "4ac95a7ea687a7cdb351edde56627e3361ccf33c74c5e62a5ae47b1ed1afe0da",
+          "source_entries": [
+            {
+              "path": "dstask.py",
+              "archive_member": "./dstask.py",
+              "bytes": 57981,
+              "sha256": "f4dc19554b44ce1b54829a442c4fe28edfbdc761eab1c76cd7ce658caf8f5e3d",
+              "sha384": "f5a310b046488d44767286e3e6cf931b215be00130217e03d2f9c22a8169aa55666c6d66b9b0ca517ee1bb90289c0062"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outcome_exposure": {
+    "individual_eval_json_or_log_read": false,
+    "raw_reference_test_contents_read": false,
+    "cached_test_label_contents_read": false,
+    "website_aggregate_exposure": "During initial discovery, the ProgramBench homepage and pueue/sqlite task pages exposed aggregate scores. The homepage also listed zoxide aggregate. These aggregates were not used for selection; no dstask per-task aggregate was opened. Preserve this limitation in pilot provenance."
+  },
+  "discovery_digest": "15b04f89502bed5d722df1f0509fca763ed9426daff675870b50009a9f0f9a7c",
+  "source_scope": "The reference executables are TestSuiteBench releases for the same ProgramBench task IDs. Canonical ProgramBench binary identity and full official evaluation have not been verified."
+}

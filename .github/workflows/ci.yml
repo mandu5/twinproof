@@ -16,6 +16,7 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - run: python -m pip install . pytest
+      - run: python -m pip install --require-hashes -r sources/cli-requirements.txt
       - run: python scripts/fetch_sources.py
       - run: PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 python -m pytest -q
       - run: twinproof trace examples/trace/reference.json examples/trace/candidate.json examples/trace/contract.json
