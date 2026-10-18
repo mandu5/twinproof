@@ -1,0 +1,25 @@
+name: released CLI twin pilot
+on:
+  push:
+    branches: ['research/stage2-cli-pilot']
+permissions:
+  contents: read
+jobs:
+  pilot:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        family: [zoxide, dstask]
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - run: python -m pip install . pytest
+      - run: python -m pip install --require-hashes -r sources/cli-requirements.txt
+      - run: PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 python -m pytest tests/test_cli_pilot.py tests/test_artifacts.py -q
+      - run: python scripts/run_cli_pilot.py --family '${{ matrix.family }}'
