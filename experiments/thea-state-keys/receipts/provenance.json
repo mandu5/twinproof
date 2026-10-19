@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "original_root_recorded_for_provenance_only": "<ORIGINAL_PRIVATE_CACHE>",
+  "omitted_large_raw_receipts": [
+    {
+      "original_path": "harness_collision-result.json",
+      "sha256": "9efe12831dfe86ac506963d90dc78a068268e4bb3c656a99aa9e4602c1f3b936",
+      "bytes": 717438,
+      "reason": "Contains duplicated full input-derived state grids; compact fixed witnesses and original hashes retained instead"
+    },
+    {
+      "original_path": "harness_holdout_a-result.json",
+      "sha256": "de8b17caca538773cb58171b00afd50a453796abd3471d604dffa2ec58dbd830",
+      "bytes": 1097143,
+      "reason": "Contains duplicated full input-derived state grids; compact fixed witnesses and original hashes retained instead"
+    }
+  ],
+  "original_own_code_hashes": [
+    {
+      "original_path": "bootstrap.py",
+      "sha256": "9930d78bb66de121c7b5c8dcabf71374dcd6ca5b57ef2171ee54ec4f3ad486d5",
+      "bytes": 1374
+    },
+    {
+      "original_path": "run_isolated.py",
+      "sha256": "657a6aab27b823627bd387877bcdc3c59112b6f31805c4a9f4d66c9326f482a3",
+      "bytes": 1821
+    },
+    {
+      "original_path": "harness_collision.py",
+      "sha256": "1274ddd1986b1b3d5d3d866bcdf67ba4746355c34e61a2b75f872516ec2bc02f",
+      "bytes": 3709
+    },
+    {
+      "original_path": "harness_holdout_a.py",
+      "sha256": "ba8e0c67959436a5761145cdf2bab07603c9622addccd3cc549c8454e8673148",
+      "bytes": 6473
+    },
+    {
+      "original_path": "harness_targets_common.py",
+      "sha256": "9d729e48fdeced0e7771a9e6baf8511d1915a4451bd55bc03cbb72d011bb1a4d",
+      "bytes": 6714
+    },
+    {
+      "original_path": "harness_goal_common.py",
+      "sha256": "3f7f9406db32380c02d9b2ecddc05fd1d5ee82179751c6bb61146bfa6ae756ee",
+      "bytes": 7484
+    },
+    {
+      "original_path": "harness_goal_common_v2.py",
+      "sha256": "88d29ad2245e73c42f1db5eb6f3212587b0357f2e814efdcdc8a913018f1f028",
+      "bytes": 7576
+    },
+    {
+      "original_path": "harness_replay_witnesses.py",
+      "sha256": "685a11cf827ba1102bb0c236eeb2aad5205060cf3cedf5747340dc1f48093893",
+      "bytes": 3803
+    }
+  ],
+  "chronology": [
+    {
+      "order": 1,
+      "stage": "exact source replay",
+      "receipt": "init-result-v2.json"
+    },
+    {
+      "order": 2,
+      "stage": "development witnesses and frozen 3-cell/298-cell candidates",
+      "receipt": "frozen-key-development.json"
+    },
+    {
+      "order": 3,
+      "stage": "holdout A; frozen 3-cell misses physical witness",
+      "receipt": "holdout-a-manifest.json"
+    },
+    {
+      "order": 4,
+      "stage": "500-expansion BFS; 18 completed flat-negative arms; SIGXCPU",
+      "receipt": "harness_targets_0-result.json"
+    },
+    {
+      "order": 5,
+      "stage": "prospective shared goal-directed amendment v1",
+      "receipt": "goal-directed-amendment.json"
+    },
+    {
+      "order": 6,
+      "stage": "v1 first shard; retained but excluded from final aggregate",
+      "receipt": "harness_goal_0-result.json"
+    },
+    {
+      "order": 7,
+      "stage": "prospective v2 technical correction: reopen shorter depth",
+      "receipt": "goal-directed-amendment-v2.json"
+    },
+    {
+      "order": 8,
+      "stage": "final 20-target four-arm v2 outcome",
+      "receipt": "final-result.json"
+    },
+    {
+      "order": 9,
+      "stage": "typed saved-state replay and history reconstruction",
+      "receipt": "harness_replay_witnesses-result.json"
+    }
+  ],
+  "portability_changes": [
+    "No hardcoded worktree/cache or user-site NumPy path",
+    "Inputs fetched with pinned hashes into caller-selected cache",
+    "Active Python virtual environment supplies dependencies",
+    "Portable runner and worker are newly hashed; original run hashes remain in original receipts",
+    "Full raw grids are omitted; fixed witness histories reconstruct inputs and canonical state hashes"
+  ],
+  "published_receipts": [
+    {
+      "path": "receipts/original/final-result.json",
+      "original_private_sha256": "e9a20d459c328afabc5f62ca36a2e18ff04723c032207e9f19c4d91ee528097c",
+      "original_private_bytes": 3202,
+      "published_sha256": "e9a20d459c328afabc5f62ca36a2e18ff04723c032207e9f19c4d91ee528097c",
+      "published_bytes": 3202,
+      "projection_changed_bytes": false,
+      "path_redactions": []
+    },
+    {
+      "path": "receipts/original/goal-v2-rows.json",
+      "original_private_sha256": "e382a4accc21f6484dcd967e05240a7b00cd3c4764d16fcae5076394df516436",
+      "original_private_bytes": 78581,
+      "published_sha256": "e382a4accc21f6484dcd967e05240a7b00cd3c4764d16fcae5076394df516436",
+      "published_bytes": 78581,
+      "projection_changed_bytes": false,
+      "path_redactions": []
+    },
+    {
+      "path": "receipts/original/goal-directed-amendment.json",
+      "original_private_sha256": "e5da6697c12900443e98737fa91ddafb08e0272048358684f62dab0ca3d8e068",
+      "original_private_bytes": 1433,
+      "published_sha256": "e5da6697c12900443e98737fa91ddafb08e0272048358684f62dab0ca3d8e068",
+      "published_bytes": 1433,
+      "projection_changed_bytes": false,
+      "path_redactions": []
+    },
+    {
+      "path": "receipts/original/goal-directed-amendment-v2.json",
+      "original_private_sha256": "3c82e27be7c2eb0154e7fbc07983886a8eb9c650d8a0e6556b50b74bda4006b1",
+      "original_private_bytes": 659,
+      "published_sha256": "3c82e27be7c2eb0154e7fbc07983886a8eb9c650d8a0e6556b50b74bda4006b1",
+      "published_bytes": 659,
+      "projection_changed_bytes": false,
+      "path_redactions": []
+    },
+    {
+      "path": "receipts/original/frozen-key-development.json",
+      "original_private_sha256": "2fa9b459b4c47048a3c6cdc76110f75f896b609ba00942601230d77b23ab2763",
+      "original_private_bytes": 1945,
+      "published_sha256": "2fa9b459b4c47048a3c6cdc76110f75f896b609ba00942601230d77b23ab2763",
+      "published_bytes": 1945,
+      "projection_changed_bytes": false,
+      "path_redactions": []
+    },
+    {
+      "path": "receipts/original/frozen-union-development.json",
+      "original_private_sha256": "354a626e64d49ac54392af403d783941a58c52558de5f1310d3d08a2913ccc68",
+      "original_private_bytes": 9997,
+      "published_sha256": "354a626e64d49ac54392af403d783941a58c52558de5f1310d3d08a2913ccc68",
+      "published_bytes": 9997,
+      "projection_changed_bytes": false,
+      "path_redactions": []
+    },
+    {
+      "path": "receipts/original/holdout-a-manifest.json",
+      "original_private_sha256": "bd32ca5e6efc3698df9e3025d9946c7952586de72d92feec4ed52b637ee2778b",
+      "original_private_bytes": 2452,
+      "published_sha256": "bd32ca5e6efc3698df9e3025d9946c7952586de72d92feec4ed52b637ee2778b",
+      "published_bytes": 2452,
+      "projection_changed_bytes": false,
+      "path_redactions": []
+    },
+    {
+      "path": "receipts/original/harness_targets_0-result.json",
+      "original_private_sha256": "ebcaaa2b9e3bd92e4684a14be01c37a1d5fc4e8e1168fa1916b375055cfde29f",
+      "original_private_bytes": 13481,
+      "published_sha256": "48e74b584de921aa6f7de81ef76a8cfe1bc8ef2363d91f994e00e94ab5fedcf7",
+      "published_bytes": 13351,
+      "projection_changed_bytes": true,
+      "path_redactions": [
+        {
+          "replacement": "<ORIGINAL_PRIVATE_CACHE>",
+          "occurrences": 2
+        }
+      ]
+    },
+    {
+      "path": "receipts/original/harness_goal_0-result.json",
+      "original_private_sha256": "ee98b3e63380fc896e59309d8dbfc55b67f45694c25f4501d812e903dc9adf41",
+      "original_private_bytes": 19671,
+      "published_sha256": "0214e84cdb539366c0b5cd832d0d3c139564374183546e77595401864146f698",
+      "published_bytes": 19541,
+      "projection_changed_bytes": true,
+      "path_redactions": [
+        {
+          "replacement": "<ORIGINAL_PRIVATE_CACHE>",
+          "occurrences": 2
+        }
+      ]
+    },
+    {
+      "path": "receipts/original/harness_replay_witnesses-result.json",
+      "original_private_sha256": "0fa3a0e91c5013ee2f0cdb7c6bf400908550d356e62043b99dd185013a18cafe",
+      "original_private_bytes": 1243,
+      "published_sha256": "83c9fa6dc26408bc0559d21c07cb4b6ec6b74495bff7b5f44f6b8dc4d659ea13",
+      "published_bytes": 1113,
+      "projection_changed_bytes": true,
+      "path_redactions": [
+        {
+          "replacement": "<ORIGINAL_PRIVATE_CACHE>",
+          "occurrences": 2
+        }
+      ]
+    },
+    {
+      "path": "receipts/original/init-result.json",
+      "original_private_sha256": "53d3ce05927bc7060e153eaa376b37e66ffd12dfbe23ee58bc593079129c71e5",
+      "original_private_bytes": 480,
+      "published_sha256": "0cf0a681c33d209fb87dbf6352c191d10b762017f411c145a8152cea7a627c76",
+      "published_bytes": 350,
+      "projection_changed_bytes": true,
+      "path_redactions": [
+        {
+          "replacement": "<ORIGINAL_PRIVATE_CACHE>",
+          "occurrences": 2
+        }
+      ]
+    },
+    {
+      "path": "receipts/original/init-result-v2.json",
+      "original_private_sha256": "e6f42c76a76c792ace1da60afb064aa4ae6b65cdf2856504a6e5c1b735b13a95",
+      "original_private_bytes": 1699,
+      "published_sha256": "e093d83262b4d10182887913eb0f1aa3d8854b13225cc65727109a4e4dd18b8b",
+      "published_bytes": 1569,
+      "projection_changed_bytes": true,
+      "path_redactions": [
+        {
+          "replacement": "<ORIGINAL_PRIVATE_CACHE>",
+          "occurrences": 2
+        }
+      ]
+    },
+    {
+      "path": "receipts/original/integration-manifest.json",
+      "original_private_sha256": "3bad6ff53b484cc1615f7e4ef827402a0d8d4624c9d13fdbff27723c93ca477c",
+      "original_private_bytes": 6632,
+      "published_sha256": "3bad6ff53b484cc1615f7e4ef827402a0d8d4624c9d13fdbff27723c93ca477c",
+      "published_bytes": 6632,
+      "projection_changed_bytes": false,
+      "path_redactions": []
+    },
+    {
+      "path": "receipts/original/source-receipts.json",
+      "original_private_sha256": "18699f2024b48bf826733f6c1e8138a5b0d1ac952409205cf54005c93bbf673f",
+      "original_private_bytes": 54201,
+      "published_sha256": "18699f2024b48bf826733f6c1e8138a5b0d1ac952409205cf54005c93bbf673f",
+      "published_bytes": 54201,
+      "projection_changed_bytes": false,
+      "path_redactions": []
+    },
+    {
+      "path": "receipts/original/download-receipts.json",
+      "original_private_sha256": "17ef2148ad17f860162f4356d25163f9defa799d631686da178d70482862a756",
+      "original_private_bytes": 1226,
+      "published_sha256": "055925aa8a252b68c0586061b6442841c7bd3c2ad66ef19aa49cfc695424c015",
+      "published_bytes": 1031,
+      "projection_changed_bytes": true,
+      "path_redactions": [
+        {
+          "replacement": "<ORIGINAL_PRIVATE_CACHE>",
+          "occurrences": 3
+        }
+      ]
+    },
+    {
+      "path": "receipts/original/harness_goal_v2_0-result.json",
+      "original_private_sha256": "01f696b168d6944e2903e030bc22c325b529d73327ce9ee58d76fc795a589a3c",
+      "original_private_bytes": 19676,
+      "published_sha256": "a70953a58e0d7a9bea702ad2e782d007f5c88e36084069af5bf7c97f4cd0082b",
+      "published_bytes": 19546,
+      "projection_changed_bytes": true,
+      "path_redactions": [
+        {
+          "replacement": "<ORIGINAL_PRIVATE_CACHE>",
+          "occurrences": 2
+        }
+      ]
+    },
+    {
+      "path": "receipts/original/harness_goal_v2_1-result.json",
+      "original_private_sha256": "52e53e038f3c4e1c7badb8bce0c0432911add64682c581148e112f260b0ceed7",
+      "original_private_bytes": 19433,
+      "published_sha256": "ecc95af0a1223725b3653768b2dc6a540783965cd3bff9ea99d7330a42fa5e9b",
+      "published_bytes": 19303,
+      "projection_changed_bytes": true,
+      "path_redactions": [
+        {
+          "replacement": "<ORIGINAL_PRIVATE_CACHE>",
+          "occurrences": 2
+        }
+      ]
+    },
+    {
+      "path": "receipts/original/harness_goal_v2_2-result.json",
+      "original_private_sha256": "33fee17936dbb7614497c82c2d40cc8fc7de35ca85cab8ecdd8f17336720c118",
+      "original_private_bytes": 19582,
+      "published_sha256": "9763ad01828a1f76d84e58c1822c45ff960efc1812dabebe2ebc389f06024b58",
+      "published_bytes": 19452,
+      "projection_changed_bytes": true,
+      "path_redactions": [
+        {
+          "replacement": "<ORIGINAL_PRIVATE_CACHE>",
+          "occurrences": 2
+        }
+      ]
+    },
+    {
+      "path": "receipts/original/harness_goal_v2_3-result.json",
+      "original_private_sha256": "897952c27d26252d778b1e8883e4b91ab3404059479d7e77eac6290c579871cb",
+      "original_private_bytes": 19983,
+      "published_sha256": "3bce64140f8a4e54c24a1d3f9b0401ce181209c29e49b22f94aa9eebf8aeea9b",
+      "published_bytes": 19853,
+      "projection_changed_bytes": true,
+      "path_redactions": [
+        {
+          "replacement": "<ORIGINAL_PRIVATE_CACHE>",
+          "occurrences": 2
+        }
+      ]
+    }
+  ],
+  "privacy_projection": "Private originals remain byte-unchanged in the local cache. Public receipts replace only personal absolute path strings. Their scientific fields, counters, failures, chronology and historical source hashes are unchanged. Original hashes authenticate private originals; published hashes authenticate projections."
+}

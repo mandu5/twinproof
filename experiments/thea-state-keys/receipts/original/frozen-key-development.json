@@ -1,0 +1,60 @@
+{
+  "source_commit": "b7f0ce0fa391f27b3134f875c964f14b883cfb2c",
+  "split": "development",
+  "origin": "level_08_attempt_04 initial state; model-reachable prefixes; no environment branch execution",
+  "files": [
+    {
+      "path": "development-witnesses/witness-00.json",
+      "sha256": "34bdb9f4b1d33076b4a18639b03d9501844d086011c10ddc11c51576d07906d7"
+    },
+    {
+      "path": "development-witnesses/witness-01.json",
+      "sha256": "da887b675ca18304b42854f707a30738a6c7445dd10af5b1d96a36886e585e05"
+    },
+    {
+      "path": "development-witnesses/witness-02.json",
+      "sha256": "0bee1a659438d48495fa5837ad44a5839fb810cb5feb54f949c05c0f5ef67906"
+    },
+    {
+      "path": "development-witnesses/witness-03.json",
+      "sha256": "fdc23df72ef37301ecc9f72eceaa2d57f2ed07d8191a606d2ca0e5640c248d41"
+    },
+    {
+      "path": "development-witnesses/witness-04.json",
+      "sha256": "6b76e7fa3a6788fb8fe6c534abd163322088078d1b1b3e71eaf863d1ae8e7dcb"
+    },
+    {
+      "path": "development-witnesses/witness-05.json",
+      "sha256": "338ef03008be0b809ac50eeb7b1e8925ca553eb8b693fc1f6c8a3f5e95a5ebe2"
+    },
+    {
+      "path": "development-witnesses/witness-06.json",
+      "sha256": "fd9341f80d79d9a9fe585cbc990c205d132fe7c0e8831599cd45ab8d0297f131"
+    },
+    {
+      "path": "development-witnesses/witness-07.json",
+      "sha256": "5e3aa33e1843487c1682cf9634631f1d529391edade322168e2592d74d8bd227"
+    }
+  ],
+  "frozen_grid_coordinates": [
+    [
+      169,
+      13
+    ],
+    [
+      163,
+      7
+    ],
+    [
+      163,
+      19
+    ]
+  ],
+  "coordinate_space": "full current_map, index rows 0..206, columns 0..63; world_row0=-144",
+  "development_witnesses": 8,
+  "covered": 8,
+  "all_engine_calls": 16335,
+  "selected_before_holdout": true,
+  "key_source_sha256": "a01bdf12fb954f65af67330bc1202f0cee63aa763f41676dad1c4961911e046b",
+  "click_source_sha256": "b811a450ff2e037c1523cfa7c2051c31918a30b0eb5205d8e582b292189d9b35"
+}

@@ -1,0 +1,3526 @@
+{
+  "tasks": [
+    {
+      "task_id": "attempt4-prefix08-to-12",
+      "root_index": 8,
+      "target_index": 12,
+      "known_path": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix09-to-13",
+      "root_index": 9,
+      "target_index": 13,
+      "known_path": [
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix10-to-14",
+      "root_index": 10,
+      "target_index": 14,
+      "known_path": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix11-to-15",
+      "root_index": 11,
+      "target_index": 15,
+      "known_path": [
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix12-to-16",
+      "root_index": 12,
+      "target_index": 16,
+      "known_path": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix13-to-17",
+      "root_index": 13,
+      "target_index": 17,
+      "known_path": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix14-to-18",
+      "root_index": 14,
+      "target_index": 18,
+      "known_path": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION3"
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix15-to-19",
+      "root_index": 15,
+      "target_index": 19,
+      "known_path": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION3"
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix16-to-20",
+      "root_index": 16,
+      "target_index": 20,
+      "known_path": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 33
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix17-to-21",
+      "root_index": 17,
+      "target_index": 21,
+      "known_path": [
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 33
+        },
+        {
+          "name": "ACTION4"
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix18-to-22",
+      "root_index": 18,
+      "target_index": 22,
+      "known_path": [
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 33
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 21
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix19-to-23",
+      "root_index": 19,
+      "target_index": 23,
+      "known_path": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 33
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 21
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix20-to-24",
+      "root_index": 20,
+      "target_index": 24,
+      "known_path": [
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 21
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix21-to-25",
+      "root_index": 21,
+      "target_index": 25,
+      "known_path": [
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix22-to-26",
+      "root_index": 22,
+      "target_index": 26,
+      "known_path": [
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix23-to-27",
+      "root_index": 23,
+      "target_index": 27,
+      "known_path": [
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix24-to-28",
+      "root_index": 24,
+      "target_index": 28,
+      "known_path": [
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix25-to-29",
+      "root_index": 25,
+      "target_index": 29,
+      "known_path": [
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix26-to-30",
+      "root_index": 26,
+      "target_index": 30,
+      "known_path": [
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ]
+    },
+    {
+      "task_id": "attempt4-prefix27-to-31",
+      "root_index": 27,
+      "target_index": 31,
+      "known_path": [
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix08-to-12",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 22,
+      "generated": 467,
+      "engine_calls": 471,
+      "unique_keys": 291,
+      "pending": 155,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.10485266600153409
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix08-to-12",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 22,
+      "generated": 467,
+      "engine_calls": 471,
+      "unique_keys": 298,
+      "pending": 155,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.10464737500296906
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix08-to-12",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 22,
+      "generated": 467,
+      "engine_calls": 471,
+      "unique_keys": 305,
+      "pending": 155,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.12418620800599456
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix08-to-12",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 22,
+      "generated": 467,
+      "engine_calls": 471,
+      "unique_keys": 308,
+      "pending": 156,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.11163720799959265
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix09-to-13",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 67,
+      "generated": 1492,
+      "engine_calls": 1496,
+      "unique_keys": 935,
+      "pending": 547,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.3257739999971818
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix09-to-13",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 70,
+      "generated": 1555,
+      "engine_calls": 1559,
+      "unique_keys": 999,
+      "pending": 588,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.3521903749933699
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix09-to-13",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 71,
+      "generated": 1576,
+      "engine_calls": 1580,
+      "unique_keys": 1031,
+      "pending": 602,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.4091000000044005
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix09-to-13",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 73,
+      "generated": 1622,
+      "engine_calls": 1626,
+      "unique_keys": 1087,
+      "pending": 612,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.38382333298795857
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix10-to-14",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 8,
+      "generated": 183,
+      "engine_calls": 187,
+      "unique_keys": 170,
+      "pending": 137,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.04476979200262576
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix10-to-14",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 8,
+      "generated": 183,
+      "engine_calls": 187,
+      "unique_keys": 170,
+      "pending": 137,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.040766625010292046
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix10-to-14",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 8,
+      "generated": 183,
+      "engine_calls": 187,
+      "unique_keys": 170,
+      "pending": 137,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.048001957999076694
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix10-to-14",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 39
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 8,
+      "generated": 183,
+      "engine_calls": 187,
+      "unique_keys": 170,
+      "pending": 137,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.0431438329978846
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix11-to-15",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 102,
+      "engine_calls": 106,
+      "unique_keys": 99,
+      "pending": 95,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.02353512500121724
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix11-to-15",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 102,
+      "engine_calls": 106,
+      "unique_keys": 99,
+      "pending": 95,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.022943916002986953
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix11-to-15",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 102,
+      "engine_calls": 106,
+      "unique_keys": 99,
+      "pending": 95,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.027013875005650334
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix11-to-15",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 102,
+      "engine_calls": 106,
+      "unique_keys": 99,
+      "pending": 95,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.024064084005658515
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix12-to-16",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 108,
+      "engine_calls": 112,
+      "unique_keys": 104,
+      "pending": 100,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.02864729199791327
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix12-to-16",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 108,
+      "engine_calls": 112,
+      "unique_keys": 104,
+      "pending": 100,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.027995584008749574
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix12-to-16",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 108,
+      "engine_calls": 112,
+      "unique_keys": 104,
+      "pending": 100,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.03227287500340026
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix12-to-16",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 108,
+      "engine_calls": 112,
+      "unique_keys": 104,
+      "pending": 100,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.029385625006398186
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix13-to-17",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 100,
+      "engine_calls": 104,
+      "unique_keys": 96,
+      "pending": 92,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.025329709009383805
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix13-to-17",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 100,
+      "engine_calls": 104,
+      "unique_keys": 96,
+      "pending": 92,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.025179541000397876
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix13-to-17",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 100,
+      "engine_calls": 104,
+      "unique_keys": 96,
+      "pending": 92,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.029176791998906992
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix13-to-17",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 100,
+      "engine_calls": 104,
+      "unique_keys": 96,
+      "pending": 92,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.02647020800213795
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix14-to-18",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION3"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 103,
+      "engine_calls": 107,
+      "unique_keys": 97,
+      "pending": 93,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.026450083998497576
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix14-to-18",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION3"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 103,
+      "engine_calls": 107,
+      "unique_keys": 97,
+      "pending": 93,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.02651245800370816
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix14-to-18",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION3"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 103,
+      "engine_calls": 107,
+      "unique_keys": 97,
+      "pending": 93,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.031237624993082136
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix14-to-18",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION3"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 103,
+      "engine_calls": 107,
+      "unique_keys": 97,
+      "pending": 93,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.02810733299702406
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix15-to-19",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION3"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 93,
+      "engine_calls": 97,
+      "unique_keys": 88,
+      "pending": 84,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.019401999990805052
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix15-to-19",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION3"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 93,
+      "engine_calls": 97,
+      "unique_keys": 88,
+      "pending": 84,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.01951704100065399
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix15-to-19",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION3"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 93,
+      "engine_calls": 97,
+      "unique_keys": 88,
+      "pending": 84,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.02332145800755825
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix15-to-19",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 51,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION3"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 93,
+      "engine_calls": 97,
+      "unique_keys": 88,
+      "pending": 84,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.02051966599537991
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix16-to-20",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION3"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 88,
+      "engine_calls": 92,
+      "unique_keys": 81,
+      "pending": 77,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.01805683299608063
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix16-to-20",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION3"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 88,
+      "engine_calls": 92,
+      "unique_keys": 81,
+      "pending": 77,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.01828912500059232
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix16-to-20",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION3"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 88,
+      "engine_calls": 92,
+      "unique_keys": 81,
+      "pending": 77,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.021834540995769203
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix16-to-20",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 39
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION3"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 88,
+      "engine_calls": 92,
+      "unique_keys": 81,
+      "pending": 77,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.019205000004149042
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix17-to-21",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 81,
+      "engine_calls": 85,
+      "unique_keys": 75,
+      "pending": 71,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.014923374998033978
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix17-to-21",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 81,
+      "engine_calls": 85,
+      "unique_keys": 75,
+      "pending": 71,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.015138041999307461
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix17-to-21",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 81,
+      "engine_calls": 85,
+      "unique_keys": 75,
+      "pending": 71,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.01833987499412615
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix17-to-21",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 81,
+      "engine_calls": 85,
+      "unique_keys": 75,
+      "pending": 71,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.01684075000230223
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix18-to-22",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 9
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 78,
+      "engine_calls": 82,
+      "unique_keys": 74,
+      "pending": 70,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.02053241600515321
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix18-to-22",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 9
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 78,
+      "engine_calls": 82,
+      "unique_keys": 74,
+      "pending": 70,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.02044924999063369
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix18-to-22",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 9
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 78,
+      "engine_calls": 82,
+      "unique_keys": 74,
+      "pending": 70,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.023924249995616265
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix18-to-22",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 9
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 78,
+      "engine_calls": 82,
+      "unique_keys": 74,
+      "pending": 70,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.021378749996074475
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix19-to-23",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 9
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 9
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 33
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 78,
+      "engine_calls": 82,
+      "unique_keys": 73,
+      "pending": 69,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.02579304100072477
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix19-to-23",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 9
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 9
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 33
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 78,
+      "engine_calls": 82,
+      "unique_keys": 73,
+      "pending": 69,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.02603479199751746
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix19-to-23",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 9
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 9
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 33
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 78,
+      "engine_calls": 82,
+      "unique_keys": 73,
+      "pending": 69,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.028843874999438412
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix19-to-23",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 9
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 9
+        },
+        {
+          "name": "ACTION6",
+          "x": 45,
+          "y": 33
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 78,
+      "engine_calls": 82,
+      "unique_keys": 73,
+      "pending": 69,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.027099540995550342
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix20-to-24",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 9
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 9
+        },
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 9
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 81,
+      "engine_calls": 85,
+      "unique_keys": 78,
+      "pending": 74,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.028696666995529085
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix20-to-24",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 9
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 9
+        },
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 9
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 81,
+      "engine_calls": 85,
+      "unique_keys": 78,
+      "pending": 74,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.028389957995386794
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix20-to-24",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 9
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 9
+        },
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 9
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 81,
+      "engine_calls": 85,
+      "unique_keys": 78,
+      "pending": 74,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.03132066699618008
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix20-to-24",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 9
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 9
+        },
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 9
+        },
+        {
+          "name": "ACTION4"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 81,
+      "engine_calls": 85,
+      "unique_keys": 78,
+      "pending": 74,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.029349125004955567
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix21-to-25",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 74,
+      "engine_calls": 78,
+      "unique_keys": 71,
+      "pending": 67,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.023993082999368198
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix21-to-25",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 74,
+      "engine_calls": 78,
+      "unique_keys": 71,
+      "pending": 67,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.024109375008265488
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix21-to-25",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 74,
+      "engine_calls": 78,
+      "unique_keys": 71,
+      "pending": 67,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.02738779100764077
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix21-to-25",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 74,
+      "engine_calls": 78,
+      "unique_keys": 71,
+      "pending": 67,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.025026959003298543
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix22-to-26",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 5,
+      "generated": 105,
+      "engine_calls": 109,
+      "unique_keys": 103,
+      "pending": 81,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.03237179201096296
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix22-to-26",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 5,
+      "generated": 105,
+      "engine_calls": 109,
+      "unique_keys": 103,
+      "pending": 81,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.032935583003563806
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix22-to-26",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 5,
+      "generated": 105,
+      "engine_calls": 109,
+      "unique_keys": 103,
+      "pending": 81,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.03756916600104887
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix22-to-26",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 5,
+      "generated": 105,
+      "engine_calls": 109,
+      "unique_keys": 103,
+      "pending": 81,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.03389616699132603
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix23-to-27",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 8,
+      "generated": 178,
+      "engine_calls": 182,
+      "unique_keys": 174,
+      "pending": 140,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.04803137500130106
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix23-to-27",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 8,
+      "generated": 178,
+      "engine_calls": 182,
+      "unique_keys": 174,
+      "pending": 140,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.04861195800185669
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix23-to-27",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 8,
+      "generated": 178,
+      "engine_calls": 182,
+      "unique_keys": 174,
+      "pending": 140,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.055383625003742054
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix23-to-27",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 33,
+          "y": 21
+        },
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 8,
+      "generated": 178,
+      "engine_calls": 182,
+      "unique_keys": 174,
+      "pending": 140,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.05062670800543856
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix24-to-28",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 43,
+      "generated": 1080,
+      "engine_calls": 1084,
+      "unique_keys": 796,
+      "pending": 491,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.29912429201067425
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix24-to-28",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 43,
+      "generated": 1080,
+      "engine_calls": 1084,
+      "unique_keys": 796,
+      "pending": 491,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.30407879200356547
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix24-to-28",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 43,
+      "generated": 1080,
+      "engine_calls": 1084,
+      "unique_keys": 796,
+      "pending": 491,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.34521087500615977
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix24-to-28",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 44,
+      "generated": 1108,
+      "engine_calls": 1112,
+      "unique_keys": 836,
+      "pending": 501,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.3356911669980036
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix25-to-29",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 65,
+      "engine_calls": 69,
+      "unique_keys": 62,
+      "pending": 58,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.030927291998523287
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix25-to-29",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 65,
+      "engine_calls": 69,
+      "unique_keys": 62,
+      "pending": 58,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.02808487499714829
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix25-to-29",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 65,
+      "engine_calls": 69,
+      "unique_keys": 62,
+      "pending": 58,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.030673083005240187
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix25-to-29",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 65,
+      "engine_calls": 69,
+      "unique_keys": 62,
+      "pending": 58,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.02892733299813699
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix26-to-30",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 59,
+      "engine_calls": 63,
+      "unique_keys": 56,
+      "pending": 52,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.027761208009906113
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix26-to-30",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 59,
+      "engine_calls": 63,
+      "unique_keys": 56,
+      "pending": 52,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.02793404100521002
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix26-to-30",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 59,
+      "engine_calls": 63,
+      "unique_keys": 56,
+      "pending": 52,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.03013258300779853
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix26-to-30",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 59,
+      "engine_calls": 63,
+      "unique_keys": 56,
+      "pending": 52,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.028308958004345186
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix27-to-31",
+      "method": "original",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 57,
+      "engine_calls": 61,
+      "unique_keys": 54,
+      "pending": 50,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.02879933299846016
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix27-to-31",
+      "method": "repaired_three",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 57,
+      "engine_calls": 61,
+      "unique_keys": 54,
+      "pending": 50,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.030186709002009593
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix27-to-31",
+      "method": "union_298",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 57,
+      "engine_calls": 61,
+      "unique_keys": 54,
+      "pending": 50,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.0313694590004161
+    },
+    {
+      "stage": "target_result",
+      "protocol": "goal-directed-amendment-v2",
+      "task_id": "attempt4-prefix27-to-31",
+      "method": "full_grid",
+      "found": true,
+      "route": [
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        },
+        {
+          "name": "ACTION6",
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "route_length": 4,
+      "route_replay_verified": true,
+      "shortestness": "not certified; inadmissible shared ordering",
+      "expanded": 4,
+      "generated": 57,
+      "engine_calls": 61,
+      "unique_keys": 54,
+      "pending": 50,
+      "complete_horizon": false,
+      "budget_exhausted": false,
+      "seconds": 0.029338666994590312
+    }
+  ]
+}

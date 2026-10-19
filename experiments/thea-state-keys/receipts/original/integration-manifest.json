@@ -1,0 +1,210 @@
+{
+  "status": "BUG_REPRODUCED_METHOD_UTILITY_UNMET",
+  "source_commit": "b7f0ce0fa391f27b3134f875c964f14b883cfb2c",
+  "source_integrity": {
+    "checked_files": 268,
+    "changed_files": []
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4574,
+      "sha256": "2dbd91fcc81533e36f6f8a256d182f2296cad36785a6a5b0f3cccf5d639969c6"
+    },
+    {
+      "path": "bootstrap.py",
+      "bytes": 1374,
+      "sha256": "9930d78bb66de121c7b5c8dcabf71374dcd6ca5b57ef2171ee54ec4f3ad486d5"
+    },
+    {
+      "path": "run_isolated.py",
+      "bytes": 1821,
+      "sha256": "657a6aab27b823627bd387877bcdc3c59112b6f31805c4a9f4d66c9326f482a3"
+    },
+    {
+      "path": "sandbox.sb",
+      "bytes": 105,
+      "sha256": "51b5c86004caa62952912ceed596ac9f2ab393e96db42bdd26f1365e36617483"
+    },
+    {
+      "path": "harness_replay_witnesses.py",
+      "bytes": 3803,
+      "sha256": "685a11cf827ba1102bb0c236eeb2aad5205060cf3cedf5747340dc1f48093893"
+    },
+    {
+      "path": "harness_replay_witnesses-result.json",
+      "bytes": 1243,
+      "sha256": "0fa3a0e91c5013ee2f0cdb7c6bf400908550d356e62043b99dd185013a18cafe"
+    },
+    {
+      "path": "harness_collision.py",
+      "bytes": 3709,
+      "sha256": "1274ddd1986b1b3d5d3d866bcdf67ba4746355c34e61a2b75f872516ec2bc02f"
+    },
+    {
+      "path": "harness_collision-result.json",
+      "bytes": 717438,
+      "sha256": "9efe12831dfe86ac506963d90dc78a068268e4bb3c656a99aa9e4602c1f3b936"
+    },
+    {
+      "path": "harness_holdout_a.py",
+      "bytes": 6473,
+      "sha256": "ba8e0c67959436a5761145cdf2bab07603c9622addccd3cc549c8454e8673148"
+    },
+    {
+      "path": "harness_holdout_a-result.json",
+      "bytes": 1097143,
+      "sha256": "de8b17caca538773cb58171b00afd50a453796abd3471d604dffa2ec58dbd830"
+    },
+    {
+      "path": "harness_targets_common.py",
+      "bytes": 6714,
+      "sha256": "9d729e48fdeced0e7771a9e6baf8511d1915a4451bd55bc03cbb72d011bb1a4d"
+    },
+    {
+      "path": "harness_targets_0.py",
+      "bytes": 452,
+      "sha256": "b5a60d146072e6940570cfab3f8793c283cb313d739968d9f67fe5b31638865f"
+    },
+    {
+      "path": "harness_targets_0-result.json",
+      "bytes": 13481,
+      "sha256": "ebcaaa2b9e3bd92e4684a14be01c37a1d5fc4e8e1168fa1916b375055cfde29f"
+    },
+    {
+      "path": "harness_goal_common.py",
+      "bytes": 7484,
+      "sha256": "3f7f9406db32380c02d9b2ecddc05fd1d5ee82179751c6bb61146bfa6ae756ee"
+    },
+    {
+      "path": "harness_goal_0-result.json",
+      "bytes": 19671,
+      "sha256": "ee98b3e63380fc896e59309d8dbfc55b67f45694c25f4501d812e903dc9adf41"
+    },
+    {
+      "path": "harness_goal_common_v2.py",
+      "bytes": 7576,
+      "sha256": "88d29ad2245e73c42f1db5eb6f3212587b0357f2e814efdcdc8a913018f1f028"
+    },
+    {
+      "path": "goal-directed-amendment.json",
+      "bytes": 1433,
+      "sha256": "e5da6697c12900443e98737fa91ddafb08e0272048358684f62dab0ca3d8e068"
+    },
+    {
+      "path": "goal-directed-amendment-v2.json",
+      "bytes": 659,
+      "sha256": "3c82e27be7c2eb0154e7fbc07983886a8eb9c650d8a0e6556b50b74bda4006b1"
+    },
+    {
+      "path": "frozen-key-development.json",
+      "bytes": 1945,
+      "sha256": "2fa9b459b4c47048a3c6cdc76110f75f896b609ba00942601230d77b23ab2763"
+    },
+    {
+      "path": "frozen-union-development.json",
+      "bytes": 9997,
+      "sha256": "354a626e64d49ac54392af403d783941a58c52558de5f1310d3d08a2913ccc68"
+    },
+    {
+      "path": "final-result.json",
+      "bytes": 3202,
+      "sha256": "e9a20d459c328afabc5f62ca36a2e18ff04723c032207e9f19c4d91ee528097c"
+    },
+    {
+      "path": "goal-v2-rows.json",
+      "bytes": 78581,
+      "sha256": "e382a4accc21f6484dcd967e05240a7b00cd3c4764d16fcae5076394df516436"
+    },
+    {
+      "path": "download-receipts.json",
+      "bytes": 1226,
+      "sha256": "17ef2148ad17f860162f4356d25163f9defa799d631686da178d70482862a756"
+    },
+    {
+      "path": "source-receipts.json",
+      "bytes": 54201,
+      "sha256": "18699f2024b48bf826733f6c1e8138a5b0d1ac952409205cf54005c93bbf673f"
+    },
+    {
+      "path": "development-witnesses/witness-06.json",
+      "bytes": 435732,
+      "sha256": "fd9341f80d79d9a9fe585cbc990c205d132fe7c0e8831599cd45ab8d0297f131"
+    },
+    {
+      "path": "holdout-a-witnesses/witness-05.json",
+      "bytes": 435862,
+      "sha256": "df2ae2bb164beeb044e1f3dca0beaf42099b1e6ca23f711f3f3469c8f3b79648"
+    },
+    {
+      "path": "harness_goal_v2_0.py",
+      "bytes": 430,
+      "sha256": "e6b5dafe2a33a50fb45cd893aee909c7493704dea5dc03113979ee6805e04799"
+    },
+    {
+      "path": "harness_goal_v2_1.py",
+      "bytes": 431,
+      "sha256": "d6c7c35c50d656031e270762865534f4553402a2e236ca6136c0ca6bc2745f85"
+    },
+    {
+      "path": "harness_goal_v2_2.py",
+      "bytes": 432,
+      "sha256": "212934819f223c336e7c131b35b355df818b8c9dee456992dd73cc7592f2e63e"
+    },
+    {
+      "path": "harness_goal_v2_3.py",
+      "bytes": 432,
+      "sha256": "972d87758ef5751101c6595a0047550159a71ec37c7bd9b60c66e1d8969d9923"
+    },
+    {
+      "path": "harness_goal_v2_0-result.json",
+      "bytes": 19676,
+      "sha256": "01f696b168d6944e2903e030bc22c325b529d73327ce9ee58d76fc795a589a3c"
+    },
+    {
+      "path": "harness_goal_v2_1-result.json",
+      "bytes": 19433,
+      "sha256": "52e53e038f3c4e1c7badb8bce0c0432911add64682c581148e112f260b0ceed7"
+    },
+    {
+      "path": "harness_goal_v2_2-result.json",
+      "bytes": 19582,
+      "sha256": "33fee17936dbb7614497c82c2d40cc8fc7de35ca85cab8ecdd8f17336720c118"
+    },
+    {
+      "path": "harness_goal_v2_3-result.json",
+      "bytes": 19983,
+      "sha256": "897952c27d26252d778b1e8883e4b91ab3404059479d7e77eac6290c579871cb"
+    },
+    {
+      "path": "support/game_status.py",
+      "bytes": 640,
+      "sha256": "e4ef51ab08100798748927a841da82d4b88f2ac14a3e4a215c6a10137675884e"
+    },
+    {
+      "path": "support/session_tools.py",
+      "bytes": 8555,
+      "sha256": "45e3867de416c1d67d2340c12c3f9845af559209f0168b6bbf8342293be2a723"
+    },
+    {
+      "path": "support/load_initial_full_frame.py",
+      "bytes": 951,
+      "sha256": "af8b6acaad27217bf4c8d908ac4fd2af62f90f49fb6bb68871270e8521f7b10b"
+    }
+  ],
+  "runnable_entrypoint": "run_isolated.py",
+  "replay_entrypoint": "harness_replay_witnesses.py",
+  "endpoint_entrypoints": [
+    "harness_goal_v2_0.py",
+    "harness_goal_v2_1.py",
+    "harness_goal_v2_2.py",
+    "harness_goal_v2_3.py"
+  ],
+  "source_key_file": "source/runs/bp35/agent_run/world_model_main_planner.py",
+  "source_key_lines": [
+    136,
+    154
+  ],
+  "scope": "All writes confined to this cache; network disabled for code execution; no paid model/GPU/TCPR execution",
+  "no_further_outcome_search": true
+}

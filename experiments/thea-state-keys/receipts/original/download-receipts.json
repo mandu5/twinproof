@@ -1,0 +1,23 @@
+{
+  "commit": "b7f0ce0fa391f27b3134f875c964f14b883cfb2c",
+  "artifacts": [
+    {
+      "path": "<ORIGINAL_PRIVATE_CACHE>/bp35.archive.tar.zst",
+      "url": "https://raw.githubusercontent.com/bruno353/thea/b7f0ce0fa391f27b3134f875c964f14b883cfb2c/history/runs/modernized/bp35/archive.tar.zst",
+      "bytes": 27589165,
+      "sha256": "ce149328461cd29e19526958ba2212d505e588a68d517cba8f5764f3bb5cb5ab"
+    },
+    {
+      "path": "<ORIGINAL_PRIVATE_CACHE>/bp35.SUMMARY.json",
+      "url": "https://raw.githubusercontent.com/bruno353/thea/b7f0ce0fa391f27b3134f875c964f14b883cfb2c/history/runs/modernized/bp35/SUMMARY.json",
+      "bytes": 1631,
+      "sha256": "7f036319e58fbfa7c3aacdd6408744266a6d42e43f229b17795f1a0d2a758ab4"
+    },
+    {
+      "path": "<ORIGINAL_PRIVATE_CACHE>/tree.json",
+      "url": "https://api.github.com/repos/bruno353/thea/git/trees/b7f0ce0fa391f27b3134f875c964f14b883cfb2c?recursive=1",
+      "bytes": 980627,
+      "sha256": "29364854805c49dfc2be3f4dfc22c77a7347e62d9e8b4ab235a52bbf78de279e"
+    }
+  ]
+}

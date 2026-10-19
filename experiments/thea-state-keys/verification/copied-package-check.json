@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "verified_at_utc": "2026-10-19T13:32:18.588062+00:00",
+  "status": "PASS_FIXED_WITNESS_REPLAY_AFTER_EXPLICIT_DEPENDENCY_FIX",
+  "scope": "Portability validation only; same two frozen witnesses. No target search, tuning, new target selection, or new scientific outcome experiments during packaging.",
+  "fresh_copy": true,
+  "fresh_venv": true,
+  "fresh_public_input_download": true,
+  "copied_runtime_files_equal_to_final_package": {
+    "experiment.py": true,
+    "worker.py": true,
+    "model_runtime.py": true,
+    "fetch_inputs.py": true,
+    "requirements.txt": true,
+    "pins.json": true
+  },
+  "dependency_versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.16.2",
+    "zstandard": "0.23.0",
+    "certifi": "2025.1.31"
+  },
+  "python_version": "3.11.9",
+  "platform": "macOS-26.6.1-arm64-arm-64bit",
+  "input_receipt": {
+    "schema_version": 1,
+    "commit": "b7f0ce0fa391f27b3134f875c964f14b883cfb2c",
+    "archive_sha256": "ce149328461cd29e19526958ba2212d505e588a68d517cba8f5764f3bb5cb5ab",
+    "archive_bytes": 27589165,
+    "extracted_archive_files": 96,
+    "verified_input_files": 99,
+    "verified_input_bytes": 292338,
+    "pins_sha256": "ef77188e1722684f186133eda898b0c8fa472dd122235ed61738c06c5e9864d8"
+  },
+  "witnesses_passed": 2,
+  "engine_calls": 36,
+  "wall_seconds": 6.258914999998524,
+  "holdout_three_cell_false_negative_preserved": true,
+  "no_network_in_worker": "macOS sandbox-exec denies network and file writes",
+  "worker_environment_keys": [
+    "OPENBLAS_NUM_THREADS",
+    "PATH",
+    "PYTHONDONTWRITEBYTECODE",
+    "VECLIB_MAXIMUM_THREADS"
+  ],
+  "first_attempt_failure": {
+    "type": "ModuleNotFoundError: scipy",
+    "stage": "initial state reconstruction, before the first step/engine call",
+    "remedy": "Pin scipy==1.16.2, matching original host; dependencies installed into the fresh venv; no source/model/witness change",
+    "receipt": "verification/first-clean-venv-failure.json"
+  },
+  "published_verification_receipts": [
+    {
+      "path": "verification/first-clean-venv-failure.json",
+      "original_private_sha256": "b3bc5d327c5e9c813575192ccfdbe4157ba809049e29252a47f74d98faf653d9",
+      "published_sha256": "5e3d22dfa8e057ad8a507c1884c32c9eca9d8d68d1da0aab096956b0d48a857b",
+      "redaction": "Only personal absolute path strings replaced with placeholders; all result values and original portable runner hashes retained."
+    },
+    {
+      "path": "verification/copied-witness-replay.json",
+      "original_private_sha256": "1de3ffbc0189d280d40631d21a1706399b749026d5e7317063d0a39054524d2d",
+      "published_sha256": "00b61fc539e9aa9c66bf64228757a2185e4709341caa55ec870ad8f198637069",
+      "redaction": "Only personal absolute path strings replaced with placeholders; all result values and original portable runner hashes retained."
+    }
+  ],
+  "private_dependency_install_receipt_hashes": {
+    "initial": "4d97a632eb579895929a18f3ad75582d19aba01720907e923f64c5e856130fad",
+    "scipy_fix": "cd362b195119a5fce156d95ef0182111dd8de00cd77b8e8413ea0bf23f4e838e"
+  },
+  "private_fetch_receipt_sha256": "71abfa7d4037224f4b2cc9e29b8db5d93470c5061039b64c2517b5811d1b300c",
+  "private_original_receipts_rechecked_unchanged": 19,
+  "historical_result_comparison": {
+    "mode": "Read only comparison of original 4 shards against frozen original 80 rows; no engine calls",
+    "matched_rows": 80,
+    "all_engine_calls_in_frozen_results": 19589,
+    "timing_excluded": true
+  },
+  "unverified_platforms": [
+    "Linux",
+    "Python 3.12"
+  ]
+}

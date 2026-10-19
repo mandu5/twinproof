@@ -1,0 +1,62 @@
+{
+  "families": 25,
+  "status_counts": {
+    "UNSUPPORTED": 13,
+    "OK": 11,
+    "ERROR": 1
+  },
+  "runtime_completed": 11,
+  "trace_alias_families": [
+    "bp35",
+    "dc22",
+    "sc25",
+    "sk48",
+    "sp80",
+    "tu93",
+    "wa30"
+  ],
+  "runtime_alias_families": [
+    "dc22",
+    "sp80"
+  ],
+  "model_calls": 15898,
+  "unknown_cost_families": [
+    "g50t"
+  ],
+  "shared_branch_mismatches": 6,
+  "isolated_branch_mismatches": 0,
+  "branch_checks": 1687,
+  "fresh_replay_checks": 22,
+  "fresh_replay_mismatches": 0,
+  "counterfactual_witnesses": 4,
+  "unrepaired_counterfactual_witnesses": 0,
+  "sota": false,
+  "claim": "Finite diagnostic and repair study; no general or original-agent performance claim.",
+  "receipt_hashes": {
+    "ar25.json": "844c7d26df2dda8a7627e1c468c7d2405caa9166762a127a107b35e1346d725a",
+    "bp35.json": "642847b9d86cf5521a9c8b1a38cebdb9b85b64ab834570dcea15fa5b175d51e8",
+    "cd82.json": "406debbd24ac8174fafe16e28c3682528436e5653c0511482a7d66038f60a58c",
+    "cn04.json": "10cc57eed1845366c0efc516f84766b5e3683295c31a28dfbd3f273ecf5b0715",
+    "dc22.json": "3ec36edb220c8db7b1d258b05fde7615e38b8bc973d828aaab8f922bae2570d3",
+    "ft09.json": "6ad0633685c5ae256fb3ba598fd14ec6fe07e2322fab886f28a5bfc2c9d73034",
+    "g50t.json": "293eb5dd4119db0f41082a07efaac308d8fb24675a4ba1ec64cddba4658b5ec9",
+    "ka59.json": "843e0b2271fbb991c3176249ebec81953e262e79be7b64a497966569c3e4f66c",
+    "lf52.json": "062ca739fcdec5cda92ac989415eccd9d761f8c8a18ae2da2164783828ca3fde",
+    "lp85.json": "c5377f64fc2afc7ac90a96c7712833b6224b26289a9dc512192d6f12208a8058",
+    "ls20.json": "83f2a5fd16d997adf0fc991d881f126abc5809f4abbee8cd18896b831c575232",
+    "m0r0.json": "eb2f4e4da76cd9700c23675ae0a53d6f76fdd24d8a0ee47d5a8496a8adcf9763",
+    "r11l.json": "686f87d23606545fb996d649c4eae9223e41723aba1eb73db37e98c3d9abeb53",
+    "re86.json": "bfc2d589ed32ba3c5104325e608d0ee4ceaec60becb8a4b1fa0dabfed07f869d",
+    "s5i5.json": "7b118ac3c2c1d7920ccfb0be562ee8ebc20c9aed787d6490047b3429dfa161a8",
+    "sb26.json": "16c8cbab8c8193144318ade3ec46d47859811ad60faef14099b2d6d8ce2e1463",
+    "sc25.json": "357b34a36b788b2d90d2cd0577778b95bd3f259cd99ce322e8795c6362b64b2d",
+    "sk48.json": "6644eb14eec38284845e4389c327d4ced5d7de802a9012b8318f3557e9ecb77d",
+    "sp80.json": "d7a2fdec6b2e7283db01362a9d7f0e5d64842a84ef0a60d0b5a21eff587f538c",
+    "su15.json": "22b13a0890f174fc8a983e1c5ad5f21cd18c8c19c265622385604eeb360c3191",
+    "tn36.json": "aaedb11e1e9c9fe215fb5195679ff305a4e6598c483200b1bf45d7733ed3f9c3",
+    "tr87.json": "7c12bb2dca8f65cd2ea103b1d1e4d5a6e4d3955d40edb55821cf288f347cff1f",
+    "tu93.json": "f36554fd97196b1749e4dbf80cd72d02b2376591e9f2ee97e5a98a92da832c5f",
+    "vc33.json": "448993f9892ad9a10bb33c2144374326b3f43a0ec6c623cf70ca39ec77f9940d",
+    "wa30.json": "dbea21244152ce2d1b7923c1f3f9e91f3b7606b605eec8103c0a32822e437667"
+  }
+}

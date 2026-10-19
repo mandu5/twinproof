@@ -1,0 +1,21 @@
+{
+  "game": "tr87",
+  "status": "UNSUPPORTED",
+  "trace": {
+    "transitions": 156,
+    "unique_inputs": 156,
+    "ambiguous_input_groups": 0,
+    "minimum_observation_only_errors": 0,
+    "conflicts": []
+  },
+  "scope": "teacher-forced released transcript; no original agent/planner score",
+  "reason": "call:open",
+  "model_calls": 0,
+  "seconds": 0.1074300839973148,
+  "call_phases": {},
+  "artifact_sha256": "686841ce493ea5de328aedb696c3a34dc86c09f79c9a38e72e31f65285d65684",
+  "source_sha256": "84993d093937e9e3b6e8e04c9a665477832324094766e66fe26d8b36efb114f5",
+  "split": "outcome_unseen",
+  "peak_rss_native_units": 45268992,
+  "rss_unit": "bytes"
+}

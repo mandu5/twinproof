@@ -1,0 +1,21 @@
+{
+  "game": "ls20",
+  "status": "UNSUPPORTED",
+  "trace": {
+    "transitions": 508,
+    "unique_inputs": 508,
+    "ambiguous_input_groups": 0,
+    "minimum_observation_only_errors": 0,
+    "conflicts": []
+  },
+  "scope": "teacher-forced released transcript; no original agent/planner score",
+  "reason": "call:locals",
+  "model_calls": 0,
+  "seconds": 0.3775058750034077,
+  "call_phases": {},
+  "artifact_sha256": "76330d263e8cf08b7daf0099ce504a7bc76717c2f1436daf30a5f1f4759586a3",
+  "source_sha256": "2c6d62b62bdc619922ae383b65a3b6133a4aa8305f808c81030e29bfe8a7b630",
+  "split": "outcome_unseen",
+  "peak_rss_native_units": 85491712,
+  "rss_unit": "bytes"
+}

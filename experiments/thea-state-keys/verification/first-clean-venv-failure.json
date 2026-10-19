@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "command": [
+    "/usr/bin/sandbox-exec",
+    "-p",
+    "(version 1) (allow default) (deny network*) (deny file-write*) (allow file-write* (literal \"/dev/null\"))",
+    "<ISOLATED_CHECK_ROOT>/venv/bin/python",
+    "-I",
+    "-B",
+    "<ISOLATED_CHECK_ROOT>/package/worker.py",
+    "witnesses",
+    "--inputs",
+    "<ISOLATED_CHECK_ROOT>/inputs",
+    "--shard",
+    "0"
+  ],
+  "mode": "witnesses",
+  "shard": 0,
+  "python_version": "3.11.9",
+  "platform": "macOS-26.6.1-arm64-arm-64bit",
+  "kernel_guard": "macOS sandbox-exec denies network and file writes",
+  "environment_keys": [
+    "OPENBLAS_NUM_THREADS",
+    "PATH",
+    "PYTHONDONTWRITEBYTECODE",
+    "VECLIB_MAXIMUM_THREADS"
+  ],
+  "wall_timeout_seconds": 90,
+  "cpu_limit_seconds": 75,
+  "portable_runner_sha256": {
+    "experiment.py": "160989040894e25bfc120175e75aeedcba03eb361c7e741446e5ce1c4fdacf13",
+    "worker.py": "6bde4d5abffd0a90b603dd5c62be18f103202e96baceeda9337348015e0f66cf",
+    "model_runtime.py": "1d92bbe487068375ca1d015671bfc79a2843eea0884fa36970be6fa7867b65a7",
+    "fetch_inputs.py": "ec8bea7a16dd5caf9e16a84ea9aeb80cb54b964ee21e3c89fff8ffb435601309"
+  },
+  "pins_sha256": "ef77188e1722684f186133eda898b0c8fa472dd122235ed61738c06c5e9864d8",
+  "exit_code": 1,
+  "timed_out": false,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"<ISOLATED_CHECK_ROOT>/package/worker.py\", line 213, in <module>\n    main()\n  File \"<ISOLATED_CHECK_ROOT>/package/worker.py\", line 202, in main\n    witnesses(runtime)\n  File \"<ISOLATED_CHECK_ROOT>/package/worker.py\", line 50, in witnesses\n    state = runtime.initial(witness[\"initial_attempt\"])\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<ISOLATED_CHECK_ROOT>/package/model_runtime.py\", line 51, in initial\n    return self.sio.initial_state_reconstruction(8, self.load_frame(frame))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<ISOLATED_CHECK_ROOT>/inputs/source/runs/bp35/agent_run/world_model_state_io.py\", line 292, in initial_state_reconstruction\n    doors, door_color, door_open0 = _detect_doors(base_map)\n                                    ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<ISOLATED_CHECK_ROOT>/inputs/source/runs/bp35/agent_run/world_model_state_io.py\", line 123, in _detect_doors\n    from scipy import ndimage\nModuleNotFoundError: No module named 'scipy'\n",
+  "seconds": 4.836962749992381
+}

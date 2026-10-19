@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/usr/bin/sandbox-exec",
+    "-f",
+    "<ORIGINAL_PRIVATE_CACHE>/sandbox.sb",
+    "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3",
+    "-I",
+    "-B",
+    "<ORIGINAL_PRIVATE_CACHE>/harness_init.py"
+  ],
+  "exit_code": -6,
+  "seconds": 0.013584000000264496,
+  "stdout": "",
+  "stderr": "",
+  "timed_out": false
+}

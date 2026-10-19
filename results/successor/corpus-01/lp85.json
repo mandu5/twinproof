@@ -1,0 +1,20 @@
+{
+  "game": "lp85",
+  "status": "UNSUPPORTED",
+  "trace": {
+    "transitions": 96,
+    "unique_inputs": 96,
+    "ambiguous_input_groups": 0,
+    "minimum_observation_only_errors": 0,
+    "conflicts": []
+  },
+  "scope": "teacher-forced released transcript; no original agent/planner score",
+  "reason": "call:open; import:os",
+  "model_calls": 0,
+  "seconds": 0.06812195800011978,
+  "artifact_sha256": "21167d3b2e62e0571905362af252bc0538f0d5a9ce6e33145822b3f2b1a5e92e",
+  "source_sha256": "1f52e6a1974c00fcf3cc451663d912529b9a9e0d217d8964aeb66939e44dc320",
+  "split": "outcome_unseen",
+  "peak_rss_native_units": 36814848,
+  "rss_unit": "bytes"
+}

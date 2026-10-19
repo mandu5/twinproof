@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "canonical_state_json": "json.dumps(jsonable(state), sort_keys=True, separators=(comma,colon)); UTF-8",
+  "witnesses": [
+    {
+      "a_history": [
+        {
+          "name": "ACTION6",
+          "x": 15,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 15,
+          "y": 15
+        },
+        {
+          "name": "ACTION6",
+          "x": 15,
+          "y": 27
+        },
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 15
+        }
+      ],
+      "b_history": [
+        {
+          "name": "ACTION6",
+          "x": 15,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 15,
+          "y": 27
+        },
+        {
+          "name": "ACTION6",
+          "x": 15,
+          "y": 15
+        },
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 27
+        }
+      ],
+      "original_key": [
+        37,
+        19,
+        "right",
+        [
+          13,
+          16,
+          17,
+          18,
+          19,
+          21,
+          22,
+          23,
+          24
+        ],
+        "up"
+      ],
+      "distinguishing": {
+        "suffix": [
+          {
+            "name": "ACTION6",
+            "x": 27,
+            "y": 15
+          },
+          {
+            "name": "ACTION4"
+          },
+          {
+            "name": "ACTION4"
+          }
+        ],
+        "a_result": [
+          19,
+          31,
+          "right",
+          "up",
+          "RUNNING",
+          true
+        ],
+        "b_result": [
+          7,
+          31,
+          "right",
+          "up",
+          "GAME_OVER",
+          true
+        ],
+        "pairs_expanded": 98
+      },
+      "would_original_seen_prune_b": true,
+      "id": "development-terminal-divergence",
+      "initial_attempt": "level_08_attempt_04",
+      "original_witness_path": "development-witnesses/witness-06.json",
+      "original_witness_sha256": "fd9341f80d79d9a9fe585cbc990c205d132fe7c0e8831599cd45ab8d0297f131",
+      "different_grid_cell_count": 173,
+      "state_payload_sha256": {
+        "a": "205520e2cc3695e48ea162adeaf9e6504fa185927673c9c074c8901e73551eb0",
+        "b": "2bcb130dcde03f01f8fb451d9bff5d0c986ac88cf43f483dbc2fee2000d1ff12"
+      }
+    },
+    {
+      "a_history": [
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 15,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 15,
+          "y": 15
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 21
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 39
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 39
+        }
+      ],
+      "b_history": [
+        {
+          "name": "ACTION3"
+        },
+        {
+          "name": "ACTION6",
+          "x": 15,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 15,
+          "y": 15
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 21
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 21
+        },
+        {
+          "name": "ACTION4"
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 39
+        },
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 39
+        }
+      ],
+      "a_local_history": [
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 39
+        },
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 39
+        }
+      ],
+      "b_local_history": [
+        {
+          "name": "ACTION6",
+          "x": 27,
+          "y": 39
+        },
+        {
+          "name": "ACTION6",
+          "x": 21,
+          "y": 39
+        }
+      ],
+      "original_key": [
+        25,
+        31,
+        "right",
+        [
+          13,
+          15,
+          16,
+          18,
+          19,
+          20,
+          23,
+          25,
+          26,
+          27,
+          28
+        ],
+        "up"
+      ],
+      "distinguishing": {
+        "suffix": [
+          {
+            "name": "ACTION3"
+          }
+        ],
+        "a_result": [
+          25,
+          25,
+          "left",
+          "up",
+          "RUNNING",
+          true
+        ],
+        "b_result": [
+          25,
+          31,
+          "left",
+          "up",
+          "RUNNING",
+          true
+        ],
+        "pairs_expanded": 1
+      },
+      "separated_original": false,
+      "separated_refined": false,
+      "separated_fullgrid": true,
+      "separated_fullstate": true,
+      "would_original_seen_prune_b": true,
+      "id": "holdout-frozen-key-failure",
+      "initial_attempt": "level_08_attempt_01",
+      "original_witness_path": "holdout-a-witnesses/witness-05.json",
+      "original_witness_sha256": "df2ae2bb164beeb044e1f3dca0beaf42099b1e6ca23f711f3f3469c8f3b79648",
+      "different_grid_cell_count": 55,
+      "state_payload_sha256": {
+        "a": "1750249e30141d5cd3b1fb01806eee91cc4f685e27580194950e4fe50dc774b8",
+        "b": "50629a52aed645348648ae8e0b1d2af5a64e2e419a0bb87744b9bb4cc8e86bdd"
+      }
+    }
+  ]
+}

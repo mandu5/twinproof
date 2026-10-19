@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/usr/bin/sandbox-exec",
+    "-f",
+    "<ORIGINAL_PRIVATE_CACHE>/sandbox.sb",
+    "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3",
+    "-I",
+    "-B",
+    "<ORIGINAL_PRIVATE_CACHE>/harness_init.py"
+  ],
+  "exit_code": 0,
+  "seconds": 0.48732400000153575,
+  "stdout": "{\"stage\": \"imported\", \"numpy\": \"1.26.4\", \"key_source_sha256\": \"a01bdf12fb954f65af67330bc1202f0cee63aa763f41676dad1c4961911e046b\"}\n{\"stage\": \"replay\", \"attempt\": \"level_08_attempt_01\", \"steps\": 23, \"diffs\": [{\"step\": \"step_0023_metadata.json\", \"pixels\": 472}], \"n_mismatches\": 1, \"status\": \"GAME_OVER\", \"world_row0\": -144, \"mapshape\": [207, 64], \"doors\": 46, \"position\": [-119, 37]}\n{\"stage\": \"replay\", \"attempt\": \"level_08_attempt_02\", \"steps\": 25, \"diffs\": [{\"step\": \"step_0025_metadata.json\", \"pixels\": 462}], \"n_mismatches\": 1, \"status\": \"GAME_OVER\", \"world_row0\": -144, \"mapshape\": [207, 64], \"doors\": 45, \"position\": [-95, 7]}\n{\"stage\": \"replay\", \"attempt\": \"level_08_attempt_03\", \"steps\": 25, \"diffs\": [{\"step\": \"step_0025_metadata.json\", \"pixels\": 462}], \"n_mismatches\": 1, \"status\": \"GAME_OVER\", \"world_row0\": -144, \"mapshape\": [207, 64], \"doors\": 45, \"position\": [-95, 7]}\n{\"stage\": \"replay\", \"attempt\": \"level_08_attempt_04\", \"steps\": 36, \"diffs\": [], \"n_mismatches\": 0, \"status\": \"RUNNING\", \"world_row0\": -144, \"mapshape\": [207, 64], \"doors\": 87, \"position\": [-107, 37]}\n",
+  "stderr": "",
+  "timed_out": false
+}

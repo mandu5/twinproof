@@ -1,0 +1,20 @@
+{
+  "game": "ft09",
+  "status": "UNSUPPORTED",
+  "trace": {
+    "transitions": 74,
+    "unique_inputs": 74,
+    "ambiguous_input_groups": 0,
+    "minimum_observation_only_errors": 0,
+    "conflicts": []
+  },
+  "scope": "teacher-forced released transcript; no original agent/planner score",
+  "reason": "closure or mutable function default",
+  "model_calls": 0,
+  "seconds": 0.05684454200672917,
+  "artifact_sha256": "5ba187bd9938cb2032c5321258a9ea9e46a31bd079ad596bc5bed452283a31fd",
+  "source_sha256": "0c617b3157730c1456ae4a40f94ee37da0f86f202dc542395e1fd7b0ee288f2d",
+  "split": "development",
+  "peak_rss_native_units": 35946496,
+  "rss_unit": "bytes"
+}

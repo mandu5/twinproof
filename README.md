@@ -21,6 +21,29 @@ twinproof trace examples/trace/reference.json examples/trace/corrupt.json exampl
 [Released-twin results](docs/stage2-results.md) ·
 [Runtime control pilot](docs/runtime-pilot.md) · [Research status](docs/research-status.md)
 
+## Executable-model state audit — 2026-10-19
+
+The corrected audit keeps all **25 released game families** in its denominator:
+9 completed, 15 unsupported, and one generated-model exception. It records
+14,760 model calls. Selected same-image/different-future witnesses were separately
+replayed from official engine RESET states in dc22 and sp80.
+
+We also reproduced a known state-key defect in THEA's released bp35 planner.
+A three-coordinate repair fails a held-out continuation. On the final 20-target
+comparison, original, refined and full-grid keys all solve 20/20; the original is
+cheapest. The proposed repair has **no demonstrated planning advantage**. The
+corrected runnable-family threshold and performance-improvement gate both fail.
+
+[Results, costs and review](docs/state-contract-results.md) ·
+[Frozen protocol](docs/successor-state-contract.md) ·
+[Official-engine reproduction](experiments/official-state-aliases/README.md) ·
+[Real planner reproduction](experiments/thea-state-keys/README.md)
+
+A separate [fold-context scout](experiments/fold-context-scout/README.md) tests
+label dependencies in three constructed ML pipeline patterns. It is a mechanism
+check, with no external-program or published-detector superiority result; simple
+graph reachability ties it. It has not qualified as a stronger research method.
+
 ## Released-twin experiment — 2026-10-18
 
 The Stage 2 pilot tests four released AI-generated implementations of **zoxide

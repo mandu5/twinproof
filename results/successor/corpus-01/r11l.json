@@ -1,0 +1,20 @@
+{
+  "game": "r11l",
+  "status": "UNSUPPORTED",
+  "trace": {
+    "transitions": 79,
+    "unique_inputs": 79,
+    "ambiguous_input_groups": 0,
+    "minimum_observation_only_errors": 0,
+    "conflicts": []
+  },
+  "scope": "teacher-forced released transcript; no original agent/planner score",
+  "reason": "import:arc_utils",
+  "model_calls": 0,
+  "seconds": 0.06338041700655594,
+  "artifact_sha256": "e9c392e4555c8a3297307ce529c3c94183b84c14ee62b78d8ee69c4f968a1c77",
+  "source_sha256": "7e6a8d813f76d3a69d7bd6138f656113312294e780d93ea796447bf748cedc2e",
+  "split": "outcome_unseen",
+  "peak_rss_native_units": 37437440,
+  "rss_unit": "bytes"
+}

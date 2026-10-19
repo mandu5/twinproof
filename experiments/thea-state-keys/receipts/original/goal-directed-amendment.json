@@ -1,0 +1,26 @@
+{
+  "protocol": "goal-directed-amendment-v1",
+  "prospective_before_output": true,
+  "created_unix": 1792414986.022825,
+  "reason": "Initial 500-expansion BFS produced flat budget exhaustion, and literal full-state history serialization reached the 75-second CPU cap. Original negative outputs retained.",
+  "origin": "Twenty deterministic distinct observed roots from attempt 4, prefix >=8, excluding holdout A root; no target selected by success",
+  "goal": "exact current_map and avatar pose/facing/gravity four archived steps later",
+  "arms": [
+    "original",
+    "repaired_three",
+    "union_298",
+    "full_grid"
+  ],
+  "ordering": "same best-first (target-grid mismatch, Manhattan avatar distance, path length, insertion order)",
+  "horizon": 4,
+  "expansion_budget": 150,
+  "route_validation": "replay every returned route through same original engine",
+  "shortestness_claim": false,
+  "key_retuning": false,
+  "full_state_scope_note": "Previous full-state arm includes undo/history although actual planner action pool excludes ACTION7; full-grid retained as strong conservative baseline",
+  "source_hashes": {
+    "harness_goal_common.py": "3f7f9406db32380c02d9b2ecddc05fd1d5ee82179751c6bb61146bfa6ae756ee",
+    "frozen-key-development.json": "2fa9b459b4c47048a3c6cdc76110f75f896b609ba00942601230d77b23ab2763",
+    "frozen-union-development.json": "354a626e64d49ac54392af403d783941a58c52558de5f1310d3d08a2913ccc68"
+  }
+}

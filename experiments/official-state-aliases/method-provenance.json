@@ -1,0 +1,12 @@
+{
+  "original_execution_file_hashes": {
+    "world_model.py": "05f7b983d9159920d4f9afebd1bbcab0c000f227d48cb57cc15e2181a12bdede",
+    "world_audit.py": "22c71beab099b5af58d15966060faac11ac1bd5835614cd2a54b6a50752c0131"
+  },
+  "bundled_file_hashes": {
+    "world_model.py": "05f7b983d9159920d4f9afebd1bbcab0c000f227d48cb57cc15e2181a12bdede",
+    "world_audit.py": "4a883dea779979244f23825fd1b0460b83f136dde9a5dfda81ed9d9f99ec7e37"
+  },
+  "bounded_search_function_sha256": "bbd31641797963446e2d9a98aeb1ef480a70261fd89f9c618aaa74166b946327",
+  "note": "world_model.py is byte-identical to executed version. world_audit.py contains only the unchanged executed bounded_search function and required imports; unrelated audit functions omitted. Parent added other audit code after the run, so whole-file hashes differ."
+}

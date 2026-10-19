@@ -1,0 +1,10 @@
+{
+  "python": "3.12.2",
+  "arc-agi": "0.9.9",
+  "arcengine": "0.9.3",
+  "uv": "0.12.10",
+  "platform_observed": "macOS arm64",
+  "offline_game_seed": 0,
+  "candidate_revision_policy": "Exact SHA256; fetch stops on drift",
+  "aggregate_exploration_calls": "UNKNOWN"
+}

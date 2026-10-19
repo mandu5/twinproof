@@ -1,0 +1,1342 @@
+[
+  {
+    "path": "source/runs/bp35/agent_run/level_4_reasoning_log.md",
+    "bytes": 10985,
+    "sha256": "42cb17dd8da6992736f9be9afb9a253ac48c3f66f1c8c07b259e38a41909b1b1"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_8_winning_plan.json",
+    "bytes": 1198,
+    "sha256": "d03d9dd86496c163b0811ee48f956a79e33601553bb9f5b00c2f1ef7a100e2d1"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_3_report.md",
+    "bytes": 5147,
+    "sha256": "c68ecd464ae16b47b51acb59c300fdfc1d2fa045cbb3e5cf576ce6afbc11ec08"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_8_planner_3.py",
+    "bytes": 5286,
+    "sha256": "8684eacdfb8c1e094d89fc994c9fa994b9624074ea5657d41a349c67fa840a99"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_5_report.md",
+    "bytes": 4016,
+    "sha256": "f84b57050665fd4161b677692e54d037f48615555ca448ec4f026e0eab6fc04c"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_8_planner_2.py",
+    "bytes": 4038,
+    "sha256": "97f5508b6911facfbaeb59f35c9e760a5989dfdd5686da764ac66ce2b5e155fe"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/reveal_loop.py",
+    "bytes": 7988,
+    "sha256": "7628bfb908a0608914f66c3f05cc13483dabb06c382103792407e7f9762b0b81"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_5_reasoning_log.md",
+    "bytes": 5472,
+    "sha256": "d413538dae53429719c65cb4fb6ff810e4f3d00bbbaaea2386e89b1833de0577"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_2_report.md",
+    "bytes": 2602,
+    "sha256": "837893f54ab1655126cd04ab92b1c19073a61fa26cac9556bf1958065ecc96e0"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/main_prompt.md",
+    "bytes": 33406,
+    "sha256": "e99a78f15da7341fcb8f24eacee45a8425904dc4be2e278434723ff9d0cd5723"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_7_planner_1.py",
+    "bytes": 3607,
+    "sha256": "b84c1762d3104098f9ee825595dc330a26dde3db04f23ad12f8b9a445bb4567f"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/extend_map.py",
+    "bytes": 4097,
+    "sha256": "fd19df533251459dcf00d103e6dde57342d9edb8aadcd5f5d64710bf102ecdd9"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_4_report.md",
+    "bytes": 4590,
+    "sha256": "435d42bafc83786ca3c67f346f7ff2527e2f9043992dfec94517fc0091811624"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/world_model_engine.py",
+    "bytes": 16060,
+    "sha256": "5fa876949dfea7eaeab432eff09a353fe2db18889f0cd039a4b5e8e062aefbb0"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_1_reasoning_log.md",
+    "bytes": 6031,
+    "sha256": "1c444a7f7671ea2b3154f047e2d0e594339116cb5f7f785e011d69bde806f7db"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_4_planner_2.py",
+    "bytes": 3620,
+    "sha256": "18bc864784d66e8151eeef88c29882ebe74df7ce52e0eb1cb90c00ccb74cb40b"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_1_planner_1.py",
+    "bytes": 1921,
+    "sha256": "31a947d5fce64737568593fc498a297b0a34d30eeb29d4b6739e16450449d3f4"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/world_model.md",
+    "bytes": 43663,
+    "sha256": "b31c7ec565be6184a6c7ee59f22958f6da4c12686d2aadbb33f7fd2913c917f5"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/world_model_state_io.py",
+    "bytes": 23688,
+    "sha256": "d34574489678659a9fe272f48af8b43fdebcb3a2d7238263a8853ffdb479627f"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_1_report.md",
+    "bytes": 2624,
+    "sha256": "f67d13492dc38ca096c63b4f6912e3e8dd0ca2c52eba8836085ac59770fba446"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/world_model_main_planner.py",
+    "bytes": 24253,
+    "sha256": "8469233f9ddc0193b86462a1307cc1b2c0b2825e605c07cb5c49755133e321d7"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_4_planner_1.py",
+    "bytes": 2358,
+    "sha256": "ca189d451b57b321a1904646c7263316b7e41b3ed04963dfe596a15e933dec6d"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_3_planner_1.py",
+    "bytes": 1564,
+    "sha256": "df017b14b0026ae614c97dee4b68529ad8b1bc4f517a443b67615d54132362b9"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_6_reasoning_log.md",
+    "bytes": 9061,
+    "sha256": "396617b634a749aed84295672e32cc5c437e0da0892fa28111e00913388d7d09"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_2_reasoning_log.md",
+    "bytes": 3501,
+    "sha256": "9f2a638bb82e5ffd9dbd185ec528735160bfbb5e4b332eb5b249db11ef91da7d"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_7_report.md",
+    "bytes": 5680,
+    "sha256": "6242f09b2477e6e8422f2f2f49bd0756eddc22f4e5c8155bb2c77c8302c218f5"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_7_planner_2.py",
+    "bytes": 5601,
+    "sha256": "ee1a9601b5c6980ad0a675d32453deaee1c2ef2e0150ace097864cbde6b499cb"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_8_planner_1.py",
+    "bytes": 8048,
+    "sha256": "f4bfaf7392c5244c312ec5f367ba98c08f62b3397bb179a00c92cac15d18eec8"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/critique_prompt.md",
+    "bytes": 3109,
+    "sha256": "e4e3beb5bed00192c1b51070b93f7909cbeeadc9e975f7965bb03fa97f3d1a89"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_7_reasoning_log.md",
+    "bytes": 24503,
+    "sha256": "305536c99f43b73befa2e553df1f3e22a4094465f40abd5358a162e512259e6f"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/cc_extend.py",
+    "bytes": 9221,
+    "sha256": "ee5de1a5943e392d433c9fa6b9e053fdd7d908ecb8d2554c685e0d142cf9ae39"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_6_report.md",
+    "bytes": 4405,
+    "sha256": "c160db550665b268a08319b51c20c3fcf657c02ac5c547757db3d0a43eb94773"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_3_reasoning_log.md",
+    "bytes": 18539,
+    "sha256": "da06cbd1a401d2674282045d6bc960f2eb5bfd51a01bced77e3bf8074e3868ce"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/level_8_reasoning_log.md",
+    "bytes": 28394,
+    "sha256": "b6f3aba8c75fef4793ec8bda25b2514b791c34278fa8d1491e51af7ae37bb81c"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0015_metadata.json",
+    "bytes": 280,
+    "sha256": "5685afcd70c1af0e891b17768d25b15237e8285c5ff69c27bc04209af86dd74e"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0002_metadata.json",
+    "bytes": 280,
+    "sha256": "0e5deee55d4397e6bff6e9b25cbe7c4fca74ca6a4687d840e6bf0bb5d1f6939c"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0021_final.txt",
+    "bytes": 4160,
+    "sha256": "27e50e41df31b0f61bb8e3a1b09153e64380af2dc7e9d72187634857063a2874"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0006_metadata.json",
+    "bytes": 280,
+    "sha256": "eb108762ffe808105110269bdd7fae4760d5d81205074253abe6a613deb335f8"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0011_metadata.json",
+    "bytes": 280,
+    "sha256": "bc45d8b7d0c9a9af9e7e26523372fdd2cc56953950a5a264fab5fa2a0feea959"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0014_final.txt",
+    "bytes": 4160,
+    "sha256": "0231e49841c358e5fe82dc0cae2ec73d0e779f89cc0f2550b5ebb5b6152cff53"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/initial_frame.txt",
+    "bytes": 4160,
+    "sha256": "7634bf1d1d2d6eb2255830342dc7ef9b7cafcd9e97299c9c03baac6dad3a9efd"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0019_final.txt",
+    "bytes": 4160,
+    "sha256": "257c1d3020dee4096169f65766632b1af9aabb02befe619b8cd4301b4bcbb8c0"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0006_final.txt",
+    "bytes": 4160,
+    "sha256": "4ebf31d8412691d8c7187ea9702056fc17524a7819519961ceaa0763d2a1584e"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0012_final.txt",
+    "bytes": 4160,
+    "sha256": "2e411882bf94367cda262ed48e2a1a4372d5cc125488e5c12891a7fbd66cbaf8"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0001_metadata.json",
+    "bytes": 250,
+    "sha256": "a683ccc2d2ddf3e4f4dd5919fe750c22e64a39aec9084a5547c024e23864458f"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0016_metadata.json",
+    "bytes": 280,
+    "sha256": "ad223a469642c70c2e5a0312cd3c693697a6bf04fabcf0bc394d4061c2fbf7d2"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0012_metadata.json",
+    "bytes": 250,
+    "sha256": "68ddbfac32629b87ea30c074af9196026ea4427ec98009937eb04372c9106b44"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0005_metadata.json",
+    "bytes": 250,
+    "sha256": "0117650e0894f60ea07e4e18cd889e5cdad9fe25ab5677dfb4cd8a742c7e12bd"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0020_final.txt",
+    "bytes": 4160,
+    "sha256": "022ccda2a8ff325971cdcc1243b9bd58aa0a1d8411dd53bea43326a4ffe0a870"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0018_metadata.json",
+    "bytes": 250,
+    "sha256": "f4ce0cf3d58cc93454d5e1736fda20eb7103dd00bdb2034ea6bf992401c31aa9"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0021_metadata.json",
+    "bytes": 250,
+    "sha256": "48b9e15ab4344393ff915da1962deb0d6409a774098433188f4ff49f65dcd487"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0015_final.txt",
+    "bytes": 4160,
+    "sha256": "6d9a0016b4f721cc4c9b38e09b5c41573c7fafef2b7476e1058a6de739d61e73"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0025_metadata.json",
+    "bytes": 276,
+    "sha256": "4985caf1748cb40715f99775f3b8e17b04ee7500e396cfa759d7d5d0e2384017"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0001_final.txt",
+    "bytes": 4160,
+    "sha256": "92421a2f6f826a4d749d6181a77cbfd5b856b550c43ac96099f02ec08c06b105"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0018_final.txt",
+    "bytes": 4160,
+    "sha256": "72215bd3e6e42eb23ef1447646a6e28c68ab5d2cca5e47936cd66eb88c22487c"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0013_final.txt",
+    "bytes": 4160,
+    "sha256": "ffbe3d7bad050d7c1682395fb5b2629e48a346e525b9e5babb7d26dc2ff903ff"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0007_final.txt",
+    "bytes": 4160,
+    "sha256": "0dc86e81a1e2c4beefa651302d597265faf43080f570f049094fb80e2ec70ca3"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0022_metadata.json",
+    "bytes": 250,
+    "sha256": "e54721a6125f07d1fe8f817ef1b5785061852c232eaf6cf329d32eb503314ded"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0008_metadata.json",
+    "bytes": 250,
+    "sha256": "0ff102b9ca634236f954689140018026a60ff73a2ff34ac81e2791c7bfa09ec2"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0002_final.txt",
+    "bytes": 4160,
+    "sha256": "40ad4247dbcf6d9cc828bd9d126946da6e1cf1921b659b9e9d87b206e076f57f"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0016_final.txt",
+    "bytes": 4160,
+    "sha256": "45d51c990ce74a6ca01e7f2570863bfde2ff06e0d6cc4cd4e4f6eb9709499a48"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0023_final.txt",
+    "bytes": 4160,
+    "sha256": "e82ab3576fce4f476bc2965cc82d56f4d6d6446a8c03055ccdd0b2de1c279c22"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0009_metadata.json",
+    "bytes": 280,
+    "sha256": "6671d051109565336c4849bc4730d455838343514a477ceb8468f82a0fd8cdca"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0023_metadata.json",
+    "bytes": 250,
+    "sha256": "12feee44701341e1803dbf3b4e01fdfe44ab98c958d8eab970db7fef8745a7d7"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0024_metadata.json",
+    "bytes": 250,
+    "sha256": "42aa9466e882ee8e1e027571d54fd5e73879f89b720b747a7c52689f33df8697"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0025_final.txt",
+    "bytes": 4160,
+    "sha256": "79729f6a68e0cc3c4941cb8ccfc873f0ec0c1cbb7d320d04d560cde6e8f4065e"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/initial_metadata.json",
+    "bytes": 248,
+    "sha256": "b00a75a95c4d4cb14374fc51e579b825acc043611819a986cc00207330964e76"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0020_metadata.json",
+    "bytes": 250,
+    "sha256": "d7955aeb186de918c21dd3a724158303c33798dd19ba63d0b141b402f7fe4046"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0004_final.txt",
+    "bytes": 4160,
+    "sha256": "13de1f0060b8bade25694d1c5eb86fb0f98b3710bf1f34e1b41a47e9ad8aea05"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0010_final.txt",
+    "bytes": 4160,
+    "sha256": "5cff07e3d8f3902aa862d8aa67be5d05265fe3c5f1d24858437f0e78c74d75eb"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0019_metadata.json",
+    "bytes": 250,
+    "sha256": "3d1d830b26bcde11fb8f70bd8f3b2170028b3a2e44b42d650b30ca43e548fb25"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0009_final.txt",
+    "bytes": 4160,
+    "sha256": "989fe3707a8a3f75a4287b2036f7c078f072f3f8a5f7e8b68f2ff702f403bd96"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0017_final.txt",
+    "bytes": 4160,
+    "sha256": "ae0073ff4fd4697e2e754077d599fec3b5cd9844a4cdc8346a3d49a61a410835"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0003_final.txt",
+    "bytes": 4160,
+    "sha256": "a2e5fbd50bdd8b639ffa4507cc324741ea03e1b2370fb3b340931e779b3d979c"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0022_final.txt",
+    "bytes": 4160,
+    "sha256": "4392eb68256edb824d930a30673d96560c356fa632aa9512562afb10adce331d"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0004_metadata.json",
+    "bytes": 280,
+    "sha256": "4ee38d09adc8f0aab2c21d62a0657e20632a4bbba14ed3662eea31f62f827fb8"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0013_metadata.json",
+    "bytes": 280,
+    "sha256": "f19a540ca12eefc3a2d2192cbc6e32b572be010dd64ab22c141d946e4ec59765"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0017_metadata.json",
+    "bytes": 280,
+    "sha256": "604d2974c873eac8c3d0e2e7a342369e882269b7e8669335f18cf49a2be71887"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0024_final.txt",
+    "bytes": 4160,
+    "sha256": "4155bb7d13d5f4b15e97542bdc88b5c0025fef2c24340a5b3477fbd0e9d7bbf1"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0010_metadata.json",
+    "bytes": 250,
+    "sha256": "db439ce4a3afaf018f90c419aa8c5113bc7096aeef1bdcace7e5bc59d709c33c"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0007_metadata.json",
+    "bytes": 280,
+    "sha256": "4ba9bd30d7cac0b899b11709d1527baa0f8e2579a524fd0c06c1d1c047e0aff9"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0011_final.txt",
+    "bytes": 4160,
+    "sha256": "18db6c0c3682a2b0a180f8c93d0bd8bf7730f23ffd735a6ba1f4d5ff779756fd"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0003_metadata.json",
+    "bytes": 280,
+    "sha256": "65f793021654f092b3961480f83644fa2494a6d404d7379369bc3005e8235d2e"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0005_final.txt",
+    "bytes": 4160,
+    "sha256": "8bcef38b68bfd824fc54f18cc27504c9e559521356ca485bca489c2496831898"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0014_metadata.json",
+    "bytes": 280,
+    "sha256": "0324ea96707c9c3a4c847b63787ff52510e6e88ba8a52819eb9a6841edd60d96"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_03/step_0008_final.txt",
+    "bytes": 4160,
+    "sha256": "2b94b23cc78e8f852ef8949e16bbaae6c33a8e91202642ebd8cd1bd10ec39c36"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0015_metadata.json",
+    "bytes": 280,
+    "sha256": "4211721ee108408164ec4394d249294923a15c4f3c2e103e3f716b0fadd4af20"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0035_final.txt",
+    "bytes": 4160,
+    "sha256": "61920f193576a1cb83f79d56b877bf71dc15b95ab0e5f2f6ce1cec5a102fe5f8"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0002_metadata.json",
+    "bytes": 280,
+    "sha256": "51da61e076eb6cd19023af036da0e7e9fa0f84be09d1b5486875dbcadc35bf37"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0021_final.txt",
+    "bytes": 4160,
+    "sha256": "c601a79a45e5f52e13dd98dc404d42a69be885f981c090b4fedb476ba451d431"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0006_metadata.json",
+    "bytes": 280,
+    "sha256": "207e32f1c2b3824792c42a777eaacf3562a1036440e4d2d7b8594e3d4f38bab5"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0011_metadata.json",
+    "bytes": 280,
+    "sha256": "d1ad1c3763578f6b75888a635723254ea208a8513ac823100a27bd61fc699324"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0014_final.txt",
+    "bytes": 4160,
+    "sha256": "0231e49841c358e5fe82dc0cae2ec73d0e779f89cc0f2550b5ebb5b6152cff53"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0028_metadata.json",
+    "bytes": 280,
+    "sha256": "8642630a2a40b09f3d7964e5fd2b89003e7ade0801d263043eb4d005dd9080a8"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/initial_frame.txt",
+    "bytes": 4160,
+    "sha256": "7634bf1d1d2d6eb2255830342dc7ef9b7cafcd9e97299c9c03baac6dad3a9efd"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0019_final.txt",
+    "bytes": 4160,
+    "sha256": "257c1d3020dee4096169f65766632b1af9aabb02befe619b8cd4301b4bcbb8c0"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0006_final.txt",
+    "bytes": 4160,
+    "sha256": "4ebf31d8412691d8c7187ea9702056fc17524a7819519961ceaa0763d2a1584e"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0012_final.txt",
+    "bytes": 4160,
+    "sha256": "2e411882bf94367cda262ed48e2a1a4372d5cc125488e5c12891a7fbd66cbaf8"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0033_final.txt",
+    "bytes": 4160,
+    "sha256": "3b2d7d79869c09afcf67d4052616fdf09ea8534ad42c8020aeb8f9956d7cac8c"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0027_final.txt",
+    "bytes": 4160,
+    "sha256": "f551748253548393fb426075012edeaa3e8779ae76f91c58bdec3c332dbeb6dc"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0001_metadata.json",
+    "bytes": 280,
+    "sha256": "8d359f4b898c99fb9efc374ab12f2ca5cd3391d88343f3338dcba5ab16ef93cc"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0016_metadata.json",
+    "bytes": 280,
+    "sha256": "80cad92a9c6225158a2ace9e19125aa52ebdbebcf603b20038ffb4bf6aee94c3"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0012_metadata.json",
+    "bytes": 250,
+    "sha256": "60717c6bfb63808c246ba8b9afdeb8edfc239d43152ee95aae3beb1b496dea6e"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0005_metadata.json",
+    "bytes": 250,
+    "sha256": "b277ce2beba2749ad7a52c11b8a483890af1cbcf2b345f28d51caba385680f01"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0020_final.txt",
+    "bytes": 4160,
+    "sha256": "08fd53ffbe7ee47efbde8b29370c97b570c1ad21e279f742fe6122d355db0e60"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0018_metadata.json",
+    "bytes": 250,
+    "sha256": "38c71ce2f697b3b98c3cd896956363fdaa05bd61c808337fddb7bffa820e7d4b"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0036_metadata.json",
+    "bytes": 280,
+    "sha256": "07a2d53e06a7ecb41a29b1a254515bcaca93b7e6aaaf088d5f406d54aeb6586b"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0034_final.txt",
+    "bytes": 4160,
+    "sha256": "fc3d9e8e67221d1875d53cc57169face048c7f74622e76fb312524b5d631019f"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0021_metadata.json",
+    "bytes": 250,
+    "sha256": "341256a9c3c9e9c7adf6d8dd9fe2d93bf878ac8a329e214898bd679e6277ad5b"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0015_final.txt",
+    "bytes": 4160,
+    "sha256": "6d9a0016b4f721cc4c9b38e09b5c41573c7fafef2b7476e1058a6de739d61e73"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0025_metadata.json",
+    "bytes": 250,
+    "sha256": "c13378fde276099eea4dfd9c3a50d4cb95cb52b586279c9a0ab06e23ea2fbbf9"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0001_final.txt",
+    "bytes": 4160,
+    "sha256": "843decbb87a4437370c08481643a391fc0eda5cff1dcfb1a262b6e8033bd3a58"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0032_metadata.json",
+    "bytes": 280,
+    "sha256": "39ed44eb64f9d26a3965a320ec68fe753ac3e2933d12882d6e8706c5329b132e"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0018_final.txt",
+    "bytes": 4160,
+    "sha256": "72215bd3e6e42eb23ef1447646a6e28c68ab5d2cca5e47936cd66eb88c22487c"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0013_final.txt",
+    "bytes": 4160,
+    "sha256": "ffbe3d7bad050d7c1682395fb5b2629e48a346e525b9e5babb7d26dc2ff903ff"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0007_final.txt",
+    "bytes": 4160,
+    "sha256": "0dc86e81a1e2c4beefa651302d597265faf43080f570f049094fb80e2ec70ca3"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0026_final.txt",
+    "bytes": 4160,
+    "sha256": "cf6fa9a077b521956bd209e94d8120fdbf57be525f3b9446eb1f4a3d69ac1a08"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0032_final.txt",
+    "bytes": 4160,
+    "sha256": "568905ec4db4a1219c03744adee42f676b21d92493cef89dbfd85a5764fada09"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0022_metadata.json",
+    "bytes": 280,
+    "sha256": "1e792f0fa0fcdd1993b765f2c17bfc5fbc8c769d9f8c3d0363654e05245b3901"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0035_metadata.json",
+    "bytes": 280,
+    "sha256": "c7cbbbc3771567f3ac61a28499fb3f24802513f0c7d1df99ad26d750ec7765ec"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0008_metadata.json",
+    "bytes": 250,
+    "sha256": "6adb2de632dc352b7e89a81c9fe3ce853ef8cfc7c2fb8edc5e59a92417fb63ae"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0031_metadata.json",
+    "bytes": 280,
+    "sha256": "279ff9e378d14f13c552a5618e98f7707d44cd1beefdccad6fe25cdbed3b1a17"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0026_metadata.json",
+    "bytes": 280,
+    "sha256": "d940c2892fa99a55e6274082e238abac604f5c7d57055f92dad2244f08dc5d06"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0002_final.txt",
+    "bytes": 4160,
+    "sha256": "2d78498c141918444318af20456bbb25d13f0ed750347489bd6fc0b8d123a3d1"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0016_final.txt",
+    "bytes": 4160,
+    "sha256": "45d51c990ce74a6ca01e7f2570863bfde2ff06e0d6cc4cd4e4f6eb9709499a48"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0023_final.txt",
+    "bytes": 4160,
+    "sha256": "e159510b9773fd54d0f733c3bfba13809564ecac6d683c77dc45d87e916b1054"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0027_metadata.json",
+    "bytes": 280,
+    "sha256": "a34b259750c5cf83fc10507a7d0fcb1b25989a2086547ab24627f5d08f0163c8"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0030_metadata.json",
+    "bytes": 280,
+    "sha256": "5eff70fa0793511a01019774187866c5b5a944a3b9054cb74efd546fde64ed47"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0009_metadata.json",
+    "bytes": 280,
+    "sha256": "c5fb9c41b52f2517e4c6cce335d045a1a995495af3a26aab3bcd98e9090dc67a"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0034_metadata.json",
+    "bytes": 280,
+    "sha256": "5d33688059ea867b38d47a09b52a6e2292f044f63d222797388ba0186e751cf4"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0023_metadata.json",
+    "bytes": 280,
+    "sha256": "d23840b018f315e380a81d2c5bf908a9a7a092a37856cbad34a148d534eb82a5"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0031_final.txt",
+    "bytes": 4160,
+    "sha256": "9281cb369a001239024e01f9c18b4fda7c68962565e1c3f4b197058930efdb31"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0033_metadata.json",
+    "bytes": 280,
+    "sha256": "7a8ab7be18f01b0a212e2aa6fd2174aad6473365f7991cfed55ba1cfe420a804"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0024_metadata.json",
+    "bytes": 280,
+    "sha256": "60bca27aab8874aa9410c46a7a61f8242d025dc23740955eea3b9ece15939af8"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0025_final.txt",
+    "bytes": 4160,
+    "sha256": "34fa360fe335e4965617bcb5c78217ca285537a3322de8fdf407db1083224d12"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/initial_metadata.json",
+    "bytes": 248,
+    "sha256": "ec97f0c8e494059a50a574d3188aef40bb8e90eb49115004bdce2bc30a661e03"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0020_metadata.json",
+    "bytes": 280,
+    "sha256": "3c33f1f647cc7ed8cc6226c00304dacd20d1f6b160fdc9aaf6dd529416981fe6"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0004_final.txt",
+    "bytes": 4160,
+    "sha256": "13de1f0060b8bade25694d1c5eb86fb0f98b3710bf1f34e1b41a47e9ad8aea05"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0010_final.txt",
+    "bytes": 4160,
+    "sha256": "5cff07e3d8f3902aa862d8aa67be5d05265fe3c5f1d24858437f0e78c74d75eb"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0019_metadata.json",
+    "bytes": 250,
+    "sha256": "932390d928e018e865c574eb95221a84b0c1ca07ed90ae2a58241b64008bfe00"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0028_final.txt",
+    "bytes": 4160,
+    "sha256": "1ab5a30fe84c41d54c0df88a0f8687a8ef54bcfe413365f0da0fbb395de8f721"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0009_final.txt",
+    "bytes": 4160,
+    "sha256": "989fe3707a8a3f75a4287b2036f7c078f072f3f8a5f7e8b68f2ff702f403bd96"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0017_final.txt",
+    "bytes": 4160,
+    "sha256": "ae0073ff4fd4697e2e754077d599fec3b5cd9844a4cdc8346a3d49a61a410835"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0003_final.txt",
+    "bytes": 4160,
+    "sha256": "7efdf91faadb1b7cd027cf100518beca5f1bd2ac812e00a69f31dc3f4d302ac6"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0022_final.txt",
+    "bytes": 4160,
+    "sha256": "7a1235df2fafce5143500493935e70b7b925fc36ef4a5fd92f7f99bbf3fb8867"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0036_final.txt",
+    "bytes": 4160,
+    "sha256": "cf71e44e22872fdcf4d13f2f44e2c8b24d71d33e5df70e7db744d949298046c2"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0004_metadata.json",
+    "bytes": 250,
+    "sha256": "ae496c9d1b4944dbe8f9d5e1d0cdf7e42aa7994d08315caf005d48763b72484a"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0013_metadata.json",
+    "bytes": 280,
+    "sha256": "8fc597d087eadc5e169fc39a7e2418d07f44a42fe4a9acb33277f1d9764a6ccf"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0017_metadata.json",
+    "bytes": 280,
+    "sha256": "54c89593f905da929e457af71cde3f9506ce5f0cc9b80919dae4e6a678cc86d0"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0029_metadata.json",
+    "bytes": 280,
+    "sha256": "24b739ed712417e1283762e6480866f33b19288ae7d5dfc6ae39df5c010ec401"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0024_final.txt",
+    "bytes": 4160,
+    "sha256": "bdceecb45c9af0852052bc456ee6e7194d024a8d7f29b5488a240547dc763d41"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0030_final.txt",
+    "bytes": 4160,
+    "sha256": "b96e53cad6649894612ecf2b931b720b3f00ba260b339b583b14eee571c8d0ca"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0010_metadata.json",
+    "bytes": 250,
+    "sha256": "0d88c9701c32b966837d1456c16506290a7bfa5749d9c897fdda056fd80372dd"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0007_metadata.json",
+    "bytes": 280,
+    "sha256": "59505ed1f3737a2dc42c3d102bb3924d0225acf7e1ac6c2ceb94998d1773a937"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0011_final.txt",
+    "bytes": 4160,
+    "sha256": "18db6c0c3682a2b0a180f8c93d0bd8bf7730f23ffd735a6ba1f4d5ff779756fd"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0003_metadata.json",
+    "bytes": 280,
+    "sha256": "a1c537447425e02b3d90b9b5506f0edd71c5e9745e87385bcb656a9965e9a1fe"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0005_final.txt",
+    "bytes": 4160,
+    "sha256": "8bcef38b68bfd824fc54f18cc27504c9e559521356ca485bca489c2496831898"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0014_metadata.json",
+    "bytes": 280,
+    "sha256": "6a2b5a98446c0e12dfe245d9dcde60e907262a191f49771a7f7449910e2e6390"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0029_final.txt",
+    "bytes": 4160,
+    "sha256": "6244b44612d15d2328da330aeb761363172ed66701e100d265aaf642bf8d5e54"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_04/step_0008_final.txt",
+    "bytes": 4160,
+    "sha256": "2b94b23cc78e8f852ef8949e16bbaae6c33a8e91202642ebd8cd1bd10ec39c36"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0015_metadata.json",
+    "bytes": 280,
+    "sha256": "b060a69a102cf1fb81cba39973c5164ff1c82d65fdf3c795d5b6f185a49d4daa"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0002_metadata.json",
+    "bytes": 280,
+    "sha256": "6c8fe3c2a7cbd710fdb1c9083e94e14d5fc1d67bac91552c4f0086b631214f78"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0021_final.txt",
+    "bytes": 4160,
+    "sha256": "27e50e41df31b0f61bb8e3a1b09153e64380af2dc7e9d72187634857063a2874"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0006_metadata.json",
+    "bytes": 280,
+    "sha256": "1dd092645eec1f4ae5a5460eb453874f5bff0c13614ecb3bce96ed1db3ea03c1"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0011_metadata.json",
+    "bytes": 280,
+    "sha256": "cdcc921f0620157cc415baf1698a55136da5a8aa3264cfedcc1811aceec6fb18"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0014_final.txt",
+    "bytes": 4160,
+    "sha256": "0231e49841c358e5fe82dc0cae2ec73d0e779f89cc0f2550b5ebb5b6152cff53"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/initial_frame.txt",
+    "bytes": 4160,
+    "sha256": "7634bf1d1d2d6eb2255830342dc7ef9b7cafcd9e97299c9c03baac6dad3a9efd"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0019_final.txt",
+    "bytes": 4160,
+    "sha256": "257c1d3020dee4096169f65766632b1af9aabb02befe619b8cd4301b4bcbb8c0"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0006_final.txt",
+    "bytes": 4160,
+    "sha256": "4ebf31d8412691d8c7187ea9702056fc17524a7819519961ceaa0763d2a1584e"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0012_final.txt",
+    "bytes": 4160,
+    "sha256": "2e411882bf94367cda262ed48e2a1a4372d5cc125488e5c12891a7fbd66cbaf8"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0001_metadata.json",
+    "bytes": 250,
+    "sha256": "9af67e79392683ec3685984b9db37aa47f13c989619508044dace17edb0ac391"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0016_metadata.json",
+    "bytes": 280,
+    "sha256": "628b17def522a74827f44b601655a71eb04ad73fe33f474e478dcefe11ed3c2f"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0012_metadata.json",
+    "bytes": 250,
+    "sha256": "606f4620ec523df7f62e062922760ffec5ddb89f556f3ef0c6cfdfbd24326a5b"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0005_metadata.json",
+    "bytes": 250,
+    "sha256": "ce01ebcc4cb002fcbc4726c20149e5a04a7d5ffdb473e933cb20bacacdd23faa"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0020_final.txt",
+    "bytes": 4160,
+    "sha256": "022ccda2a8ff325971cdcc1243b9bd58aa0a1d8411dd53bea43326a4ffe0a870"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0018_metadata.json",
+    "bytes": 250,
+    "sha256": "05741ce4d4c064aa32015fa131d74b212bed2c2e7b30093e8713511f1e3f7a2e"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0021_metadata.json",
+    "bytes": 250,
+    "sha256": "c611b65f1b6b4fac7e3e1c3ae845d5a6f221c2ed5b637fcc12120b86d34e6077"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0015_final.txt",
+    "bytes": 4160,
+    "sha256": "6d9a0016b4f721cc4c9b38e09b5c41573c7fafef2b7476e1058a6de739d61e73"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0025_metadata.json",
+    "bytes": 276,
+    "sha256": "946b358549659a11636a283c0958f98264415a57acc9d4d207ecc75e8e02bff1"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0001_final.txt",
+    "bytes": 4160,
+    "sha256": "92421a2f6f826a4d749d6181a77cbfd5b856b550c43ac96099f02ec08c06b105"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0018_final.txt",
+    "bytes": 4160,
+    "sha256": "72215bd3e6e42eb23ef1447646a6e28c68ab5d2cca5e47936cd66eb88c22487c"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0013_final.txt",
+    "bytes": 4160,
+    "sha256": "ffbe3d7bad050d7c1682395fb5b2629e48a346e525b9e5babb7d26dc2ff903ff"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0007_final.txt",
+    "bytes": 4160,
+    "sha256": "0dc86e81a1e2c4beefa651302d597265faf43080f570f049094fb80e2ec70ca3"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0022_metadata.json",
+    "bytes": 250,
+    "sha256": "c9c180dabca1508b58ecdc2258ea1bf03e99570d2702f0ea8d11173160a9af36"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0008_metadata.json",
+    "bytes": 250,
+    "sha256": "660813cbf6ca0554db8eaa0351171a06b1f520d28efe5dd0a03e02723d0fdeaa"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0002_final.txt",
+    "bytes": 4160,
+    "sha256": "40ad4247dbcf6d9cc828bd9d126946da6e1cf1921b659b9e9d87b206e076f57f"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0016_final.txt",
+    "bytes": 4160,
+    "sha256": "45d51c990ce74a6ca01e7f2570863bfde2ff06e0d6cc4cd4e4f6eb9709499a48"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0023_final.txt",
+    "bytes": 4160,
+    "sha256": "e82ab3576fce4f476bc2965cc82d56f4d6d6446a8c03055ccdd0b2de1c279c22"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0009_metadata.json",
+    "bytes": 280,
+    "sha256": "d86e00c6cbdca8ebed570438e647d1b8362df1db097c171f1d065ca9b6a9b618"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0023_metadata.json",
+    "bytes": 250,
+    "sha256": "212e1cfb3fae2db9af2db6049e35eeddbb5ce5e44b8ba95c6e4785b39320fd9d"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0024_metadata.json",
+    "bytes": 250,
+    "sha256": "a51e188b5f91390249560a8de8ecccadfc40318da25afd771ca497b1d5525bc4"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0025_final.txt",
+    "bytes": 4160,
+    "sha256": "79729f6a68e0cc3c4941cb8ccfc873f0ec0c1cbb7d320d04d560cde6e8f4065e"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/initial_metadata.json",
+    "bytes": 248,
+    "sha256": "e40c79d0e2385f00330238fe99cfdc4ea1e7c93f41bc2c16c44e0a4ea5bed334"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0020_metadata.json",
+    "bytes": 250,
+    "sha256": "d8a0e8615cc37c802dbffdc5da7e8f3bd3a73c2dbc03dfce68fb4375aca20759"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0004_final.txt",
+    "bytes": 4160,
+    "sha256": "13de1f0060b8bade25694d1c5eb86fb0f98b3710bf1f34e1b41a47e9ad8aea05"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0010_final.txt",
+    "bytes": 4160,
+    "sha256": "5cff07e3d8f3902aa862d8aa67be5d05265fe3c5f1d24858437f0e78c74d75eb"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0019_metadata.json",
+    "bytes": 250,
+    "sha256": "50fc10448fe36bd9efc4b3394c11c0568222311c2ab5954be2029442e8299e7d"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0009_final.txt",
+    "bytes": 4160,
+    "sha256": "989fe3707a8a3f75a4287b2036f7c078f072f3f8a5f7e8b68f2ff702f403bd96"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0017_final.txt",
+    "bytes": 4160,
+    "sha256": "ae0073ff4fd4697e2e754077d599fec3b5cd9844a4cdc8346a3d49a61a410835"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0003_final.txt",
+    "bytes": 4160,
+    "sha256": "a2e5fbd50bdd8b639ffa4507cc324741ea03e1b2370fb3b340931e779b3d979c"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0022_final.txt",
+    "bytes": 4160,
+    "sha256": "4392eb68256edb824d930a30673d96560c356fa632aa9512562afb10adce331d"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0004_metadata.json",
+    "bytes": 280,
+    "sha256": "ad0b1e736e49fa792ae363a85c3e4b877bbb7e593217b910709d305baaabec03"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0013_metadata.json",
+    "bytes": 280,
+    "sha256": "2dc8c55e1f2796fa2a6d3f6901eea670030e01d04f8a8d6db5bf70a1ef4d1584"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0017_metadata.json",
+    "bytes": 280,
+    "sha256": "90c8731bb6a33372dac4268b88c2fdbd44f3e9238b656a63ac84be1c243a5b8c"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0024_final.txt",
+    "bytes": 4160,
+    "sha256": "4155bb7d13d5f4b15e97542bdc88b5c0025fef2c24340a5b3477fbd0e9d7bbf1"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0010_metadata.json",
+    "bytes": 250,
+    "sha256": "21ce1f362992d642699ab302caca2827724e71a3717714b309523964a7c4b710"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0007_metadata.json",
+    "bytes": 280,
+    "sha256": "cf4991a431fccbe0207a66b93a890f935a1b5f1e485e69680d47a422e69ddebb"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0011_final.txt",
+    "bytes": 4160,
+    "sha256": "18db6c0c3682a2b0a180f8c93d0bd8bf7730f23ffd735a6ba1f4d5ff779756fd"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0003_metadata.json",
+    "bytes": 280,
+    "sha256": "2dadc6470c0322e54182a241bb8634c442e8342527864024a866a05ae0bc50e5"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0005_final.txt",
+    "bytes": 4160,
+    "sha256": "8bcef38b68bfd824fc54f18cc27504c9e559521356ca485bca489c2496831898"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0014_metadata.json",
+    "bytes": 280,
+    "sha256": "c36adc702abae5bd40fd165b8384a2bb6dc23dd5d4beb748795ce49db4f7ada1"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_02/step_0008_final.txt",
+    "bytes": 4160,
+    "sha256": "2b94b23cc78e8f852ef8949e16bbaae6c33a8e91202642ebd8cd1bd10ec39c36"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0015_metadata.json",
+    "bytes": 250,
+    "sha256": "99dba25a685be7cc43c336cdc71460a32833e8abaf1c606effaadd1027c38706"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0002_metadata.json",
+    "bytes": 280,
+    "sha256": "96888e1faaac44832950b70ec20b206d8afad33dece4c335f3d6f2e999f47fce"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0021_final.txt",
+    "bytes": 4160,
+    "sha256": "2b7786fe2f59813d63f02977ddce4ae981441273dc8a0209691fa75234ada361"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0006_metadata.json",
+    "bytes": 280,
+    "sha256": "7431be3309b3a686b2be8567463c495c9bed5ccda6f8b1455acc802a32a33d18"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0011_metadata.json",
+    "bytes": 250,
+    "sha256": "4eeed9659897da4f46f7b82f2a66acbd13e10712920cf96648b5e8b07319d143"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0014_final.txt",
+    "bytes": 4160,
+    "sha256": "fb8111595a5e96c3e47414e2dc98915c3999136151018c65c650bd8e853e976e"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/initial_frame.txt",
+    "bytes": 4160,
+    "sha256": "7634bf1d1d2d6eb2255830342dc7ef9b7cafcd9e97299c9c03baac6dad3a9efd"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0019_final.txt",
+    "bytes": 4160,
+    "sha256": "56b4f1121ac67a557b136e86265eec1f90017616429d41a1959d78956990c60d"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0006_final.txt",
+    "bytes": 4160,
+    "sha256": "9bdffa910512606abda7775608743b5abfedffd7c1b2fcdd3052a62da5736df9"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0012_final.txt",
+    "bytes": 4160,
+    "sha256": "005b1299f17b7e63ed51e509479b2ef225e26e4514172bdf8757119b26b16bcf"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0001_metadata.json",
+    "bytes": 250,
+    "sha256": "d9202f177577132aadeedb3627f4d6f9deb9ea4a4f0511892a329f7c3eb95849"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0016_metadata.json",
+    "bytes": 280,
+    "sha256": "4d5171b40d0bb08a84ffb57f17b7f468e75a60481ac00370a6cddcdd408c8e63"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0012_metadata.json",
+    "bytes": 280,
+    "sha256": "313f141be7fc135f8f705bf86a5e54029e5320ef324bce63e9726049d7e5d0a1"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0005_metadata.json",
+    "bytes": 250,
+    "sha256": "8bffafd9e939fc40a5c9c9b01414cf0f845bea399227c11a0d468a9164680701"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0020_final.txt",
+    "bytes": 4160,
+    "sha256": "2e636fc8b7c7b3516144a4c6bb3869a818ccceb5b50223a7f75518470fffedde"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0018_metadata.json",
+    "bytes": 280,
+    "sha256": "9a0bdb4a64230fd141243be57b2509df47d486da204056d044e4a3afa5bdc2a6"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0021_metadata.json",
+    "bytes": 250,
+    "sha256": "400293f573970167c73b1401b919f0e5411df782657f043971064570219b865a"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0015_final.txt",
+    "bytes": 4160,
+    "sha256": "02aec48700cae78946f5542ae86458d6c69e901da72f220ea799cc14f96c743a"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0001_final.txt",
+    "bytes": 4160,
+    "sha256": "38403399a1baf0fd85b3d31dfe89f42c5ef0f4dcf68f2836bab8a6896b8de68f"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0018_final.txt",
+    "bytes": 4160,
+    "sha256": "6278754f4a4b6a508255b796a7eeff91296d1061503c7673c8295c21babeddf4"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0013_final.txt",
+    "bytes": 4160,
+    "sha256": "7c502e470d9db3a3c4c30f6a80bf25e0aa1f55bbbc76de3f22aff4bc7331c9e5"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0007_final.txt",
+    "bytes": 4160,
+    "sha256": "38dc0ee4a538352b1962da45433e68357ad01cb8b21add517edec8153fb3a00c"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0022_metadata.json",
+    "bytes": 250,
+    "sha256": "63a13e67a93bb3142aa4c691c38f0c15d20c9abb2ac2bfed24595e07d29bd562"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0008_metadata.json",
+    "bytes": 250,
+    "sha256": "e0a03b8bd4be000fbb64edda9668fac4e236c0e69caf26aec949891b8f97f37a"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0002_final.txt",
+    "bytes": 4160,
+    "sha256": "445b89159f3c7d882e56241fd850c13d838e8ac7540bcb03f6c6417c8b0fe514"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0016_final.txt",
+    "bytes": 4160,
+    "sha256": "e1ac9b9f070f2b5b8f0a817f992be871a3e1e9d75f1c8057386c0ae99421332f"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0023_final.txt",
+    "bytes": 4160,
+    "sha256": "e0ec0860e1d94b17115a47e12e98625f1a7d34a74549a23731dbef751adb3367"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0009_metadata.json",
+    "bytes": 280,
+    "sha256": "e7149a7883cec8c32720edd6c3b70abd2b2d5ea1a1edf1c60b6f1718e09b262a"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0023_metadata.json",
+    "bytes": 277,
+    "sha256": "078cca4764a3c79e9944d1625b58efd162aff0bfb45600a008b2ef670bf899c5"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/initial_metadata.json",
+    "bytes": 278,
+    "sha256": "9e21b5734c7079746793fe6ccc11211425cb2b5167cf4af74e6154fcd7505131"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0020_metadata.json",
+    "bytes": 280,
+    "sha256": "73336d7e0d52013a3743f707e4d24fd244f6b8f348236d639a089c5e44a1cafa"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0004_final.txt",
+    "bytes": 4160,
+    "sha256": "311b53d947709139323bb2a97c870598ac59e1e8185ad279666c7edaeff27ba5"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0010_final.txt",
+    "bytes": 4160,
+    "sha256": "cf1f442c976228c0483688019bb9846c3cda5eeb1c81596889a1dab47ed31b7d"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0019_metadata.json",
+    "bytes": 280,
+    "sha256": "8e96df7cf47a337de23ef81d8188203563fe47701b511bdc22c4aa38a6e604cc"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0009_final.txt",
+    "bytes": 4160,
+    "sha256": "ce577050c7c0c41acacfe2e6b29ea372626f7d3e755c5b224ea9b5c35023bb45"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0017_final.txt",
+    "bytes": 4160,
+    "sha256": "c2aca5b207f881caa69243ab55b8718e5358c493cc75023c7faf7343159424d7"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0003_final.txt",
+    "bytes": 4160,
+    "sha256": "96933ced84e20d239b378542e94a3643a5dab101d2b810224e32f020c0d7a3aa"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0022_final.txt",
+    "bytes": 4160,
+    "sha256": "623b880ba17e537c44c817454f85227abf1bf9fba358a36432d9a8998b59482a"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0004_metadata.json",
+    "bytes": 250,
+    "sha256": "4346f422a7cd5c9ab71607f657f755c71d97d1263b2529be8fd4bd3fe035e952"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0013_metadata.json",
+    "bytes": 250,
+    "sha256": "2d4a498318263571722bfcbae49088b3118f1a64457e44c89eb63b073f778271"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0017_metadata.json",
+    "bytes": 280,
+    "sha256": "b506f0b12bda5e33bd1ff0587115f7aedbab62f23deb4675ba05e18ca5270fe7"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0010_metadata.json",
+    "bytes": 280,
+    "sha256": "da808f86c25e34f7e45afcfb1bea1bea0643ff48eb64d4f37f087d4f7c96b3e2"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0007_metadata.json",
+    "bytes": 280,
+    "sha256": "f86495720209526ea0bd8f60337375ff2d58819dfbeb69990916a0bb49ebbc8f"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0011_final.txt",
+    "bytes": 4160,
+    "sha256": "5c19f0e2d4a38e1b3dae141639da0fd6057ce7a485bd9df7e1196d6ff18200cd"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0003_metadata.json",
+    "bytes": 280,
+    "sha256": "01fc5143de3b185790de3087be924e9f908b8526a056b6d2ffee400912b462d7"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0005_final.txt",
+    "bytes": 4160,
+    "sha256": "8c5a80a4936f239d509ab4bbc8a3404d9b14bfd2a2a755fbce424c5443cf5636"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0014_metadata.json",
+    "bytes": 280,
+    "sha256": "d38865c4f9e57fda9f4f7e9eb2fa224ef8621479f75e65aef06a4e1cb0845e54"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/client/session/level_08_attempt_01/step_0008_final.txt",
+    "bytes": 4160,
+    "sha256": "e506cee9e29ff7ea8f3cc934111c0934091124bcc761ebcc15f3fa70f64fad6b"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/initial_full_frames/level_3.txt",
+    "bytes": 12285,
+    "sha256": "cb577bed2917fedb72cee4d34f4aa2f683f61d3a79bc8b6b791bc2bca2db9bb5"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/initial_full_frames/level_2.txt",
+    "bytes": 14625,
+    "sha256": "ba763e73c59ca2930d8110a037045be38d083876bb704e343d8fda442fc84d63"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/initial_full_frames/level_1.txt",
+    "bytes": 7995,
+    "sha256": "3fe8af22b7c86d09828e1784f22aab71eaf05b732ef042df4e7df61cc6229e0b"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/initial_full_frames/level_5.txt",
+    "bytes": 9425,
+    "sha256": "53823e0a79100e857d93b0c0837ffdbe80ad9a4e774e0f16a454dbe197f5c63c"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/initial_full_frames/level_4.txt",
+    "bytes": 12545,
+    "sha256": "09edd6315807aae402b4713dcf02653e47cb889e0955cb7773446b0bc4c5cc94"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/initial_full_frames/level_6.txt",
+    "bytes": 14105,
+    "sha256": "4ccb4f3dbfc60bb2867bd381f34cced410dae9476df3ffb1d99ecf0ee9d04412"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/initial_full_frames/level_7.txt",
+    "bytes": 12935,
+    "sha256": "ec44a1d38adb897722d0f6b8ff496c76a76f76ee7fc0699a8aee5ee0fdb4b1ae"
+  },
+  {
+    "path": "source/runs/bp35/agent_run/initial_full_frames/level_8.txt",
+    "bytes": 13455,
+    "sha256": "c6b2658c2d69855af5416c871c6d8b541f51c83e33073a1e0f3a6d326bdda784"
+  }
+]

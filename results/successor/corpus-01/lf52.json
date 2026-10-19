@@ -1,0 +1,20 @@
+{
+  "game": "lf52",
+  "status": "UNSUPPORTED",
+  "trace": {
+    "transitions": 819,
+    "unique_inputs": 819,
+    "ambiguous_input_groups": 0,
+    "minimum_observation_only_errors": 0,
+    "conflicts": []
+  },
+  "scope": "teacher-forced released transcript; no original agent/planner score",
+  "reason": "call:open; import:os",
+  "model_calls": 0,
+  "seconds": 0.552505082989228,
+  "artifact_sha256": "51a5f50dbf39f58fe069effe1312a2a312495836ecc0df7dc766a1440ff13179",
+  "source_sha256": "aca97b01ca502f6b493fa8e2f735c67e58f1f062716d644a705ec67cba961b0e",
+  "split": "outcome_unseen",
+  "peak_rss_native_units": 108298240,
+  "rss_unit": "bytes"
+}

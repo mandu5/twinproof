@@ -1,0 +1,33 @@
+{
+  "families": 4,
+  "status_counts": {
+    "OK": 3,
+    "UNSUPPORTED": 1
+  },
+  "runtime_completed": 3,
+  "trace_alias_families": [
+    "dc22",
+    "sp80"
+  ],
+  "runtime_alias_families": [
+    "dc22",
+    "sp80"
+  ],
+  "model_calls": 5928,
+  "unknown_cost_families": [],
+  "shared_branch_mismatches": 6,
+  "isolated_branch_mismatches": 0,
+  "branch_checks": 613,
+  "fresh_replay_checks": 6,
+  "fresh_replay_mismatches": 0,
+  "counterfactual_witnesses": 4,
+  "unrepaired_counterfactual_witnesses": 0,
+  "sota": false,
+  "claim": "Finite diagnostic and repair study; no general or original-agent performance claim.",
+  "receipt_hashes": {
+    "dc22.json": "5ce598ec4f6ee8d0b3b698f8f786eb0cc0f6537ce099510d27240b1193d4e8d0",
+    "sp80.json": "fafd762a6dc9019cc4cc396e7b4023040976b94cc62c9832d4f24ea6d86b38f9",
+    "ft09.json": "3b4e3fea50a6101051b77581e2860892834e0e9b2915e46fcf6648773f8518a7",
+    "cd82.json": "f51cd2f93abe9f37ab6b47c3963939e0700fe0b737def8bc1a07641fff1c1583"
+  }
+}

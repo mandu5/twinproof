@@ -1,0 +1,21 @@
+{
+  "game": "sb26",
+  "status": "UNSUPPORTED",
+  "trace": {
+    "transitions": 129,
+    "unique_inputs": 129,
+    "ambiguous_input_groups": 0,
+    "minimum_observation_only_errors": 0,
+    "conflicts": []
+  },
+  "scope": "teacher-forced released transcript; no original agent/planner score",
+  "reason": "function decorator; import:pathlib",
+  "model_calls": 0,
+  "seconds": 0.08151683300093282,
+  "call_phases": {},
+  "artifact_sha256": "0461b5c0ef0d1b7fc0a3c1878f974019a6aec3ac9e21d93568a8103064f95be5",
+  "source_sha256": "b998a11b1c0afeb203081f70d64f9c270f4503771befc501646fcc5e86b78ffc",
+  "split": "outcome_unseen",
+  "peak_rss_native_units": 37060608,
+  "rss_unit": "bytes"
+}
