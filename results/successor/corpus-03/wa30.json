@@ -1,0 +1,35 @@
+{
+  "game": "wa30",
+  "status": "UNSUPPORTED",
+  "trace": {
+    "transitions": 713,
+    "unique_inputs": 712,
+    "ambiguous_input_groups": 1,
+    "minimum_observation_only_errors": 1,
+    "conflicts": [
+      {
+        "indices": [
+          395,
+          396
+        ],
+        "action": "ACTION4",
+        "input_sha256": "f3bd37b4e0ac9ce5c752d2269d02d44a9f2ef878d66403140da44c697e2640ae",
+        "successor_sha256": [
+          "f3bd37b4e0ac9ce5c752d2269d02d44a9f2ef878d66403140da44c697e2640ae",
+          "47f3d98c8964d6e8ce854c7779e4b7dffeb4e10f274ff0c19e2d93131643a1ae"
+        ],
+        "distinct_successors": 2
+      }
+    ]
+  },
+  "scope": "teacher-forced released transcript; no original agent/planner score",
+  "reason": "call:globals; import:pathlib; import:sqlite3",
+  "model_calls": 0,
+  "seconds": 0.4448672500002431,
+  "call_phases": {},
+  "artifact_sha256": "11931c7e87fbf8b3c6811c3338fc2556238c2ec507997ecac70be700eb6e6fcb",
+  "source_sha256": "dfa6799f78a193b606706b24db57149d366b3b2349106cfb3e7cd1afd24e60c9",
+  "split": "outcome_unseen",
+  "peak_rss_native_units": 90013696,
+  "rss_unit": "bytes"
+}

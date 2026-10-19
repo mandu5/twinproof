@@ -1,0 +1,21 @@
+{
+  "game": "m0r0",
+  "status": "UNSUPPORTED",
+  "trace": {
+    "transitions": 230,
+    "unique_inputs": 230,
+    "ambiguous_input_groups": 0,
+    "minimum_observation_only_errors": 0,
+    "conflicts": []
+  },
+  "scope": "teacher-forced released transcript; no original agent/planner score",
+  "reason": "set/frozenset iteration is not preserved by snapshot serialization",
+  "model_calls": 0,
+  "seconds": 0.16057125000224914,
+  "call_phases": {},
+  "artifact_sha256": "d429be2035b9e53506f59151df9658d927bbc97644b77cfb2e809de27aef05e5",
+  "source_sha256": "0009f33688ef6db9f8d441355e5b94a5cd9e0cc8ef03111e15eca3cda69a98cb",
+  "split": "outcome_unseen",
+  "peak_rss_native_units": 52625408,
+  "rss_unit": "bytes"
+}

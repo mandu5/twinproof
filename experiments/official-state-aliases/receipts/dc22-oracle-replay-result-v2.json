@@ -1,0 +1,109 @@
+{
+  "game_id": "dc22-fdcac232",
+  "sdk": "arc-agi==0.9.9",
+  "engine": "arcengine==0.9.3",
+  "initial_frame_equal": true,
+  "initial_frame_sha256": "9fbf1c933c7b6b321493fc0fd3dbeffb0a51c7f845916690e6609b8d637de2f6",
+  "seed": 0,
+  "status": "UNALIGNED",
+  "bridge_strategy": "one_missing_action_before_or_after_recorded_action",
+  "oracle_calls": 632,
+  "recorded_actions_executed": 362,
+  "bridges": [
+    {
+      "after_recorded_action_i": 25,
+      "action": "ACTION4",
+      "next_is_level_boundary": false,
+      "engine_state": "NOT_FINISHED",
+      "engine_levels_completed": 1,
+      "different_pixels": 9,
+      "expected_frame_sha256": "51adfccb73579b72ae5933baacb630eaea6bd57418f6da790b106a9cf23a5dc2",
+      "actual_frame_sha256": "a5b1b288de47e75b77243acadd4057c4e8b6df51b5e549fea48bac30819436e5",
+      "inserted_actions": [
+        "ACTION4"
+      ],
+      "aligned": true,
+      "insertion": "before",
+      "aligned_levels_completed": 1
+    },
+    {
+      "after_recorded_action_i": 93,
+      "action": "ACTION6:52,27",
+      "next_is_level_boundary": false,
+      "engine_state": "NOT_FINISHED",
+      "engine_levels_completed": 1,
+      "different_pixels": 769,
+      "expected_frame_sha256": "be6b020422787488b7d8e726a4d9e33a6c003ad11a2a86e9b8326a4b15aa0bcc",
+      "actual_frame_sha256": "032fc7b63d4a89c2031cc6f6f60383cdd4a8f0777344e91ee6eeec2b4a3961d5",
+      "inserted_actions": [
+        "ACTION1"
+      ],
+      "aligned": true,
+      "insertion": "before",
+      "aligned_levels_completed": 2
+    },
+    {
+      "after_recorded_action_i": 141,
+      "action": "ACTION6:56,28",
+      "next_is_level_boundary": false,
+      "engine_state": "NOT_FINISHED",
+      "engine_levels_completed": 2,
+      "different_pixels": 743,
+      "expected_frame_sha256": "129ea31b7f267dc8f017ac96e59aedcbbe61c9ea6e8ec41595c6fdbaaa07f138",
+      "actual_frame_sha256": "330c6be58037a5f37696b3c4ebabeaf2409d427e5025b5c20a45eef0d1902a50",
+      "inserted_actions": [
+        "ACTION2"
+      ],
+      "aligned": true,
+      "insertion": "before",
+      "aligned_levels_completed": 3
+    },
+    {
+      "after_recorded_action_i": 204,
+      "action": "ACTION3",
+      "next_is_level_boundary": false,
+      "engine_state": "NOT_FINISHED",
+      "engine_levels_completed": 3,
+      "different_pixels": 1955,
+      "expected_frame_sha256": "ea92414af1075b479b692f08d10527c4b8de5b76399828983a886387ea0e5520",
+      "actual_frame_sha256": "80c672447b88a8d4c3e051b8707387743c9fdd90c2121b962c78a1c96f23bce3",
+      "inserted_actions": [
+        "ACTION2"
+      ],
+      "aligned": true,
+      "insertion": "before",
+      "aligned_levels_completed": 4
+    },
+    {
+      "after_recorded_action_i": 354,
+      "action": "ACTION5",
+      "next_is_level_boundary": false,
+      "engine_state": "NOT_FINISHED",
+      "engine_levels_completed": 4,
+      "different_pixels": 8,
+      "expected_frame_sha256": "6cbb18d07e6c2d8bff086c5e87f68a2a440e62c961e6d424e2b527d8067a7a7d",
+      "actual_frame_sha256": "08bf414a92e6c49707ed977ec06f3172cf3855a7838350a6e13a21ac2bea2a7f",
+      "inserted_actions": [
+        "ACTION1"
+      ],
+      "aligned": true,
+      "insertion": "before",
+      "aligned_levels_completed": 4
+    }
+  ],
+  "aligned_frame_indices": [],
+  "witnesses": [],
+  "mismatch": {
+    "after_recorded_action_i": 361,
+    "action": "ACTION2",
+    "next_is_level_boundary": false,
+    "engine_state": "NOT_FINISHED",
+    "engine_levels_completed": 4,
+    "different_pixels": 1,
+    "expected_frame_sha256": "deb545bfc1c8af5f8b5cc8586c4b1244058b9f64a34f868fb821b64e68c37b81",
+    "actual_frame_sha256": "922f3d136e136971242bd29bac5b3a1c6c3ea81c0bf8853572e4364d2e84ab84"
+  },
+  "recorded_alias_checks": [],
+  "elapsed_seconds": 3.216605084002367,
+  "action_search_candidates": 83
+}

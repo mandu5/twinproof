@@ -1,0 +1,35 @@
+{
+  "game": "tu93",
+  "status": "UNSUPPORTED",
+  "trace": {
+    "transitions": 219,
+    "unique_inputs": 209,
+    "ambiguous_input_groups": 1,
+    "minimum_observation_only_errors": 1,
+    "conflicts": [
+      {
+        "indices": [
+          70,
+          76
+        ],
+        "action": "ACTION3",
+        "input_sha256": "11900e96fbbc1ccba5db1b0a2c5066bf1c1021982db22a74f32c8e046ae16c30",
+        "successor_sha256": [
+          "90a79e705a92dd000c62dc34ef124b6bee17090796cd9917230ee1b77aa1f9f0",
+          "ad164d4c9deb9e13b687c50951685b5c20d00886936f03b0fb9bea550085a64b"
+        ],
+        "distinct_successors": 2
+      }
+    ]
+  },
+  "scope": "teacher-forced released transcript; no original agent/planner score",
+  "reason": "call:open; import:os",
+  "model_calls": 0,
+  "seconds": 0.13682570798846427,
+  "call_phases": {},
+  "artifact_sha256": "74e6afdab7a5a723e264a984d43a2b47139a2850059209761bd8bd671f6b4da0",
+  "source_sha256": "e343fc730f3f2197ca4bc67c0004532d2b205f2893d424bb41ac11e65fde5600",
+  "split": "outcome_unseen",
+  "peak_rss_native_units": 46858240,
+  "rss_unit": "bytes"
+}

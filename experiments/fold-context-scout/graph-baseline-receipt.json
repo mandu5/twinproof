@@ -1,0 +1,910 @@
+{
+  "rows": 150,
+  "disagreements": [],
+  "source_receipt_sha256": "27996a72a31614005a08b29baa6b38c0623695181e8b8f3e2e0d33ab1329384d",
+  "runner_sha256": "03ea7e29ff5eb98309e58d192eecc24f5be1ead8293789216124eb66c479b2c4",
+  "claim": "Simple graph reachability ties the set-union analysis when given the same explicit operator dependencies. No new inference algorithm or superiority established.",
+  "baseline_rows": [
+    {
+      "seed": 0,
+      "fold": 0,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 0,
+      "fold": 0,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 0,
+      "fold": 0,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 0,
+      "fold": 1,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 0,
+      "fold": 1,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 0,
+      "fold": 1,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 0,
+      "fold": 2,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 0,
+      "fold": 2,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 0,
+      "fold": 2,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 0,
+      "fold": 3,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 0,
+      "fold": 3,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 0,
+      "fold": 3,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 0,
+      "fold": 4,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 0,
+      "fold": 4,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 0,
+      "fold": 4,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 1,
+      "fold": 0,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 1,
+      "fold": 0,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 1,
+      "fold": 0,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 1,
+      "fold": 1,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 1,
+      "fold": 1,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 1,
+      "fold": 1,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 1,
+      "fold": 2,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 1,
+      "fold": 2,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 1,
+      "fold": 2,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 1,
+      "fold": 3,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 1,
+      "fold": 3,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 1,
+      "fold": 3,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 1,
+      "fold": 4,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 1,
+      "fold": 4,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 1,
+      "fold": 4,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 2,
+      "fold": 0,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 2,
+      "fold": 0,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 2,
+      "fold": 0,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 2,
+      "fold": 1,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 2,
+      "fold": 1,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 2,
+      "fold": 1,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 2,
+      "fold": 2,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 2,
+      "fold": 2,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 2,
+      "fold": 2,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 2,
+      "fold": 3,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 2,
+      "fold": 3,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 2,
+      "fold": 3,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 2,
+      "fold": 4,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 2,
+      "fold": 4,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 2,
+      "fold": 4,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 3,
+      "fold": 0,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 3,
+      "fold": 0,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 3,
+      "fold": 0,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 3,
+      "fold": 1,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 3,
+      "fold": 1,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 3,
+      "fold": 1,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 3,
+      "fold": 2,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 3,
+      "fold": 2,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 3,
+      "fold": 2,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 3,
+      "fold": 3,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 3,
+      "fold": 3,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 3,
+      "fold": 3,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 3,
+      "fold": 4,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 3,
+      "fold": 4,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 3,
+      "fold": 4,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 4,
+      "fold": 0,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 4,
+      "fold": 0,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 4,
+      "fold": 0,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 4,
+      "fold": 1,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 4,
+      "fold": 1,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 4,
+      "fold": 1,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 4,
+      "fold": 2,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 4,
+      "fold": 2,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 4,
+      "fold": 2,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 4,
+      "fold": 3,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 4,
+      "fold": 3,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 4,
+      "fold": 3,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 4,
+      "fold": 4,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 4,
+      "fold": 4,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 4,
+      "fold": 4,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 5,
+      "fold": 0,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 5,
+      "fold": 0,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 5,
+      "fold": 0,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 5,
+      "fold": 1,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 5,
+      "fold": 1,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 5,
+      "fold": 1,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 5,
+      "fold": 2,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 5,
+      "fold": 2,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 5,
+      "fold": 2,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 5,
+      "fold": 3,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 5,
+      "fold": 3,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 5,
+      "fold": 3,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 5,
+      "fold": 4,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 5,
+      "fold": 4,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 5,
+      "fold": 4,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 6,
+      "fold": 0,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 6,
+      "fold": 0,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 6,
+      "fold": 0,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 6,
+      "fold": 1,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 6,
+      "fold": 1,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 6,
+      "fold": 1,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 6,
+      "fold": 2,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 6,
+      "fold": 2,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 6,
+      "fold": 2,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 6,
+      "fold": 3,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 6,
+      "fold": 3,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 6,
+      "fold": 3,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 6,
+      "fold": 4,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 6,
+      "fold": 4,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 6,
+      "fold": 4,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 7,
+      "fold": 0,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 7,
+      "fold": 0,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 7,
+      "fold": 0,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 7,
+      "fold": 1,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 7,
+      "fold": 1,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 7,
+      "fold": 1,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 7,
+      "fold": 2,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 7,
+      "fold": 2,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 7,
+      "fold": 2,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 7,
+      "fold": 3,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 7,
+      "fold": 3,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 7,
+      "fold": 3,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 7,
+      "fold": 4,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 7,
+      "fold": 4,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 7,
+      "fold": 4,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 8,
+      "fold": 0,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 8,
+      "fold": 0,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 8,
+      "fold": 0,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 8,
+      "fold": 1,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 8,
+      "fold": 1,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 8,
+      "fold": 1,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 8,
+      "fold": 2,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 8,
+      "fold": 2,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 8,
+      "fold": 2,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 8,
+      "fold": 3,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 8,
+      "fold": 3,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 8,
+      "fold": 3,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 8,
+      "fold": 4,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 8,
+      "fold": 4,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 8,
+      "fold": 4,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 9,
+      "fold": 0,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 9,
+      "fold": 0,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 9,
+      "fold": 0,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 9,
+      "fold": 1,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 9,
+      "fold": 1,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 9,
+      "fold": 1,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 9,
+      "fold": 2,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 9,
+      "fold": 2,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 9,
+      "fold": 2,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 9,
+      "fold": 3,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 9,
+      "fold": 3,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 9,
+      "fold": 3,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 9,
+      "fold": 4,
+      "arm": "nested_crossfit",
+      "dependency_flagged": false
+    },
+    {
+      "seed": 9,
+      "fold": 4,
+      "arm": "global_oof",
+      "dependency_flagged": true
+    },
+    {
+      "seed": 9,
+      "fold": 4,
+      "arm": "train_only_without_internal_crossfit",
+      "dependency_flagged": false
+    }
+  ],
+  "sota": false
+}

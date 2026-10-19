@@ -1,0 +1,39 @@
+{
+  "arm": "grid",
+  "game": "dc22",
+  "root_recorded_frame_i": 743,
+  "target_recorded_frame_i": 750,
+  "scope": "constructed exposed reachability task; no game-win claim",
+  "actions": [
+    "ACTION6:52,25",
+    "ACTION2",
+    "ACTION6:49,46",
+    "ACTION1"
+  ],
+  "max_depth": 7,
+  "max_expansions": 1000,
+  "teacher_forced_prefix_calls": 743,
+  "snapshot_fields": [
+    "_ambiguous_x10_38_calls",
+    "_level6_pair"
+  ],
+  "key_fields": [],
+  "root_key": "397694dc3066fa368d5357fcce1ce0b89ba52f655a8dd58bffb3c05bc766ed64",
+  "source_sha256": "d867db93673f26fbf656a73b0796614fd91990107193a4b3db22cdca936821e4",
+  "implementation_sha256": {
+    "world_model.py": "05f7b983d9159920d4f9afebd1bbcab0c000f227d48cb57cc15e2181a12bdede",
+    "world_audit.py": "4a883dea779979244f23825fd1b0460b83f136dde9a5dfda81ed9d9f99ec7e37"
+  },
+  "result": {
+    "status": "FOUND",
+    "path": [
+      "ACTION2",
+      "ACTION6:52,25",
+      "ACTION1"
+    ],
+    "expansions": 17,
+    "unique_states": 34,
+    "calls": 68,
+    "seconds": 0.49513520899927244
+  }
+}

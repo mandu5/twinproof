@@ -1,0 +1,21 @@
+{
+  "game": "re86",
+  "status": "UNSUPPORTED",
+  "trace": {
+    "transitions": 740,
+    "unique_inputs": 740,
+    "ambiguous_input_groups": 0,
+    "minimum_observation_only_errors": 0,
+    "conflicts": []
+  },
+  "scope": "teacher-forced released transcript; no original agent/planner score",
+  "reason": "dunder attribute; import:arc_utils",
+  "model_calls": 0,
+  "seconds": 0.4706885420018807,
+  "call_phases": {},
+  "artifact_sha256": "123287b5261ae1b59b96e7234fbc873f17e4a8417e9c6527cc74e0522e4469a6",
+  "source_sha256": "3a8079875318c4f3e964443293ce34b68c6183a6a5b34d9e69bb9faeba019a08",
+  "split": "outcome_unseen",
+  "peak_rss_native_units": 102121472,
+  "rss_unit": "bytes"
+}

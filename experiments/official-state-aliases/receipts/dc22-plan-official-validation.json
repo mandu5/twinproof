@@ -1,0 +1,78 @@
+{
+  "game_id": "dc22-fdcac232",
+  "sdk": "arc-agi==0.9.9",
+  "engine": "arcengine==0.9.3",
+  "root_frame_i": 743,
+  "target_frame_i": 750,
+  "root_reached_from_full_reset": true,
+  "root_frame_equal": true,
+  "root_frame_sha256": "1e5facb20b09c2a60714e1ead69c7bd0bc55b159ddcd29fa68ce08fa39796a93",
+  "prefix_oracle_calls": 750,
+  "root_engine_state": "NOT_FINISHED",
+  "root_levels_completed": 5,
+  "validations": [
+    {
+      "arm": "grid",
+      "path": [
+        "ACTION2",
+        "ACTION6:52,25",
+        "ACTION1"
+      ],
+      "official_target_frame_equal": true,
+      "different_target_pixels": 0,
+      "official_frame_sha256": "a6823f9fbb553a3f065fdc1af4271dc70dc534b5834c3df61c9e79870c3bc0e3",
+      "official_state": "NOT_FINISHED",
+      "levels_completed": 5
+    },
+    {
+      "arm": "full",
+      "path": [
+        "ACTION2",
+        "ACTION6:52,25",
+        "ACTION1"
+      ],
+      "official_target_frame_equal": true,
+      "different_target_pixels": 0,
+      "official_frame_sha256": "a6823f9fbb553a3f065fdc1af4271dc70dc534b5834c3df61c9e79870c3bc0e3",
+      "official_state": "NOT_FINISHED",
+      "levels_completed": 5
+    },
+    {
+      "arm": "refined",
+      "path": [
+        "ACTION2",
+        "ACTION6:52,25",
+        "ACTION1"
+      ],
+      "official_target_frame_equal": true,
+      "different_target_pixels": 0,
+      "official_frame_sha256": "a6823f9fbb553a3f065fdc1af4271dc70dc534b5834c3df61c9e79870c3bc0e3",
+      "official_state": "NOT_FINISHED",
+      "levels_completed": 5
+    }
+  ],
+  "branch_oracle_calls": 17,
+  "local_engine_snapshot": {
+    "status": "NOT_SERIALIZABLE",
+    "reason": "Can't pickle <class 'arc_agi_3.dc22-fdcac232.Dc22'>: import of module 'arc_agi_3.dc22-fdcac232' failed",
+    "portable_reconstruction": "dc22-reset-prefix-to-frame743.json"
+  },
+  "return_loop_witness": {
+    "actions": [
+      "ACTION6:52,25",
+      "ACTION6:52,25",
+      "ACTION2",
+      "ACTION6:49,46",
+      "ACTION6:49,46",
+      "ACTION1"
+    ],
+    "exact_return_to_root_grid": true,
+    "suffix": [
+      "ACTION6:52,25"
+    ],
+    "different_official_successor_pixels": 8,
+    "direct_matches_recorded744": true,
+    "looped_matches_recorded750": true
+  },
+  "elapsed_seconds": 0.558428083997569
+}

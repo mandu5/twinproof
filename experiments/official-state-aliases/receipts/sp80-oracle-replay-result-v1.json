@@ -1,0 +1,27 @@
+{
+  "game_id": "sp80-589a99af",
+  "sdk": "arc-agi==0.9.9",
+  "engine": "arcengine==0.9.3",
+  "initial_frame_equal": true,
+  "initial_frame_sha256": "c7f2485b0a58ce60bea7437240a90fdf2410a5e1d7c5d08538472306a8e8b8fe",
+  "seed": 0,
+  "status": "UNALIGNED",
+  "oracle_calls": 59,
+  "recorded_actions_executed": 11,
+  "bridges": [],
+  "aligned_frame_indices": [],
+  "witnesses": [],
+  "mismatch": {
+    "after_recorded_action_i": 10,
+    "action": "ACTION6:30,25",
+    "next_is_level_boundary": false,
+    "engine_state": "NOT_FINISHED",
+    "engine_levels_completed": 0,
+    "different_pixels": 1168,
+    "expected_frame_sha256": "03b420991bc298ed7474d8ca206dd321e28e186f7cfeca8c8fbf6075f9a6847d",
+    "actual_frame_sha256": "43e87d47560428c2cf466441354bd86160f6d43df858c8a60cfe0ced40701695"
+  },
+  "recorded_alias_checks": [],
+  "elapsed_seconds": 0.10588450000796001,
+  "action_search_candidates": 47
+}

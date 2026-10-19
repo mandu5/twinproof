@@ -1,0 +1,19 @@
+# Downloaded third-party inputs and isolated local dependencies.
+/dc22.json
+/sp80.json
+/official-environments
+/oracle-venv/
+/uv-cache/
+/mpl-cache/
+/oracle-recordings/
+/recordings/
+__pycache__/
+*.pyc
+*.pkl
+
+# Fresh outputs; historical receipts remain tracked under receipts/.
+/*-oracle-replay-result.json
+/dc22-plan-grid.json
+/dc22-plan-full.json
+/dc22-plan-refined.json
+/dc22-plan-official-validation.json

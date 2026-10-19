@@ -1,0 +1,92 @@
+{
+  "game_id": "dc22-fdcac232",
+  "sdk": "arc-agi==0.9.9",
+  "engine": "arcengine==0.9.3",
+  "initialization": "official ARCBaseGame.set_level(5), without editing source or other state",
+  "full_reset_prefix_verified": false,
+  "entry_action_i": 645,
+  "oracle_calls": 311,
+  "entry_frame_646_equal": true,
+  "status": "LEVEL_PREFIX_ALIGNED",
+  "aligned_frame_indices": [
+    741,
+    743,
+    749,
+    927,
+    931,
+    938,
+    941
+  ],
+  "recorded_actions_executed": 298,
+  "witnesses": [
+    {
+      "origin_recorded_frame_i": 741,
+      "selection_action": "ACTION6:51,46",
+      "selection_leaves_observation_equal": false,
+      "suffix": "ACTION2",
+      "different_official_successor_pixels": 5,
+      "without_selection_frame_sha256": "b73741dd9d3ae07d681b89c20921f88406ffed4ac0639b26f26e6a0bc44daa7a",
+      "with_selection_frame_sha256": "027b7988a081b0af910a426c3b07c3d9c38330d4825c03d23ee47e734b65f0c0",
+      "without_selection_state": "NOT_FINISHED",
+      "with_selection_state": "NOT_FINISHED"
+    },
+    {
+      "origin_recorded_frame_i": 741,
+      "selection_action": "ACTION6:51,46",
+      "selection_leaves_observation_equal": false,
+      "suffix": "ACTION4",
+      "different_official_successor_pixels": 5,
+      "without_selection_frame_sha256": "7a7c745df85b59187acf08ff6075462b5837032ae03db2278f7c8d55892107b2",
+      "with_selection_frame_sha256": "7a499abfcfe45bceaa6f41a15711596135816a54e2b1b3fa30d80a3b30bd9b95",
+      "without_selection_state": "NOT_FINISHED",
+      "with_selection_state": "NOT_FINISHED"
+    },
+    {
+      "origin_recorded_frame_i": 741,
+      "selection_action": "ACTION6:51,46",
+      "selection_leaves_observation_equal": false,
+      "suffix": "ACTION6:48,23",
+      "different_official_successor_pixels": 12,
+      "without_selection_frame_sha256": "ff922fa110502ec8b733b103f93516c712e745302a2c18a54e045876650db2c4",
+      "with_selection_frame_sha256": "91aac657b49fbd5a41d1ec220c3678d442a285de5cfe08a57a8157ca26ff0c2f",
+      "without_selection_state": "NOT_FINISHED",
+      "with_selection_state": "NOT_FINISHED"
+    }
+  ],
+  "recorded_alias_checks": [
+    {
+      "indices": [
+        743,
+        749
+      ],
+      "action": "ACTION6:52,25",
+      "same_observed_frame": true,
+      "different_official_successor_pixels": 8,
+      "first_official_matches_recorded": true,
+      "second_official_matches_recorded": true
+    },
+    {
+      "indices": [
+        927,
+        931
+      ],
+      "action": "ACTION6:52,25",
+      "same_observed_frame": true,
+      "different_official_successor_pixels": 8,
+      "first_official_matches_recorded": true,
+      "second_official_matches_recorded": true
+    },
+    {
+      "indices": [
+        938,
+        941
+      ],
+      "action": "ACTION6:52,25",
+      "same_observed_frame": true,
+      "different_official_successor_pixels": 13,
+      "first_official_matches_recorded": true,
+      "second_official_matches_recorded": true
+    }
+  ],
+  "elapsed_seconds": 0.46649879099277314
+}

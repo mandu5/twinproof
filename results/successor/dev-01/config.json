@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "started_at": "2026-10-19T12:53:50.993673+00:00",
+  "games": [
+    "dc22",
+    "sp80",
+    "ft09",
+    "cd82"
+  ],
+  "budget": 2000,
+  "wall_seconds_per_family": 90,
+  "parallel_workers": 2,
+  "python": "3.11.9 (v3.11.9:de54cf5be3, Apr  2 2024, 07:12:50) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-26.6.1-arm64-arm-64bit",
+  "git_head": "6658a2ccd607250a21076e4800cfb78982658a4c",
+  "source_file_hashes": {
+    "src/twinproof/world_model.py": "ea40bfe705f11ab32283b7b2af8ebfd83d4d10c46262e2b1f5b67a15f6611e75",
+    "src/twinproof/world_audit.py": "d61e093f56fd45e250f63253150d3750abcccb2063b2d17c9676f2cdd85d1c35",
+    "scripts/run_world_audit.py": "e4f82112cc675f99d8e44aca8c59a29ae46b0b9a91affb037f964538e7d140be",
+    "sources/world-model-corpus.json": "f9f2085b5c990d556b53f4e39ba2652bffea4c69d9ac3f555cae8dc4784abc55"
+  }
+}

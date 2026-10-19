@@ -1,0 +1,74 @@
+[
+  {
+    "path": "holdout-a-witnesses/witness-00.json",
+    "sha256": "632b5e135667fca47dcfd1e669040b276f1d19156528e55288e2878ca50a1e72",
+    "physical_mismatch": false,
+    "separated_refined": true
+  },
+  {
+    "path": "holdout-a-witnesses/witness-01.json",
+    "sha256": "c1507076b4903c21ac9377c7f30b55cb87effd1a59ab4db930dc777e70f4228e",
+    "physical_mismatch": false,
+    "separated_refined": true
+  },
+  {
+    "path": "holdout-a-witnesses/witness-02.json",
+    "sha256": "2394af6e4f1e94b0d1e396c99689d2c73783cc76be859c95258b8ab3450c0535",
+    "physical_mismatch": false,
+    "separated_refined": true
+  },
+  {
+    "path": "holdout-a-witnesses/witness-03.json",
+    "sha256": "82133e4669e824e626145f8fe7c81f985e1761a2bb4622b17664a52610c7b138",
+    "physical_mismatch": false,
+    "separated_refined": true
+  },
+  {
+    "path": "holdout-a-witnesses/witness-04.json",
+    "sha256": "4bd8b2f927bb312a1efd0b0826403d1d05942cac96582227cdecf196055de11d",
+    "physical_mismatch": false,
+    "separated_refined": false
+  },
+  {
+    "path": "holdout-a-witnesses/witness-05.json",
+    "sha256": "df2ae2bb164beeb044e1f3dca0beaf42099b1e6ca23f711f3f3469c8f3b79648",
+    "physical_mismatch": true,
+    "separated_refined": false
+  },
+  {
+    "path": "holdout-a-witnesses/witness-06.json",
+    "sha256": "96e430c6eb177802bf8d158380db2721953303b06d2397cb1a73ddccf201f990",
+    "physical_mismatch": false,
+    "separated_refined": true
+  },
+  {
+    "path": "holdout-a-witnesses/witness-07.json",
+    "sha256": "4401d9dad29ec9816f5fa3eacb75a5c1ce96e570e009833ac3fb969a430d4a36",
+    "physical_mismatch": false,
+    "separated_refined": true
+  },
+  {
+    "path": "holdout-a-witnesses/witness-08.json",
+    "sha256": "3cb91cd5cc7256e571660484378bfcf842c1ba590e5145f46b0e0ad84f2f74e9",
+    "physical_mismatch": false,
+    "separated_refined": true
+  },
+  {
+    "path": "holdout-a-witnesses/witness-09.json",
+    "sha256": "ec6599c1a8ef04312d09db5ecb61c02f4d10ffa65d160fca34d55d899331c402",
+    "physical_mismatch": false,
+    "separated_refined": true
+  },
+  {
+    "path": "holdout-a-witnesses/witness-10.json",
+    "sha256": "c434a8fe48a769f05dd09ef05617d7705db86ecce720fd33b94a3b41dc8866cc",
+    "physical_mismatch": false,
+    "separated_refined": true
+  },
+  {
+    "path": "holdout-a-witnesses/witness-11.json",
+    "sha256": "ec51bf96b64af9bb4bc3bb9367e315023eedd2487b2c2d2d6e8267ab4f2b3120",
+    "physical_mismatch": false,
+    "separated_refined": true
+  }
+]

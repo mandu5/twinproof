@@ -1,0 +1,551 @@
+{
+  "schema": 1,
+  "retrieved_at": "2026-10-19T12:48:33.677988+00:00",
+  "catalog_url": "https://arc-agi-3-twin.vercel.app/showcase.json",
+  "catalog_sha256": "3cad37408eac8cc5db2cff47d8e1a0cd39ab3afda114a9183cdbdcafbf9f31c2",
+  "license_scope": "No third-party model source redistributed; website artifact license unconfirmed.",
+  "scope": "Static corpus census, not runtime or original agent reproduction.",
+  "models": [
+    {
+      "game": "ar25",
+      "url": "https://arc-agi-3-twin.vercel.app/games/ar25.json",
+      "artifact_bytes": 320895,
+      "artifact_sha256": "9edffb4151d01d1b81972523f2a55090bd99c117a6b33cae0b92429c7c301f11",
+      "source_bytes": 17238,
+      "source_sha256": "e8d026311e5e5089a21c13b5a6b8b360c2cf00a23a4e82a712835426a53512a1",
+      "trace_transitions": 246,
+      "census": {
+        "imports": [
+          "json",
+          "os"
+        ],
+        "declared_global_writes": [],
+        "unsupported": [
+          "call:open",
+          "import:os"
+        ]
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "bp35",
+      "url": "https://arc-agi-3-twin.vercel.app/games/bp35.json",
+      "artifact_bytes": 1587932,
+      "artifact_sha256": "9bf8337ea39a9ad1b310e3319b064543373acee914d9c8dab3c09d8f411280ad",
+      "source_bytes": 283082,
+      "source_sha256": "0047c8654ab705ab9caeafd8a739995fddddaa38ee3b0655eb7f1fb54e160eb2",
+      "trace_transitions": 506,
+      "census": {
+        "imports": [
+          "base64",
+          "hashlib",
+          "zlib"
+        ],
+        "declared_global_writes": [],
+        "unsupported": []
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "cd82",
+      "url": "https://arc-agi-3-twin.vercel.app/games/cd82.json",
+      "artifact_bytes": 93818,
+      "artifact_sha256": "f0d49aa920bf4d80d6811adb8992c25e0f6342d99d856dc7effa67816e31d844",
+      "source_bytes": 17495,
+      "source_sha256": "4d503a398978572f60771dfff12c1249c0608b40f981dd79af8611d3e03d23d9",
+      "trace_transitions": 87,
+      "census": {
+        "imports": [
+          "base64",
+          "zlib"
+        ],
+        "declared_global_writes": [],
+        "unsupported": []
+      },
+      "split": "development"
+    },
+    {
+      "game": "cn04",
+      "url": "https://arc-agi-3-twin.vercel.app/games/cn04.json",
+      "artifact_bytes": 537279,
+      "artifact_sha256": "d7db00f09589cca5e53c384627066ced67b2a0d9cfe43126a5d337e809bfc906",
+      "source_bytes": 40521,
+      "source_sha256": "476ede7a0674fd7471c4a3e312c5d1d1b5b214d020419f88e2c74abfcbb618a8",
+      "trace_transitions": 255,
+      "census": {
+        "imports": [
+          "__future__",
+          "arc_utils",
+          "collections"
+        ],
+        "declared_global_writes": [],
+        "unsupported": [
+          "import:arc_utils"
+        ]
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "dc22",
+      "url": "https://arc-agi-3-twin.vercel.app/games/dc22.json",
+      "artifact_bytes": 424805,
+      "artifact_sha256": "6355c9d669b989ffb3f1acea9e1a101e2e655ccfc3bd6df1d8bfadb860401253",
+      "source_bytes": 101837,
+      "source_sha256": "d867db93673f26fbf656a73b0796614fd91990107193a4b3db22cdca936821e4",
+      "trace_transitions": 1211,
+      "census": {
+        "imports": [
+          "__future__",
+          "copy"
+        ],
+        "declared_global_writes": [
+          "_ambiguous_x10_38_calls",
+          "_level6_pair"
+        ],
+        "unsupported": []
+      },
+      "split": "development"
+    },
+    {
+      "game": "ft09",
+      "url": "https://arc-agi-3-twin.vercel.app/games/ft09.json",
+      "artifact_bytes": 90198,
+      "artifact_sha256": "5ba187bd9938cb2032c5321258a9ea9e46a31bd079ad596bc5bed452283a31fd",
+      "source_bytes": 20000,
+      "source_sha256": "0c617b3157730c1456ae4a40f94ee37da0f86f202dc542395e1fd7b0ee288f2d",
+      "trace_transitions": 74,
+      "census": {
+        "imports": [
+          "copy"
+        ],
+        "declared_global_writes": [],
+        "unsupported": []
+      },
+      "split": "development"
+    },
+    {
+      "game": "g50t",
+      "url": "https://arc-agi-3-twin.vercel.app/games/g50t.json",
+      "artifact_bytes": 396486,
+      "artifact_sha256": "ce3d99d9a3eb21cfe3c9b020b7fe6e00703b9517d131a4f3c2c61f8049f819c5",
+      "source_bytes": 104252,
+      "source_sha256": "4cd12f3801fb4b000c915fe162eade9f88450716a76029b51a8077a3ac7ce690",
+      "trace_transitions": 570,
+      "census": {
+        "imports": [
+          "__future__",
+          "base64",
+          "collections",
+          "hashlib",
+          "json",
+          "zlib"
+        ],
+        "declared_global_writes": [],
+        "unsupported": []
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "ka59",
+      "url": "https://arc-agi-3-twin.vercel.app/games/ka59.json",
+      "artifact_bytes": 523522,
+      "artifact_sha256": "ad4ca21a44e6de736db69fee29703e2b8a31b6c2da813d2cf181fcf90a16ddf7",
+      "source_bytes": 156058,
+      "source_sha256": "4c1e170c4a88c753f97e48583dbc79101bf689cccc85d357c38bdfb1c09e27ac",
+      "trace_transitions": 1123,
+      "census": {
+        "imports": [],
+        "declared_global_writes": [],
+        "unsupported": []
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "lf52",
+      "url": "https://arc-agi-3-twin.vercel.app/games/lf52.json",
+      "artifact_bytes": 774695,
+      "artifact_sha256": "51a5f50dbf39f58fe069effe1312a2a312495836ecc0df7dc766a1440ff13179",
+      "source_bytes": 43883,
+      "source_sha256": "aca97b01ca502f6b493fa8e2f735c67e58f1f062716d644a705ec67cba961b0e",
+      "trace_transitions": 819,
+      "census": {
+        "imports": [
+          "__future__",
+          "copy",
+          "json",
+          "os"
+        ],
+        "declared_global_writes": [
+          "_REPLAY_INDEX",
+          "_SCENE_REPLAY_INDEX",
+          "_TRANSITIONS_CACHE"
+        ],
+        "unsupported": [
+          "call:open",
+          "import:os"
+        ]
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "lp85",
+      "url": "https://arc-agi-3-twin.vercel.app/games/lp85.json",
+      "artifact_bytes": 121112,
+      "artifact_sha256": "21167d3b2e62e0571905362af252bc0538f0d5a9ce6e33145822b3f2b1a5e92e",
+      "source_bytes": 14681,
+      "source_sha256": "1f52e6a1974c00fcf3cc451663d912529b9a9e0d217d8964aeb66939e44dc320",
+      "trace_transitions": 96,
+      "census": {
+        "imports": [
+          "copy",
+          "json",
+          "os"
+        ],
+        "declared_global_writes": [],
+        "unsupported": [
+          "call:open",
+          "import:os"
+        ]
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "ls20",
+      "url": "https://arc-agi-3-twin.vercel.app/games/ls20.json",
+      "artifact_bytes": 511859,
+      "artifact_sha256": "76330d263e8cf08b7daf0099ce504a7bc76717c2f1436daf30a5f1f4759586a3",
+      "source_bytes": 122180,
+      "source_sha256": "2c6d62b62bdc619922ae383b65a3b6133a4aa8305f808c81030e29bfe8a7b630",
+      "trace_transitions": 508,
+      "census": {
+        "imports": [],
+        "declared_global_writes": [],
+        "unsupported": [
+          "call:locals"
+        ]
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "m0r0",
+      "url": "https://arc-agi-3-twin.vercel.app/games/m0r0.json",
+      "artifact_bytes": 172847,
+      "artifact_sha256": "d429be2035b9e53506f59151df9658d927bbc97644b77cfb2e809de27aef05e5",
+      "source_bytes": 39615,
+      "source_sha256": "0009f33688ef6db9f8d441355e5b94a5cd9e0cc8ef03111e15eca3cda69a98cb",
+      "trace_transitions": 230,
+      "census": {
+        "imports": [
+          "__future__",
+          "collections"
+        ],
+        "declared_global_writes": [],
+        "unsupported": []
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "r11l",
+      "url": "https://arc-agi-3-twin.vercel.app/games/r11l.json",
+      "artifact_bytes": 104439,
+      "artifact_sha256": "e9c392e4555c8a3297307ce529c3c94183b84c14ee62b78d8ee69c4f968a1c77",
+      "source_bytes": 33996,
+      "source_sha256": "7e6a8d813f76d3a69d7bd6138f656113312294e780d93ea796447bf748cedc2e",
+      "trace_transitions": 79,
+      "census": {
+        "imports": [
+          "__future__",
+          "arc_utils",
+          "copy",
+          "itertools",
+          "re"
+        ],
+        "declared_global_writes": [],
+        "unsupported": [
+          "import:arc_utils"
+        ]
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "re86",
+      "url": "https://arc-agi-3-twin.vercel.app/games/re86.json",
+      "artifact_bytes": 367794,
+      "artifact_sha256": "123287b5261ae1b59b96e7234fbc873f17e4a8417e9c6527cc74e0522e4469a6",
+      "source_bytes": 70782,
+      "source_sha256": "3a8079875318c4f3e964443293ce34b68c6183a6a5b34d9e69bb9faeba019a08",
+      "trace_transitions": 740,
+      "census": {
+        "imports": [
+          "arc_utils",
+          "copy"
+        ],
+        "declared_global_writes": [],
+        "unsupported": [
+          "dunder attribute",
+          "import:arc_utils"
+        ]
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "s5i5",
+      "url": "https://arc-agi-3-twin.vercel.app/games/s5i5.json",
+      "artifact_bytes": 240897,
+      "artifact_sha256": "dedc155d55d0f313d68b827d0f9d3a2abb9f160497efe5482e88ffb531c84fba",
+      "source_bytes": 90992,
+      "source_sha256": "5f48ed2b0982718027f9a275e55f08012531a443a2898f1523e7ab2bde53cc17",
+      "trace_transitions": 340,
+      "census": {
+        "imports": [
+          "__future__",
+          "base64",
+          "copy",
+          "json",
+          "re",
+          "zlib"
+        ],
+        "declared_global_writes": [],
+        "unsupported": []
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "sb26",
+      "url": "https://arc-agi-3-twin.vercel.app/games/sb26.json",
+      "artifact_bytes": 80550,
+      "artifact_sha256": "0461b5c0ef0d1b7fc0a3c1878f974019a6aec3ac9e21d93568a8103064f95be5",
+      "source_bytes": 15772,
+      "source_sha256": "b998a11b1c0afeb203081f70d64f9c270f4503771befc501646fcc5e86b78ffc",
+      "trace_transitions": 129,
+      "census": {
+        "imports": [
+          "__future__",
+          "functools",
+          "hashlib",
+          "json",
+          "pathlib",
+          "re"
+        ],
+        "declared_global_writes": [],
+        "unsupported": [
+          "function decorator",
+          "import:pathlib"
+        ]
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "sc25",
+      "url": "https://arc-agi-3-twin.vercel.app/games/sc25.json",
+      "artifact_bytes": 185467,
+      "artifact_sha256": "c841ff196027e4a61bba3f00dbb322bbf696f46873339be8586f9d79fddaef85",
+      "source_bytes": 127415,
+      "source_sha256": "05d1ba55467e34db4332f26b03abc674b99cc0dc6e6d50197c4ab4abb38808c5",
+      "trace_transitions": 145,
+      "census": {
+        "imports": [
+          "__future__",
+          "collections",
+          "legacy_status_model"
+        ],
+        "declared_global_writes": [
+          "_clean_direct_route_active",
+          "_clean_direct_route_rolls",
+          "_clean_initial_left_encounters",
+          "_legacy_relay_seen",
+          "_legacy_session"
+        ],
+        "unsupported": [
+          "import:legacy_status_model"
+        ]
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "sk48",
+      "url": "https://arc-agi-3-twin.vercel.app/games/sk48.json",
+      "artifact_bytes": 597460,
+      "artifact_sha256": "e8dd39e8434e2ecfdf9d7cdd8d52d79d6ccc6889fed15b9de046d3476ac54d5a",
+      "source_bytes": 292436,
+      "source_sha256": "2d983a8a8441bc901bb8f62818b7c836a52be8b43c5afe9eec0261362f84213c",
+      "trace_transitions": 744,
+      "census": {
+        "imports": [
+          "base64",
+          "copy",
+          "hashlib",
+          "json",
+          "os",
+          "zlib"
+        ],
+        "declared_global_writes": [
+          "_DUAL_BLOCK_WAS_LAST"
+        ],
+        "unsupported": [
+          "call:open",
+          "import:os"
+        ]
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "sp80",
+      "url": "https://arc-agi-3-twin.vercel.app/games/sp80.json",
+      "artifact_bytes": 566053,
+      "artifact_sha256": "6d9e2562a3ac8c10f0a6969356ffc14b985d5f1a5628a925d808ab0f76638818",
+      "source_bytes": 158731,
+      "source_sha256": "d236f2cbef5059ac020f9c6f594779e27ed7d562079609e3e55527c507a94106",
+      "trace_transitions": 1001,
+      "census": {
+        "imports": [
+          "__future__"
+        ],
+        "declared_global_writes": [
+          "_AMBIGUOUS_H_RIGHT_CALLS",
+          "_AMBIGUOUS_UPPER_CLICK_CALLS",
+          "_AMBIGUOUS_UPPER_DOWN_CALLS",
+          "_CLEAN_INTERSECTION_ROUTE",
+          "_COMPACT32_ROUTE",
+          "_COMPACT_CROSS_ROUTE",
+          "_COMPACT_CROSS_START_CALLS",
+          "_FINAL_UPPER_DOWN_CALLS",
+          "_LEVEL6_SEGMENT_STEP",
+          "_LEVEL6_SEGMENT_TRACKING",
+          "_MIXED2_ROUTE",
+          "_MIXED_ROUTE",
+          "_OUTER_RECEIVER_ROUTE",
+          "_SEEDED_SOLVED_ROUTE",
+          "_SEEDED_SOLVED_STEP"
+        ],
+        "unsupported": []
+      },
+      "split": "development"
+    },
+    {
+      "game": "su15",
+      "url": "https://arc-agi-3-twin.vercel.app/games/su15.json",
+      "artifact_bytes": 126392,
+      "artifact_sha256": "21656fe97d40de1804fbbad2f929e721ae4d9cf91c780057ee1615fb3fedf35f",
+      "source_bytes": 66015,
+      "source_sha256": "c52193cddfa10408937738b0b240ccbb48333422ccd2307897bd9c023a544fb6",
+      "trace_transitions": 120,
+      "census": {
+        "imports": [
+          "__future__",
+          "re"
+        ],
+        "declared_global_writes": [],
+        "unsupported": []
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "tn36",
+      "url": "https://arc-agi-3-twin.vercel.app/games/tn36.json",
+      "artifact_bytes": 151771,
+      "artifact_sha256": "cbf022d899fa85b25f06567a2da5989e32b5e96b39ca1d479eca85099784bfbf",
+      "source_bytes": 40026,
+      "source_sha256": "cf6360aa966e5a0b81b900ed8fe3a387224152f9e0fbb637f184dd521145cac0",
+      "trace_transitions": 447,
+      "census": {
+        "imports": [
+          "__future__",
+          "collections",
+          "copy"
+        ],
+        "declared_global_writes": [],
+        "unsupported": []
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "tr87",
+      "url": "https://arc-agi-3-twin.vercel.app/games/tr87.json",
+      "artifact_bytes": 105956,
+      "artifact_sha256": "686841ce493ea5de328aedb696c3a34dc86c09f79c9a38e72e31f65285d65684",
+      "source_bytes": 30606,
+      "source_sha256": "84993d093937e9e3b6e8e04c9a665477832324094766e66fe26d8b36efb114f5",
+      "trace_transitions": 156,
+      "census": {
+        "imports": [
+          "__future__",
+          "json"
+        ],
+        "declared_global_writes": [],
+        "unsupported": [
+          "call:open"
+        ]
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "tu93",
+      "url": "https://arc-agi-3-twin.vercel.app/games/tu93.json",
+      "artifact_bytes": 128825,
+      "artifact_sha256": "74e6afdab7a5a723e264a984d43a2b47139a2850059209761bd8bd671f6b4da0",
+      "source_bytes": 24896,
+      "source_sha256": "e343fc730f3f2197ca4bc67c0004532d2b205f2893d424bb41ac11e65fde5600",
+      "trace_transitions": 219,
+      "census": {
+        "imports": [
+          "json",
+          "os"
+        ],
+        "declared_global_writes": [],
+        "unsupported": [
+          "call:open",
+          "import:os"
+        ]
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "vc33",
+      "url": "https://arc-agi-3-twin.vercel.app/games/vc33.json",
+      "artifact_bytes": 233155,
+      "artifact_sha256": "c176e1ae88af301afd53cd886587078f40b59782d0f5d8b3d25dd0eebbe57c2e",
+      "source_bytes": 44675,
+      "source_sha256": "06dcf24e39236b293ece9b35013aff2f69567b786e7f664a028c2e4d319d3187",
+      "trace_transitions": 236,
+      "census": {
+        "imports": [
+          "collections",
+          "copy"
+        ],
+        "declared_global_writes": [],
+        "unsupported": []
+      },
+      "split": "outcome_unseen"
+    },
+    {
+      "game": "wa30",
+      "url": "https://arc-agi-3-twin.vercel.app/games/wa30.json",
+      "artifact_bytes": 360527,
+      "artifact_sha256": "11931c7e87fbf8b3c6811c3338fc2556238c2ec507997ecac70be700eb6e6fcb",
+      "source_bytes": 29353,
+      "source_sha256": "dfa6799f78a193b606706b24db57149d366b3b2349106cfb3e7cd1afd24e60c9",
+      "trace_transitions": 713,
+      "census": {
+        "imports": [
+          "__future__",
+          "collections",
+          "hashlib",
+          "json",
+          "pathlib",
+          "sqlite3"
+        ],
+        "declared_global_writes": [
+          "_LIVE_CACHE",
+          "_OBSERVED_DB_READY"
+        ],
+        "unsupported": [
+          "call:globals",
+          "import:pathlib",
+          "import:sqlite3"
+        ]
+      },
+      "split": "outcome_unseen"
+    }
+  ]
+}

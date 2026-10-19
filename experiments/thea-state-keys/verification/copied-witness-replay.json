@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "command": [
+    "/usr/bin/sandbox-exec",
+    "-p",
+    "(version 1) (allow default) (deny network*) (deny file-write*) (allow file-write* (literal \"/dev/null\"))",
+    "<ISOLATED_CHECK_ROOT>/venv/bin/python",
+    "-I",
+    "-B",
+    "<ISOLATED_CHECK_ROOT>/package/worker.py",
+    "witnesses",
+    "--inputs",
+    "<ISOLATED_CHECK_ROOT>/inputs",
+    "--shard",
+    "0"
+  ],
+  "mode": "witnesses",
+  "shard": 0,
+  "python_version": "3.11.9",
+  "platform": "macOS-26.6.1-arm64-arm-64bit",
+  "dependency_versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.16.2",
+    "zstandard": "0.23.0",
+    "certifi": "2025.1.31"
+  },
+  "requirements_sha256": "527038f7a7f790f1eca8c8ae8829cd09f3ae691ea418443f48786d2f534808d6",
+  "kernel_guard": "macOS sandbox-exec denies network and file writes",
+  "environment_keys": [
+    "OPENBLAS_NUM_THREADS",
+    "PATH",
+    "PYTHONDONTWRITEBYTECODE",
+    "VECLIB_MAXIMUM_THREADS"
+  ],
+  "wall_timeout_seconds": 90,
+  "cpu_limit_seconds": 75,
+  "portable_runner_sha256": {
+    "experiment.py": "3326f200d3a2e55e7b53c8558464bb9be5e1583f6fc27680fa469d8c8f1bca04",
+    "worker.py": "6bde4d5abffd0a90b603dd5c62be18f103202e96baceeda9337348015e0f66cf",
+    "model_runtime.py": "1d92bbe487068375ca1d015671bfc79a2843eea0884fa36970be6fa7867b65a7",
+    "fetch_inputs.py": "ec8bea7a16dd5caf9e16a84ea9aeb80cb54b964ee21e3c89fff8ffb435601309"
+  },
+  "pins_sha256": "ef77188e1722684f186133eda898b0c8fa472dd122235ed61738c06c5e9864d8",
+  "exit_code": 0,
+  "timed_out": false,
+  "stdout": "{\"stage\": \"fixed_witness_replay\", \"checks\": [{\"witness_id\": \"development-terminal-divergence\", \"original_witness_sha256\": \"fd9341f80d79d9a9fe585cbc990c205d132fe7c0e8831599cd45ab8d0297f131\", \"state_payload_sha256\": {\"a\": \"205520e2cc3695e48ea162adeaf9e6504fa185927673c9c074c8901e73551eb0\", \"b\": \"2bcb130dcde03f01f8fb451d9bff5d0c986ac88cf43f483dbc2fee2000d1ff12\"}, \"original_key\": [37, 19, \"right\", [13, 16, 17, 18, 19, 21, 22, 23, 24], \"up\"], \"different_grid_cell_count\": 173, \"separated\": {\"original\": false, \"repaired_three\": true, \"union_298\": true, \"full_grid\": true}, \"common_suffix\": [{\"name\": \"ACTION6\", \"x\": 27, \"y\": 15}, {\"name\": \"ACTION4\"}, {\"name\": \"ACTION4\"}], \"results\": {\"a\": [19, 31, \"right\", \"up\", \"RUNNING\", true], \"b\": [7, 31, \"right\", \"up\", \"GAME_OVER\", true]}, \"passed\": true}, {\"witness_id\": \"holdout-frozen-key-failure\", \"original_witness_sha256\": \"df2ae2bb164beeb044e1f3dca0beaf42099b1e6ca23f711f3f3469c8f3b79648\", \"state_payload_sha256\": {\"a\": \"1750249e30141d5cd3b1fb01806eee91cc4f685e27580194950e4fe50dc774b8\", \"b\": \"50629a52aed645348648ae8e0b1d2af5a64e2e419a0bb87744b9bb4cc8e86bdd\"}, \"original_key\": [25, 31, \"right\", [13, 15, 16, 18, 19, 20, 23, 25, 26, 27, 28], \"up\"], \"different_grid_cell_count\": 55, \"separated\": {\"original\": false, \"repaired_three\": false, \"union_298\": true, \"full_grid\": true}, \"common_suffix\": [{\"name\": \"ACTION3\"}], \"results\": {\"a\": [25, 25, \"left\", \"up\", \"RUNNING\", true], \"b\": [25, 31, \"left\", \"up\", \"RUNNING\", true]}, \"passed\": true}], \"all_engine_calls\": 36}\n",
+  "stderr": "",
+  "seconds": 6.258914999998524
+}

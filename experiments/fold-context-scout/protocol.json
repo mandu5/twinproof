@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "date": "2026-10-19",
+  "status": "exploratory method-feasibility, not an external benchmark",
+  "question": "Can a fold-relative label-dependency contract distinguish global OOF leakage from valid outer-fold training even when rowwise self-exclusion gives the opposite signal?",
+  "source": "https://scikit-learn.org/1.7/auto_examples/preprocessing/plot_target_encoder_cross_val.html",
+  "data": "Own synthetic regression data, 600 rows, 2 categorical features, fixed seed 0..9",
+  "outer_folds": 5,
+  "inner_folds": 5,
+  "arms": ["nested_crossfit", "global_oof", "train_only_without_internal_crossfit"],
+  "intervention": "Keep X, outer split, training labels, RNG seeds and hyperparameters fixed; add independent seeded normal noise only to outer-test labels. Compare held-out predictions, not evaluation scores.",
+  "endpoints": ["fold-relative dependency violation", "rowwise self-label feature dependence", "maximum change in held-out predictions under the intervention", "actual fits and wall time"],
+  "dependency_scope": "Trusted, explicit TargetEncoder/Ridge composition; not automatic arbitrary-notebook tracing. Sets overapproximate mathematical influence. Intersections are potential paths until a counterfactual witnesses an effect.",
+  "split_scope": "Regression, fixed label-independent KFold; no stratified split selection, entity/time leakage, tuning, stochastic nondeterminism or general certification claim.",
+  "decision": "All safe arms must preserve predictions and global OOF must produce an executable dependency witness. Passing only validates this scoped mechanism; published-detector superiority, novelty, external breadth and TCPR promotion remain untested."
+}

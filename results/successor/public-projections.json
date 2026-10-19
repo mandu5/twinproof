@@ -1,0 +1,11 @@
+{
+  "scope": "Original summary receipt hashes identify execution bytes. This index maps path-redacted public projections. All other JSON files are byte-identical; console logs are not published.",
+  "projections": [
+    {
+      "path": "results/successor/corpus-01/g50t.json",
+      "original_private_sha256": "293eb5dd4119db0f41082a07efaac308d8fb24675a4ba1ec64cddba4658b5ec9",
+      "published_projection_sha256": "f4219fb63ebd4d09dae6fd7447badad1e3f32c9d873bade1155a6670d482a376",
+      "change": "Personal absolute path prefixes only; raw result and summary receipt hashes retain original provenance."
+    }
+  ]
+}

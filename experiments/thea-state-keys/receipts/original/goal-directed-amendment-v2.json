@@ -1,0 +1,18 @@
+{
+  "protocol": "goal-directed-amendment-v2",
+  "prospective_before_v2_outputs": true,
+  "created_unix": 1792415075.312573,
+  "reason": "Technical correction: depth-limited best-first search must reopen a key reached at a shorter depth. Frozen features, task generator, goal, horizon and budget unchanged. v1 first-shard outputs retained.",
+  "common_sha256": "88d29ad2245e73c42f1db5eb6f3212587b0357f2e814efdcdc8a913018f1f028",
+  "arms": [
+    "original",
+    "repaired_three",
+    "union_298",
+    "full_grid"
+  ],
+  "expansion_budget": 150,
+  "horizon": 4,
+  "target_count": 20,
+  "shortestness_claim": false,
+  "inherits": "goal-directed-amendment.json"
+}

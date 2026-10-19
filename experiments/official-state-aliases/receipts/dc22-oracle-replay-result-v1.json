@@ -1,0 +1,43 @@
+{
+  "game_id": "dc22-fdcac232",
+  "sdk": "arc-agi==0.9.9",
+  "engine": "arcengine==0.9.3",
+  "initial_frame_equal": true,
+  "initial_frame_sha256": "9fbf1c933c7b6b321493fc0fd3dbeffb0a51c7f845916690e6609b8d637de2f6",
+  "seed": 0,
+  "status": "UNALIGNED",
+  "oracle_calls": 182,
+  "recorded_actions_executed": 94,
+  "bridges": [
+    {
+      "after_recorded_action_i": 25,
+      "action": "ACTION4",
+      "next_is_level_boundary": false,
+      "engine_state": "NOT_FINISHED",
+      "engine_levels_completed": 1,
+      "different_pixels": 9,
+      "expected_frame_sha256": "51adfccb73579b72ae5933baacb630eaea6bd57418f6da790b106a9cf23a5dc2",
+      "actual_frame_sha256": "a5b1b288de47e75b77243acadd4057c4e8b6df51b5e549fea48bac30819436e5",
+      "inserted_actions": [
+        "ACTION4"
+      ],
+      "aligned": true,
+      "aligned_levels_completed": 1
+    }
+  ],
+  "aligned_frame_indices": [],
+  "witnesses": [],
+  "mismatch": {
+    "after_recorded_action_i": 93,
+    "action": "ACTION6:52,27",
+    "next_is_level_boundary": false,
+    "engine_state": "NOT_FINISHED",
+    "engine_levels_completed": 1,
+    "different_pixels": 769,
+    "expected_frame_sha256": "be6b020422787488b7d8e726a4d9e33a6c003ad11a2a86e9b8326a4b15aa0bcc",
+    "actual_frame_sha256": "032fc7b63d4a89c2031cc6f6f60383cdd4a8f0777344e91ee6eeec2b4a3961d5"
+  },
+  "recorded_alias_checks": [],
+  "elapsed_seconds": 0.5258458750031423,
+  "action_search_candidates": 83
+}

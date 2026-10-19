@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "started_at": "2026-10-19T13:00:10.597973+00:00",
+  "games": [
+    "ar25",
+    "bp35",
+    "cd82",
+    "cn04",
+    "dc22",
+    "ft09",
+    "g50t",
+    "ka59",
+    "lf52",
+    "lp85",
+    "ls20",
+    "m0r0",
+    "r11l",
+    "re86",
+    "s5i5",
+    "sb26",
+    "sc25",
+    "sk48",
+    "sp80",
+    "su15",
+    "tn36",
+    "tr87",
+    "tu93",
+    "vc33",
+    "wa30"
+  ],
+  "budget": 2000,
+  "wall_seconds_per_family": 90,
+  "parallel_workers": 2,
+  "python": "3.11.9 (v3.11.9:de54cf5be3, Apr  2 2024, 07:12:50) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-26.6.1-arm64-arm-64bit",
+  "git_head": "7826702fee46b97c2d8fc052f39f5c5392e6ec4d",
+  "source_file_hashes": {
+    "src/twinproof/world_model.py": "05f7b983d9159920d4f9afebd1bbcab0c000f227d48cb57cc15e2181a12bdede",
+    "src/twinproof/world_audit.py": "09148865c6de38c37e521214f879a294bf322d35e953e3f58140419346677364",
+    "scripts/run_world_audit.py": "e4f82112cc675f99d8e44aca8c59a29ae46b0b9a91affb037f964538e7d140be",
+    "sources/world-model-corpus.json": "f9f2085b5c990d556b53f4e39ba2652bffea4c69d9ac3f555cae8dc4784abc55"
+  }
+}

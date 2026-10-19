@@ -1,6 +1,6 @@
 # Research status: no SOTA claim
 
-2026-10-18. **Research active; SOTA objective unmet.** The software and reproducible
+2026-10-19. **Research active; SOTA objective unmet.** The software and reproducible
 audits are usable OSS. The user resumed research after Stage 1's NO-GO result.
 Stage 2 now measures real released twins, but the proposed search costs more than
 simple controls on the development pairs. No study establishes a novel method's
@@ -24,7 +24,22 @@ audit](stage2-heldout-audit.md) identified 11 additional static candidates. A
 [supplemental audit](data-feasibility-extension.md) adds eight, for 19 in total;
 none has runtime validation. The negative Stage 1 and Stage 2 findings remain
 in the record. The candidate-state-cover mechanism is retired as a proposed
-contribution; no defensible replacement hypothesis or next experiment is underway.
+contribution.
+
+The [executable-model successor study](state-contract-results.md) has now run.
+Its corrected 25-family audit completes nine, excludes fifteen explicitly and
+retains one candidate error. Independent official-engine replay confirms selected
+real aliases, and a released THEA planner exhibits a known insufficient key.
+Automatic key refinement nevertheless fails to improve the tested planning
+endpoint; the corrected coverage and utility gates are unmet. Independent review
+and reruns substantiate the scoped results, not novelty or SOTA.
+
+A [fold-relative label-dependency scout](../experiments/fold-context-scout/README.md)
+explores another method question: safe nested cross-fitting versus globally
+precomputed OOF features. It executes 150 fold-arm cases across three constructed
+patterns, but a simple graph baseline ties it and no external detector has been
+outperformed. Automatic context-aware analysis remains an unqualified research
+question; the scout is not grounds for promoting a replacement above TCPR.
 
 ## Closest prior work
 

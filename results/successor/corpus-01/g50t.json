@@ -1,0 +1,16 @@
+{
+  "game": "g50t",
+  "status": "ERROR",
+  "reason": "Traceback (most recent call last):\n  File \"<RESEARCH_CHECKOUT>/scripts/run_world_audit.py\", line 104, in <module>\n    main()\n  File \"<RESEARCH_CHECKOUT>/scripts/run_world_audit.py\", line 39, in main\n    result = audit_model(json.loads(raw), args.budget)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<RESEARCH_CHECKOUT>/src/twinproof/world_audit.py\", line 182, in audit_model\n    model.predict(rows[i].before, excursion, root)\n  File \"<RESEARCH_CHECKOUT>/src/twinproof/world_model.py\", line 184, in predict\n    result = self.namespace['step'](copy.deepcopy(grid), action)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<inspected-world-model>\", line 2763, in step\n  File \"<inspected-world-model>\", line 2127, in _step_level5\n  File \"<inspected-world-model>\", line 2062, in _step_level5_final\n  File \"<inspected-world-model>\", line 2063, in <setcomp>\nIndexError: list index out of range\n",
+  "trace": {
+    "transitions": 570,
+    "unique_inputs": 570,
+    "ambiguous_input_groups": 0,
+    "minimum_observation_only_errors": 0,
+    "conflicts": []
+  },
+  "seconds": 17.9096540419996,
+  "model_calls": null,
+  "artifact_sha256": "ce3d99d9a3eb21cfe3c9b020b7fe6e00703b9517d131a4f3c2c61f8049f819c5",
+  "split": "outcome_unseen"
+}

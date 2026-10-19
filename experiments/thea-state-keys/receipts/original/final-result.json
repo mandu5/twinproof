@@ -1,0 +1,101 @@
+{
+  "status": "BUG_REPRODUCED_METHOD_UTILITY_UNMET",
+  "result": "All four methods reached and replay-verified all twenty fixed model-only targets. No success improvement from either learned key repair.",
+  "protocol": "goal-directed-amendment-v2",
+  "cases": 20,
+  "methods": [
+    {
+      "method": "original",
+      "cases": 20,
+      "found": 20,
+      "replay_verified": 20,
+      "total_engine_calls": 4752,
+      "total_expansions": 209,
+      "sum_route_lengths": 80,
+      "sum_unique_keys": 3577,
+      "seconds_sum": 1.1977713750238763
+    },
+    {
+      "method": "repaired_three",
+      "cases": 20,
+      "found": 20,
+      "replay_verified": 20,
+      "total_engine_calls": 4815,
+      "total_expansions": 212,
+      "sum_route_lengths": 80,
+      "sum_unique_keys": 3648,
+      "seconds_sum": 1.2239954150281847
+    },
+    {
+      "method": "union_298",
+      "cases": 20,
+      "found": 20,
+      "replay_verified": 20,
+      "total_engine_calls": 4836,
+      "total_expansions": 213,
+      "sum_route_lengths": 80,
+      "sum_unique_keys": 3687,
+      "seconds_sum": 1.406300581031246
+    },
+    {
+      "method": "full_grid",
+      "cases": 20,
+      "found": 20,
+      "replay_verified": 20,
+      "total_engine_calls": 4910,
+      "total_expansions": 216,
+      "sum_route_lengths": 80,
+      "sum_unique_keys": 3786,
+      "seconds_sum": 1.3128404149902053
+    }
+  ],
+  "shards": [
+    {
+      "path": "harness_goal_v2_0-result.json",
+      "sha256": "01f696b168d6944e2903e030bc22c325b529d73327ce9ee58d76fc795a589a3c",
+      "seconds": 2.6589007089933148,
+      "all_engine_calls": 9834
+    },
+    {
+      "path": "harness_goal_v2_1-result.json",
+      "sha256": "52e53e038f3c4e1c7badb8bce0c0432911add64682c581148e112f260b0ceed7",
+      "seconds": 0.7883387909969315,
+      "all_engine_calls": 2009
+    },
+    {
+      "path": "harness_goal_v2_2-result.json",
+      "sha256": "33fee17936dbb7614497c82c2d40cc8fc7de35ca85cab8ecdd8f17336720c118",
+      "seconds": 0.8936011670011794,
+      "all_engine_calls": 1813
+    },
+    {
+      "path": "harness_goal_v2_3-result.json",
+      "sha256": "897952c27d26252d778b1e8883e4b91ab3404059479d7e77eac6290c579871cb",
+      "seconds": 2.192955999998958,
+      "all_engine_calls": 5933
+    }
+  ],
+  "all_engine_calls": 19589,
+  "sum_subprocess_seconds": 6.5337966669903835,
+  "shared_setup_calls_per_shard": 69,
+  "acquisition_calls_development": 16335,
+  "holdout_a_all_calls": 66733,
+  "timeouts": [
+    {
+      "file": "harness_targets_0-result.json",
+      "cpu_signal": "SIGXCPU",
+      "seconds": 75.48837649999768,
+      "completed_arm_results": 18,
+      "all_engine_calls": "UNKNOWN; terminated arm was in flight"
+    }
+  ],
+  "limitations": [
+    "Single game, correlated recorded roots",
+    "Original public planner contains a redacted invalid line, so exact key/action function slices were executed with intact engine/state_io",
+    "Model-only alternate branches; no real-game execution",
+    "Inadmissible heuristic; shortestness not certified",
+    "Frozen three-cell key missed the physical holdout-A counterexample",
+    "Full-grid separation not a universal semantics certificate",
+    "Peak total memory not measured"
+  ]
+}

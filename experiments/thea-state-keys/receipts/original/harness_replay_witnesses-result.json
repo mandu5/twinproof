@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/usr/bin/sandbox-exec",
+    "-f",
+    "<ORIGINAL_PRIVATE_CACHE>/sandbox.sb",
+    "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3",
+    "-I",
+    "-B",
+    "<ORIGINAL_PRIVATE_CACHE>/harness_replay_witnesses.py"
+  ],
+  "exit_code": 0,
+  "seconds": 0.33426183299161494,
+  "stdout": "{\"checks\": [{\"witness\": \"development-witnesses/witness-06.json\", \"saved_snapshot_replay_matches\": true, \"historical_prefix_reconstruction_matches\": true, \"common_suffix\": [{\"name\": \"ACTION6\", \"x\": 27, \"y\": 15}, {\"name\": \"ACTION4\"}, {\"name\": \"ACTION4\"}], \"a_result\": [19, 31, \"right\", \"up\", \"RUNNING\", true], \"b_result\": [7, 31, \"right\", \"up\", \"GAME_OVER\", true]}, {\"witness\": \"holdout-a-witnesses/witness-05.json\", \"saved_snapshot_replay_matches\": true, \"historical_prefix_reconstruction_matches\": true, \"common_suffix\": [{\"name\": \"ACTION3\"}], \"a_result\": [25, 25, \"left\", \"up\", \"RUNNING\", true], \"b_result\": [25, 31, \"left\", \"up\", \"RUNNING\", true]}], \"all_engine_calls\": 36}\n",
+  "stderr": "",
+  "timed_out": false
+}

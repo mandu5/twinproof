@@ -1,0 +1,74 @@
+{
+  "game": "sk48",
+  "status": "UNSUPPORTED",
+  "trace": {
+    "transitions": 744,
+    "unique_inputs": 740,
+    "ambiguous_input_groups": 4,
+    "minimum_observation_only_errors": 4,
+    "conflicts": [
+      {
+        "indices": [
+          301,
+          302
+        ],
+        "action": "ACTION4",
+        "input_sha256": "0ad8d6034dcedd61670a858d8c1b96fe1f53517a26c2c6d01a52bff8472706f8",
+        "successor_sha256": [
+          "0ad8d6034dcedd61670a858d8c1b96fe1f53517a26c2c6d01a52bff8472706f8",
+          "25159a433419013711c686a5716c1f7564ea399b4a98572c9f7b89bd09247715"
+        ],
+        "distinct_successors": 2
+      },
+      {
+        "indices": [
+          568,
+          569
+        ],
+        "action": "ACTION1",
+        "input_sha256": "877fb1047ffcca9182b4882bc4892ee63c0962da015906e4180928d1748913b3",
+        "successor_sha256": [
+          "877fb1047ffcca9182b4882bc4892ee63c0962da015906e4180928d1748913b3",
+          "7e41e4451e9ecf2392b895b2fb6792a31ad6fbab13b878bbfa0a0ae30b0cfd49"
+        ],
+        "distinct_successors": 2
+      },
+      {
+        "indices": [
+          624,
+          626
+        ],
+        "action": "ACTION7",
+        "input_sha256": "08956b5d89706b21d3947049afd6f3961be3d8497c7dec74a5b87ac0b80b75bb",
+        "successor_sha256": [
+          "c6fbab968c6a02dfd7f29f0c56b5a5db2a4bc195772d58e6ad6f374d366ebca4",
+          "94a061cea5d9673cdc8f7bddc44ff7e09dbc63a5927e5d7fddd58b1132549165"
+        ],
+        "distinct_successors": 2
+      },
+      {
+        "indices": [
+          674,
+          676
+        ],
+        "action": "ACTION4",
+        "input_sha256": "9f82696e1c4d4835806a1c7f76f6b06197282bd45e3d6aa7c7da922cdacd64fe",
+        "successor_sha256": [
+          "fc45638a6d2548acbc720832c47fe9f60a624a26a48c29c6c9757e9b5259f240",
+          "af087a09e0fc82d23e8f722019461ffe6c9092a7bdc14bf9966ee9fd79421f21"
+        ],
+        "distinct_successors": 2
+      }
+    ]
+  },
+  "scope": "teacher-forced released transcript; no original agent/planner score",
+  "reason": "call:open; import:os",
+  "model_calls": 0,
+  "seconds": 0.5847610829951009,
+  "call_phases": {},
+  "artifact_sha256": "e8dd39e8434e2ecfdf9d7cdd8d52d79d6ccc6889fed15b9de046d3476ac54d5a",
+  "source_sha256": "2d983a8a8441bc901bb8f62818b7c836a52be8b43c5afe9eec0261362f84213c",
+  "split": "outcome_unseen",
+  "peak_rss_native_units": 131219456,
+  "rss_unit": "bytes"
+}

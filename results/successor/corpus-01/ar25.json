@@ -1,0 +1,20 @@
+{
+  "game": "ar25",
+  "status": "UNSUPPORTED",
+  "trace": {
+    "transitions": 246,
+    "unique_inputs": 246,
+    "ambiguous_input_groups": 0,
+    "minimum_observation_only_errors": 0,
+    "conflicts": []
+  },
+  "scope": "teacher-forced released transcript; no original agent/planner score",
+  "reason": "call:open; import:os",
+  "model_calls": 0,
+  "seconds": 0.16586591700615827,
+  "artifact_sha256": "9edffb4151d01d1b81972523f2a55090bd99c117a6b33cae0b92429c7c301f11",
+  "source_sha256": "e8d026311e5e5089a21c13b5a6b8b360c2cf00a23a4e82a712835426a53512a1",
+  "split": "outcome_unseen",
+  "peak_rss_native_units": 51134464,
+  "rss_unit": "bytes"
+}

@@ -1,0 +1,21 @@
+{
+  "game": "cn04",
+  "status": "UNSUPPORTED",
+  "trace": {
+    "transitions": 255,
+    "unique_inputs": 254,
+    "ambiguous_input_groups": 0,
+    "minimum_observation_only_errors": 0,
+    "conflicts": []
+  },
+  "scope": "teacher-forced released transcript; no original agent/planner score",
+  "reason": "import:arc_utils",
+  "model_calls": 0,
+  "seconds": 0.17605045800155494,
+  "call_phases": {},
+  "artifact_sha256": "d7db00f09589cca5e53c384627066ced67b2a0d9cfe43126a5d337e809bfc906",
+  "source_sha256": "476ede7a0674fd7471c4a3e312c5d1d1b5b214d020419f88e2c74abfcbb618a8",
+  "split": "outcome_unseen",
+  "peak_rss_native_units": 55492608,
+  "rss_unit": "bytes"
+}

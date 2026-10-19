@@ -1,0 +1,51 @@
+{
+  "aggregate_exploration_oracle_calls": "UNKNOWN",
+  "reason": "Earlier setup, entry scans, and an interrupted debug attempt did not maintain a complete persistent call counter. Do not sum final successful receipts into a project-total claim.",
+  "attempts": [
+    {
+      "game": "dc22",
+      "receipt": "dc22-oracle-replay-result-v1.json",
+      "status": "UNALIGNED",
+      "oracle_calls": 182
+    },
+    {
+      "game": "dc22",
+      "receipt": "dc22-oracle-replay-result-v2.json",
+      "status": "UNALIGNED",
+      "oracle_calls": 632
+    },
+    {
+      "game": "dc22",
+      "receipt": "dc22-oracle-level-result.json",
+      "status": "LEVEL_PREFIX_ALIGNED",
+      "oracle_calls": 311,
+      "scope": "Intermediate official set_level initialization, superseded by full reset replay"
+    },
+    {
+      "game": "dc22",
+      "receipt": "dc22-oracle-replay-result.json",
+      "status": "PREFIX_ALIGNED",
+      "oracle_calls": 1143
+    },
+    {
+      "game": "sp80",
+      "receipt": "sp80-oracle-replay-result-v1.json",
+      "status": "UNALIGNED",
+      "oracle_calls": 59
+    },
+    {
+      "game": "sp80",
+      "receipt": null,
+      "status": "ERROR",
+      "oracle_calls": "UNKNOWN",
+      "error": "IndexError: list index out of range at oracle_check.py step(result.frame[-1]), while a bridge candidate ended in a terminal state. Fixed by treating empty terminal frames as nonmatching.",
+      "source": "Preserved from execution tool output; no complete receipt existed."
+    },
+    {
+      "game": "sp80",
+      "receipt": "sp80-oracle-replay-result.json",
+      "status": "PREFIX_ALIGNED",
+      "oracle_calls": 1183
+    }
+  ]
+}

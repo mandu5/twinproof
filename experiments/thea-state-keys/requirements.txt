@@ -1,0 +1,4 @@
+numpy==1.26.4
+scipy==1.16.2
+zstandard==0.23.0
+certifi==2025.1.31
